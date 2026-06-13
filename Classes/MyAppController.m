@@ -7,6 +7,7 @@
 //
 
 #import "MyAppController.h"
+#import <Carbon/Carbon.h>
 #import "MainPreferenceController.h"
 #import "AppDelegate.h"
 #import "AddCategoryController.h"
