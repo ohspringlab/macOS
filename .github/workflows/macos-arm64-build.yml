@@ -59,13 +59,14 @@ jobs:
             -target HungryMe \
             -configuration Debug \
             -destination 'platform=macOS,arch=arm64' \
-            -derivedDataPath build/DerivedData \
+            SYMROOT="$PWD/build/Products" \
+            OBJROOT="$PWD/build/Intermediates" \
             CODE_SIGNING_ALLOWED=NO \
             build
 
       - name: Verify built app binary is arm64
         run: |
-          APP_BINARY="build/DerivedData/Build/Products/Debug/HungryMe.app/Contents/MacOS/HungryMe"
+          APP_BINARY="build/Products/Debug/HungryMe.app/Contents/MacOS/HungryMe"
 
           test -f "$APP_BINARY"
           file "$APP_BINARY"
