@@ -1,0 +1,70 @@
+- (UITableViewCell *)tableviewCellWithReuseIdentifier:(NSString *)identifier {
+	
+	//Create an instance of UITableViewCell and add tagged subviews for the name, local time, and quarter image of the time //zone.
+	CGRect rect;
+	UIImageView *imageView;
+	UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier] autorelease];
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 30200
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+	{
+		// Create labels for the text fields; set the highlight color so that when the cell is selected it changes //////appropriately.
+		rect = CGRectMake(LEFT_COLUMN_OFFSET_IPAD, (ROW_HEIGHT_IPAD - IMAGE_SIDE_IPAD) / 2.0, IMAGE_SIDE_IPAD, IMAGE_SIDE_IPAD);
+		
+		imageView = [[UIImageView alloc] initWithFrame:rect];
+		
+		[cell.contentView addSubview:imageView];
+		[imageView release];
+		
+		rect = CGRectMake(IMAGE_SIDE_IPAD + (2 * LEFT_COLUMN_OFFSET_IPAD), (ROW_HEIGHT_IPAD - LABEL_HEIGHT_IPAD) / 2.0
+								, cell.frame.size.width - (IMAGE_SIDE_IPAD + (2 * LEFT_COLUMN_OFFSET_IPAD)) , LABEL_HEIGHT_IPAD);// LABEL rect
+	}else {//iPhone >= 3.2
+		//rect = CGRectMake(0.0, 0.0, 320.0, ROW_HEIGHT); //TableCell
+		rect = CGRectMake(LEFT_COLUMN_OFFSET, (ROW_HEIGHT - IMAGE_SIDE) / 2.0, IMAGE_SIDE, IMAGE_SIDE);
+		imageView = [[UIImageView alloc] initWithFrame:rect];//new
+		
+		[cell.contentView addSubview:imageView];
+		[imageView release];
+		
+		rect = CGRectMake(IMAGE_SIDE + (2 * LEFT_COLUMN_OFFSET), (ROW_HEIGHT - LABEL_HEIGHT) / 2.0
+								, cell.frame.size.width - (IMAGE_SIDE + (2 * LEFT_COLUMN_OFFSET)) , LABEL_HEIGHT);// LABEL rect
+	}
+#else
+	//iPhone < 3.2
+	rect = CGRectMake(LEFT_COLUMN_OFFSET, (ROW_HEIGHT - IMAGE_SIDE) / 2.0, IMAGE_SIDE, IMAGE_SIDE);
+	imageView = [[UIImageView alloc] initWithFrame:rect];//new
+	
+	[cell.contentView addSubview:imageView];
+	[imageView release];
+	
+	rect = CGRectMake(IMAGE_SIDE + (2 * LEFT_COLUMN_OFFSET), (ROW_HEIGHT - LABEL_HEIGHT) / 2.0
+							, cell.frame.size.width - (IMAGE_SIDE + (2 * LEFT_COLUMN_OFFSET)) , LABEL_HEIGHT);// LABEL rect
+#endif	
+	imageView.tag = EMAIL_PHOTO_TAG;
+
+	UILabel* label = [[UILabel alloc] initWithFrame:rect];
+	label.tag = EMAIL_PHOTO_NAME_TAG;
+	
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 30200	
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+	{
+		label.font = [UIFont boldSystemFontOfSize:MAIN_FONT_SIZE_IPAD ];
+		//label.minimumFontSize = 24.0;
+	}else{
+		label.font = [UIFont boldSystemFontOfSize:MAIN_FONT_SIZE ];
+		label.minimumFontSize = 12.0;	
+	}
+#else
+	label.font = [UIFont boldSystemFontOfSize:MAIN_FONT_SIZE ];
+	label.minimumFontSize = 12.0;	
+#endif
+	
+	label.numberOfLines = 2;
+	
+	label.font = [UIFont boldSystemFontOfSize:MAIN_FONT_SIZE ];
+	label.adjustsFontSizeToFitWidth = YES;
+	[cell.contentView addSubview:label];
+	label.highlightedTextColor = [UIColor whiteColor];
+	[label release];
+	
+	return cell;
+}

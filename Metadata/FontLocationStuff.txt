@@ -1,0 +1,72 @@
+setLocation:withAdvancements:forStartOfGlyphRange: Sets the
+location where the glyphs in the given glyph range are laid
+out to the specified location.
+
+- (void)setLocation:(NSPoint)location
+withAdvancements:(const CGFloat *)advancements
+forStartOfGlyphRange:(NSRange)glyphRange Discussion The
+x-coordinate of location is expressed relative to the line
+fragment rectangle origin, and the y-coordinate is expressed
+relative to the baseline previously specified by
+setLineFragmentRect:forGlyphRange:usedRect:baselineOffset:.
+The glyphRange defines a series of glyphs that can be
+displayed with a single PostScript show operation (a nominal
+range). Setting the location for a series of glyphs implies
+that the glyphs preceding it can’t be included in a single
+show operation. The advancements argument is the nominal
+glyph advance width specified in the font metric
+information.
+
+Before setting the location for a glyph range, you must
+specify line fragment rectangle with
+setLineFragmentRect:forGlyphRange:usedRect:baselineOffset:.
+
+A subclass can override this method to interact with custom
+glyph storage. ----------------
+setLineFragmentRect:forGlyphRange:usedRect:baselineOffset:
+Sets the line fragment rectangle where the glyphs in in the
+given glyph range are laid out to the given line fragment
+rectangle.
+
+- (void)setLineFragmentRect:(NSRect)fragmentRect
+forGlyphRange:(NSRange)glyphRange usedRect:(NSRect)usedRect
+baselineOffset:(CGFloat)baselineOffset Discussion The exact
+positions of the glyphs must be set after the line fragment
+rectangle with setLocation:forStartOfGlyphRange:.
+
+The usedRect argument indicates the portion of fragmentRect,
+in the NSTextContainer object’s coordinate system, that
+actually contains glyphs or other marks that are drawn
+(including the text container’s line fragment padding). The
+usedRect must be equal to or contained within fragmentRect.
+The baselineOffset argument is the vertical distance in
+pixels from the line fragment origin to the baseline on
+which the glyphs align.
+
+A subclass can override this method to interact with custom
+glyph storage. ---                could this be the same
+setLineFragmentRect:forGlyphRange:usedRect:baselineOffset:
+Sets the line fragment rectangle where the glyphs in in the
+given glyph range are laid out to the given line fragment
+rectangle.
+
+- (void)setLineFragmentRect:(NSRect)fragmentRect
+forGlyphRange:(NSRange)glyphRange usedRect:(NSRect)usedRect
+baselineOffset:(CGFloat)baselineOffset Discussion The exact
+positions of the glyphs must be set after the line fragment
+rectangle with setLocation:forStartOfGlyphRange:.
+
+The usedRect argument indicates the portion of fragmentRect,
+in the NSTextContainer object’s coordinate system, that
+actually contains glyphs or other marks that are drawn
+(including the text container’s line fragment padding). The
+usedRect must be equal to or contained within fragmentRect.
+The baselineOffset argument is the vertical distance in
+pixels from the line fragment origin to the baseline on
+which the glyphs align.
+
+A subclass can override this method to interact with custom
+glyph storage.
+
+
+

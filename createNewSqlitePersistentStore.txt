@@ -1,0 +1,251 @@
+NSPersistentStoreCoordinator *psc = <#Get a persistent store coordinator#>;
+
+ 
+
+NSMutableDictionary *pragmaOptions = [NSMutableDictionary dictionary];
+
+[pragmaOptions setObject:@"NORMAL" forKey:@"synchronous"];
+
+[pragmaOptions setObject:@"1" forKey:@"fullfsync"];
+
+ 
+
+NSDictionary *storeOptions =
+
+    [NSDictionary dictionaryWithObject:pragmaOptions forKey:NSSQLitePragmasOption];
+
+NSPersistentStore *store;
+
+NSError *error = nil;
+
+store = [psc addPersistentStoreWithType:NSSQLiteStoreType
+
+            configuration: nil
+
+            URL:url
+
+            options:storeOptions
+
+            error:&error];
+            
+            
+            ---------------------
+Core Data Programming Guide
+	Using Persistent Stores
+	-----------------------
+	
+NSManagedObjectContext *moc = <#Get a context#>;
+
+NSPersistentStoreCoordinator *psc = [moc persistentStoreCoordinator];
+
+NSError *error = nil;
+
+NSDictionary *options =
+
+    [NSDictionary dictionaryWithObject:[NSNumber numberWithBool:1]
+
+                    forKey:NSReadOnlyPersistentStoreOption];
+==
+ 
+
+NSPersistentStore *roStore =
+
+    [psc addPersistentStoreWithType:NSXMLStoreType
+
+                    configuration:nil URL:url
+
+                    options:options error:&error];
+==
+NSPersistentStoreCoordinator *psc = <#Get a coordinator#>;
+
+NSURL *myURL = <#A URL identifying a store#>;
+
+NSPersistentStore *myStore = [psc persistentStoreForURL:myURL];
+
+NSFetchRequest *request = [[NSFetchRequest alloc] init];
+
+[request setAffectedStores:[NSArray arrayWithObject:myStore]];
+==
+-----------
+DepartmentsAndEmployees
+- (NSManagedObjectContext *)documentManagedObjectContext
+{
+	return [sourceArrayController managedObjectContext];	
+}
+
+
+- (NSManagedObjectContext *)managedObjectContext
+{
+	if (managedObjectContext == nil)
+	{
+		managedObjectContext = [[NSManagedObjectContext alloc] init];
+		[managedObjectContext setPersistentStoreCoordinator:
+		 [[self documentManagedObjectContext] persistentStoreCoordinator]];
+	}
+	return managedObjectContext;
+}
+
+===
+- (NSManagedObjectModel *)managedObjectModel {
+
+    
+
+    if (managedObjectModel != nil) {
+
+        return managedObjectModel;
+
+    }
+
+    NSMutableSet *allBundles = [[NSMutableSet alloc] init];
+
+    [allBundles addObject: [NSBundle mainBundle]];
+
+    [allBundles addObjectsFromArray: [NSBundle allFrameworks]];
+
+    managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles: [allBundles allObjects]] retain];
+
+    [allBundles release];
+
+    
+
+    return managedObjectModel;
+
+}
+--------------
+LaMarche
+
+
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
+    
+    if (persistentStoreCoordinator != nil) {
+        return persistentStoreCoordinator;
+    }
+    
+    NSURL *storeUrl = [NSURL fileURLWithPath: [[self applicationDocumentsDirectory] stringByAppendingPathComponent: @"Foo.sqlite"]];
+    
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+                             [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+                             [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+    NSError *error = nil;
+    persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:options error:&error]) {
+
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        abort();
+    }    
+    
+    return persistentStoreCoordinator;
+}
+
+- (NSFetchedResultsController *)fetchedResultsController {
+	//have local one here and in EditRecipeView
+	if (fetchedResultsController != nil) {
+		return fetchedResultsController;
+	}
+	// Create the fetch request for the entity.
+	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+	// Edit the entity name as appropriate.
+	NSEntityDescription *entity = [NSEntityDescription entityForName:@"Category"	
+									inManagedObjectContext:[self managedObjectContext]];
+	[fetchRequest setEntity:entity];
+	// Edit the sort key as appropriate. 
+	NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+	
+	[fetchRequest setSortDescriptors:sortDescriptors];
+	
+	// Edit the section name key path and cache name if appropriate.
+	// nil for section name key path means "no sections".
+   NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:managedObjectContext sectionNameKeyPath:nil cacheName:nil];//filename for cache
+   
+   self.fetchedResultsController = aFetchedResultsController;
+	
+	[aFetchedResultsController release];
+	[fetchRequest release];
+	[sortDescriptor release];
+	[sortDescriptors release];
+	
+	return fetchedResultsController;
+}    
+
+#pragma mark -
+#pragma mark Core Data stack
+
+/**
+ Returns the managed object context for the application.
+ If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
+ */
+
+- (NSManagedObjectContext *)managedObjectContext //getter 
+{
+	if (managedObjectContext != nil) {
+		return  managedObjectContext;
+	}
+	NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+	if (coordinator != nil) {
+		managedObjectContext = [[NSManagedObjectContext alloc] init];
+		[managedObjectContext setPersistentStoreCoordinator: coordinator];
+		//NSLog(@"iH APDEL:managedObjectContext=%@ persistentStoreCoord=%@",managedObjectContext,coordinator);
+	}else{
+      DLog(@"No PSC");
+   }
+	return managedObjectContext;
+}
+
+/**
+ Returns the managed object model for the application.
+ If the model doesn't already exist, it is created by merging all of the models found in the application bundle.
+ */
+- (NSManagedObjectModel *)managedObjectModel {
+    if (managedObjectModel != nil) {
+        return managedObjectModel;
+    }
+    managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];//commented on 06/21/11
+   /*
+   NSString *path = [[NSBundle mainBundle] pathForResource:@"IHM_Recipes" ofType:@"momd"];
+   NSURL *momURL = [NSURL fileURLWithPath:path];
+   managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURL];
+    */
+    return managedObjectModel;
+}
+
+/**
+ Returns the persistent store coordinator for the application.
+ If the coordinator doesn't already exist, it is created and the application's store added to it.
+ */
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
+	
+    if (persistentStoreCoordinator != nil) {
+        return persistentStoreCoordinator;
+    }
+	NSString *storePath = [[self applicationDocumentsDirectory] stringByAppendingPathComponent: DATA_FILENAME_EXT ];
+
+	NSURL *storeUrl = [NSURL fileURLWithPath:storePath];
+	NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption, 
+				[NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+	persistentStoreCoordinator 
+			= [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: [self managedObjectModel]];
+	NSError *error = nil;
+	if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType 
+						configuration:nil URL:storeUrl options:options error:&error]) {
+		// Update to handle the error appropriately.
+		//NSLog(@"Unresolved error 555 %@, %@", error, [error userInfo]);
+		exit(-1);  // Fail
+	} else{
+		DLog(@"DBFile:%@",storePath);
+	}   
+	
+    return persistentStoreCoordinator;
+}
+
+#pragma mark -
+#pragma mark Application's documents directory
+/**
+ Returns the path to the application's documents directory.
+ */
+- (NSString *)applicationDocumentsDirectory {
+	
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : nil;
+    return basePath;
+}

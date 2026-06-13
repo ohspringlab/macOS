@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SqliteFromXml' target in the 'SqliteFromXml' project
+//
+
+#ifdef __OBJC__
+#import <Cocoa/CocoD.h>
+#endif

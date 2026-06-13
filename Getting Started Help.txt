@@ -1,0 +1,9 @@
+Getting Started Help
+
+Hover the mouse over the object in question to see a small window appear to explain its function/purpose.
+
+Elements on the left of the main window relate to search categories. Elements on the right relate to recipes.
+
+Change fonts with the key combo : Cmd + T . 
+
+Print any or all of the recipes with the key combo : Shift-⌘ + ? , that is, Shift + Cmd + ? - key.

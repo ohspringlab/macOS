@@ -1,0 +1,1472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85036B22169C9C5A00594AF4 /* MySpeechButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85036B21169C9C5A00594AF4 /* MySpeechButton.m */; };
+		85036B25169C9C8400594AF4 /* MySpeechStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85036B24169C9C8400594AF4 /* MySpeechStopButton.m */; };
+		85036B2D169EF19700594AF4 /* EditCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85036B2C169EF19700594AF4 /* EditCategory.xib */; };
+		850920771365FBFF00940F56 /* DeleteRules.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850920761365FBFE00940F56 /* DeleteRules.txt */; };
+		8509A41414B49C1400B19C21 /* AddCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8509A41314B49C1400B19C21 /* AddCategory.xib */; };
+		8509A41714B4BEB900B19C21 /* SelectedCatNotBrowseAllAndHasNoRxsTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8509A41614B4BEB800B19C21 /* SelectedCatNotBrowseAllAndHasNoRxsTransformer.m */; };
+		8509A41F14B4EB6C00B19C21 /* DeleteCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8509A41E14B4EB6B00B19C21 /* DeleteCategoryController.m */; };
+		8509A42114B4EDB000B19C21 /* DeleteCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8509A42014B4EDB000B19C21 /* DeleteCategory.xib */; };
+		8509A42414B5136000B19C21 /* RecipeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8509A42314B5135F00B19C21 /* RecipeWindowController.m */; };
+		8519FF101655927F00B47C78 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8519FF0F1655927F00B47C78 /* Carbon.framework */; };
+		851CE72814C340AD00579387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851CE72714C340AD00579387 /* AppDelegate.m */; };
+		852A250814B7F496009F8D82 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 852A250714B7F496009F8D82 /* Defaults.plist */; };
+		852A8ED0168279E100108697 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 852A8ECF168279E100108697 /* NSFileManager+DirectoryLocations.m */; };
+		852B78401699B17300B2C914 /* MyCancelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B783D1699B17300B2C914 /* MyCancelButton.m */; };
+		852B78411699B17300B2C914 /* MyDoneButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B783F1699B17300B2C914 /* MyDoneButton.m */; };
+		852B78461699B19700B2C914 /* CancelButtonAddCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B78431699B19700B2C914 /* CancelButtonAddCat.m */; };
+		852B78471699B19700B2C914 /* DoneButtonAddCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B78451699B19700B2C914 /* DoneButtonAddCat.m */; };
+		852BADCB14C9F36C00142BD9 /* SelectedRecipesToNegatedBoolTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 852BADCA14C9F36C00142BD9 /* SelectedRecipesToNegatedBoolTransformer.m */; };
+		852BADCE14CA188100142BD9 /* SelectedHasRecipesTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 852BADCD14CA188100142BD9 /* SelectedHasRecipesTransformer.m */; };
+		852D2BA51649AF9600D773AD /* ExportWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852D2BA41649AF9600D773AD /* ExportWindowController.xib */; };
+		852D2BA81649B2A400D773AD /* ImportWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852D2BA71649B2A400D773AD /* ImportWindowController.m */; };
+		852D2BAA1649B34A00D773AD /* ImportWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852D2BA91649B34A00D773AD /* ImportWindowController.xib */; };
+		852D2BAF1649BA5F00D773AD /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852D2BAD1649BA5F00D773AD /* About.xib */; };
+		852D2BB31649BB1800D773AD /* EditCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852D2BB21649BB1800D773AD /* EditCategoryController.m */; };
+		852D2BB61649BB4000D773AD /* ExportWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852D2BB51649BB4000D773AD /* ExportWindowController.m */; };
+		852D540016B1F70500A09DCE /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 852D53FF16B1F70400A09DCE /* MyScrollView.m */; };
+		852D542816B5D8AB00A09DCE /* Red Sweater Software in Resources */ = {isa = PBXBuildFile; fileRef = 852D542716B5D8AA00A09DCE /* Red Sweater Software */; };
+		852D544E16B7277300A09DCE /* NSSplitView+CCD_LayoutAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 852D544D16B7277300A09DCE /* NSSplitView+CCD_LayoutAdditions.m */; };
+		8532B4FC1437785D00B78AAC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532B4FB1437785D00B78AAC /* Constants.m */; };
+		8539DB8314BB8BD3001B95C9 /* DgxDropZoneBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8539DB8214BB8BD3001B95C9 /* DgxDropZoneBoxView.m */; };
+		8539DB9114BE1E3D001B95C9 /* StringToLongEnoughToSaveTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8539DB9014BE1E3D001B95C9 /* StringToLongEnoughToSaveTransformer.m */; };
+		854AC7251497ECE100DA58A8 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 854AC7241497ECE100DA58A8 /* MainView.m */; };
+		8550B8D51677B0DC001B94AC /* AddRecipeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8550B8D41677B0DC001B94AC /* AddRecipeController.m */; };
+		85523D1014CB3ED0003C1E54 /* RemoveDocumentsDB.sh in Resources */ = {isa = PBXBuildFile; fileRef = 85523D0F14CB3ED0003C1E54 /* RemoveDocumentsDB.sh */; };
+		85523D1614CB677E003C1E54 /* MyTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85523D1514CB677E003C1E54 /* MyTabView.m */; };
+		8552532613588BE500B4EDEF /* iHungryMac_ND.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8552532413588BE500B4EDEF /* iHungryMac_ND.xcdatamodeld */; };
+		8565181014D4F48E00696779 /* EditRecipe.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8565180F14D4F48E00696779 /* EditRecipe.xib */; };
+		8565181314D4F4A900696779 /* EditRecipeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8565181214D4F4A900696779 /* EditRecipeController.m */; };
+		8565181614D73FA200696779 /* SelectedCategoryIsNotBrowseAllTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8565181514D73FA200696779 /* SelectedCategoryIsNotBrowseAllTransformer.m */; };
+		856B6A1B16AC8A0200907D76 /* MyButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B6A1A16AC8A0200907D76 /* MyButtonCell.m */; };
+		856F626F166E85B400311181 /* MyPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 856F626E166E85B400311181 /* MyPanel.m */; };
+		857255E81419346B00840CE5 /* MyCatArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857255E71419346B00840CE5 /* MyCatArrayController.m */; };
+		857BAB6014E979C200B6FA52 /* Import Export User Recipes FAQ HungryMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857BAB5F14E979C200B6FA52 /* Import Export User Recipes FAQ HungryMe.txt */; };
+		857BAB6314E9F91600B6FA52 /* Getting Started Help.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857BAB6114E9F91600B6FA52 /* Getting Started Help.txt */; };
+		857BAB6414E9F91600B6FA52 /* Import and Export Help.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857BAB6214E9F91600B6FA52 /* Import and Export Help.txt */; };
+		857BAB6714EA177000B6FA52 /* ResourcePathTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857BAB6614EA177000B6FA52 /* ResourcePathTransformer.m */; };
+		857BAB6A14EA185200B6FA52 /* iHungryMePlus_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 857BAB6814EA185200B6FA52 /* iHungryMePlus_16.png */; };
+		857BAB6B14EA185200B6FA52 /* iHungryMePlus_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 857BAB6914EA185200B6FA52 /* iHungryMePlus_32.png */; };
+		85876B5E14D9CC580018B188 /* PrintWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85876B5D14D9CC570018B188 /* PrintWindowController.m */; };
+		85876B6214D9D0A80018B188 /* PrintWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85876B6114D9D0A70018B188 /* PrintWindow.xib */; };
+		85957CE9169B1AFF00014A7C /* NSArrayController+NameCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 85957CE8169B1AFF00014A7C /* NSArrayController+NameCheck.m */; };
+		8596C17C1677BBC700966BC4 /* AddRecipe.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8596C17B1677BBC700966BC4 /* AddRecipe.xib */; };
+		8596C17F1677CC4F00966BC4 /* DeleteRecipeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8596C17E1677CC4F00966BC4 /* DeleteRecipeController.m */; };
+		8596C1811677D79800966BC4 /* DeleteRecipe.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8596C1801677D79700966BC4 /* DeleteRecipe.xib */; };
+		85A354C5182B4EC200A05C7F /* RecipeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A354C4182B4EC200A05C7F /* RecipeView.xib */; };
+		85AF046616C6E7D3003FD4B0 /* AppDescription.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 85AF046516C6E7D3003FD4B0 /* AppDescription.rtf */; };
+		85B38211166C63AF0003438F /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B38210166C63AF0003438F /* MyButton.m */; };
+		85B38214166CFEE10003438F /* MyRxCancelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B38213166CFEE10003438F /* MyRxCancelButton.m */; };
+		85B38217166CFFC30003438F /* MyRxDoneButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B38216166CFFC30003438F /* MyRxDoneButton.m */; };
+		85B75E46167C3D4E00D94270 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8519FEB716541FB700B47C78 /* WebKit.framework */; };
+		85C102C61438ABE100504E53 /* RecipePrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C102C51438ABE100504E53 /* RecipePrintView.m */; };
+		85C5440F14A2626400CFCF7B /* iHungryMePlus_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C5440E14A2626400CFCF7B /* iHungryMePlus_512.png */; };
+		85C5F34D1357463B00183DB6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C5F34C1357463B00183DB6 /* Cocoa.framework */; };
+		85C5F3571357463B00183DB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85C5F3551357463B00183DB6 /* InfoPlist.strings */; };
+		85C5F35A1357463B00183DB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C5F3591357463B00183DB6 /* main.m */; };
+		85C5F35D1357463B00183DB6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 85C5F35B1357463B00183DB6 /* Credits.rtf */; };
+		85CC847C13B4D74F00FD9618 /* IngredXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC845C13B4D74F00FD9618 /* IngredXML.m */; };
+		85CC847D13B4D74F00FD9618 /* MainPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC845E13B4D74F00FD9618 /* MainPreferenceController.m */; };
+		85CC847E13B4D74F00FD9618 /* MyAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846013B4D74F00FD9618 /* MyAppController.m */; };
+		85CC847F13B4D74F00FD9618 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846213B4D74F00FD9618 /* MyTableView.m */; };
+		85CC848113B4D74F00FD9618 /* MyTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846613B4D74F00FD9618 /* MyTabViewItem.m */; };
+		85CC848213B4D74F00FD9618 /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846813B4D74F00FD9618 /* MyTextView.m */; };
+		85CC848313B4D74F00FD9618 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846A13B4D74F00FD9618 /* Photo.m */; };
+		85CC848413B4D74F00FD9618 /* Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CC846B13B4D74F00FD9618 /* Preferences.plist */; };
+		85CC848513B4D74F00FD9618 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846D13B4D74F00FD9618 /* Recipe.m */; };
+		85CC848713B4D74F00FD9618 /* RecipeXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC847213B4D74F00FD9618 /* RecipeXML.m */; };
+		85CC848813B4D74F00FD9618 /* SpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC847413B4D74F00FD9618 /* SpeechController.m */; };
+		85CC848913B4D74F00FD9618 /* TableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC847613B4D74F00FD9618 /* TableCellView.m */; };
+		85CC848A13B4D74F00FD9618 /* VersionXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC847813B4D74F00FD9618 /* VersionXML.m */; };
+		85CC848B13B4D74F00FD9618 /* XmlListReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC847A13B4D74F00FD9618 /* XmlListReader.m */; };
+		85CE896214F92EF4008DF814 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85CE896014F92EF4008DF814 /* MainWindow.xib */; };
+		85D368E814E1DED000674E78 /* PrintingAtLeastOneRecipeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D368E714E1DED000674E78 /* PrintingAtLeastOneRecipeTransformer.m */; };
+		85D86B3414DFF28E00D70AEF /* PrintRecipeArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D86B3314DFF28E00D70AEF /* PrintRecipeArrayController.m */; };
+		85E53DAA166D6AE200FBC3AC /* IRTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E53DA9166D6AE200FBC3AC /* IRTableView.m */; };
+		85EB310E14EAD7BE00825734 /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EB310D14EAD7BE00825734 /* AboutWindowController.m */; };
+		85F83A881430D1D800D3DAD2 /* RecipeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F83A871430D1D800D3DAD2 /* RecipeWindow.m */; };
+		85FDB3C014950FAB00A6AF81 /* RxFilteredArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FDB3BE14950FA900A6AF81 /* RxFilteredArrayController.m */; };
+		EA5880F61BAB1186007B197F /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5880F51BAB1186007B197F /* MyImageView.m */; };
+		EA5880F91BAB1F35007B197F /* 63_ApplePancake.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5880F81BAB1F35007B197F /* 63_ApplePancake.png */; };
+		EAB05D491B28984300E9B430 /* ReleaseNotesV-2.0.1(2.0).txt in Resources */ = {isa = PBXBuildFile; fileRef = EAB05D481B28984300E9B430 /* ReleaseNotesV-2.0.1(2.0).txt */; };
+		EAB2FEE219F5E6A600DA7A4A /* IHM_Recipes.xml in Resources */ = {isa = PBXBuildFile; fileRef = EAB2FEE119F5E6A600DA7A4A /* IHM_Recipes.xml */; };
+		EAB397FD19F566C70083C98E /* AddCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB397FC19F566C70083C98E /* AddCategoryController.m */; };
+		EAB3980019F569080083C98E /* CategoryRx.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB397FF19F569080083C98E /* CategoryRx.m */; };
+		EABAC3521A1460C100D91ABF /* SqlFromXmlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC3511A1460C100D91ABF /* SqlFromXmlTests.m */; };
+		EABAC36D1A14636300D91ABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC35A1A14636300D91ABF /* AppDelegate.m */; };
+		EABAC36E1A14636300D91ABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC35A1A14636300D91ABF /* AppDelegate.m */; };
+		EABAC36F1A14636300D91ABF /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC35B1A14636300D91ABF /* MyWindowController.m */; };
+		EABAC3701A14636300D91ABF /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC35B1A14636300D91ABF /* MyWindowController.m */; };
+		EABAC3711A14636300D91ABF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABAC35C1A14636300D91ABF /* MainWindow.xib */; };
+		EABAC3721A14636300D91ABF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABAC35C1A14636300D91ABF /* MainWindow.xib */; };
+		EABAC3731A14636300D91ABF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EABAC35F1A14636300D91ABF /* Credits.rtf */; };
+		EABAC3741A14636300D91ABF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EABAC35F1A14636300D91ABF /* Credits.rtf */; };
+		EABAC3751A14636300D91ABF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EABAC3611A14636300D91ABF /* InfoPlist.strings */; };
+		EABAC3761A14636300D91ABF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EABAC3611A14636300D91ABF /* InfoPlist.strings */; };
+		EABAC3771A14636300D91ABF /* MainMenu XXX.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABAC3631A14636300D91ABF /* MainMenu XXX.xib */; };
+		EABAC3781A14636300D91ABF /* MainMenu XXX.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABAC3631A14636300D91ABF /* MainMenu XXX.xib */; };
+		EABAC3791A14636300D91ABF /* SqliteFromXml.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EABAC3651A14636300D91ABF /* SqliteFromXml.xcdatamodeld */; };
+		EABAC37A1A14636300D91ABF /* SqliteFromXml.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EABAC3651A14636300D91ABF /* SqliteFromXml.xcdatamodeld */; };
+		EABAC37B1A14636300D91ABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC3671A14636300D91ABF /* main.m */; };
+		EABAC37C1A14636300D91ABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC3671A14636300D91ABF /* main.m */; };
+		EABAC37D1A14636300D91ABF /* SqliteFromXml-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EABAC3691A14636300D91ABF /* SqliteFromXml-Info.plist */; };
+		EABAC37E1A14636300D91ABF /* SqliteFromXml-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EABAC3691A14636300D91ABF /* SqliteFromXml-Info.plist */; };
+		EABAC3841A146C3C00D91ABF /* XmlListReader5.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC3821A146C3C00D91ABF /* XmlListReader5.m */; };
+		EABAC3851A146C3C00D91ABF /* XmlListReader5.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAC3821A146C3C00D91ABF /* XmlListReader5.m */; };
+		EABAC3861A146C6F00D91ABF /* CategoryRx.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB397FF19F569080083C98E /* CategoryRx.m */; };
+		EABAC3871A146C7200D91ABF /* CategoryRx.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB397FF19F569080083C98E /* CategoryRx.m */; };
+		EABAC3881A146C7B00D91ABF /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846D13B4D74F00FD9618 /* Recipe.m */; };
+		EABAC3891A146C7C00D91ABF /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846D13B4D74F00FD9618 /* Recipe.m */; };
+		EABAC38A1A146C8500D91ABF /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846A13B4D74F00FD9618 /* Photo.m */; };
+		EABAC38B1A146C8600D91ABF /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC846A13B4D74F00FD9618 /* Photo.m */; };
+		EAC79BE31A16354F00D7F5A2 /* Model1to2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = EAC79BE21A16354F00D7F5A2 /* Model1to2.xcmappingmodel */; };
+		EAC79BE61A16990C00D7F5A2 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC79BE51A16990C00D7F5A2 /* Category.m */; };
+		EADB4AA51A209C1E0073A3E2 /* ObjectsToTitleTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EADB4AA41A209C1E0073A3E2 /* ObjectsToTitleTransformer.m */; };
+		EAE14BC91B155496002FD6F1 /* ReleaseNotes V2-0.txt in Resources */ = {isa = PBXBuildFile; fileRef = EAE14BC81B155496002FD6F1 /* ReleaseNotes V2-0.txt */; };
+		EAF094E619F1922600D4829F /* HM_16to1024.icns in Resources */ = {isa = PBXBuildFile; fileRef = EAF094E519F1922600D4829F /* HM_16to1024.icns */; };
+		EAF179511B12051F00AD0A7B /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF179501B12051F00AD0A7B /* Quartz.framework */; };
+		EAF3FD4C1A223F540019F663 /* HungryMeHelp2 in Resources */ = {isa = PBXBuildFile; fileRef = EAF3FD4B1A223F540019F663 /* HungryMeHelp2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EABAC34C1A1460C100D91ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C5F33F1357463B00183DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABAC3351A1460C100D91ABF;
+			remoteInfo = SqlFromXml;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85036B20169C9C5A00594AF4 /* MySpeechButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySpeechButton.h; sourceTree = "<group>"; };
+		85036B21169C9C5A00594AF4 /* MySpeechButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySpeechButton.m; sourceTree = "<group>"; };
+		85036B23169C9C8400594AF4 /* MySpeechStopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySpeechStopButton.h; sourceTree = "<group>"; };
+		85036B24169C9C8400594AF4 /* MySpeechStopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySpeechStopButton.m; sourceTree = "<group>"; };
+		85036B2C169EF19700594AF4 /* EditCategory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditCategory.xib; path = NIB/EditCategory.xib; sourceTree = "<group>"; };
+		850920761365FBFE00940F56 /* DeleteRules.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeleteRules.txt; sourceTree = "<group>"; };
+		8509906D167E52E300C745A7 /* HungryMe Dist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HungryMe Dist-Info.plist"; sourceTree = "<group>"; };
+		8509906F167E52E300C745A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85099071167E52E300C745A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85099073167E52E300C745A7 /* HungryMe Dist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HungryMe Dist-Prefix.pch"; sourceTree = "<group>"; };
+		85099075167E52E300C745A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		85099077167E52E300C745A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85099078167E52E300C745A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8509907B167E52E300C745A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8509A41314B49C1400B19C21 /* AddCategory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddCategory.xib; path = NIB/AddCategory.xib; sourceTree = "<group>"; };
+		8509A41514B4BEB800B19C21 /* SelectedCatNotBrowseAllAndHasNoRxsTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectedCatNotBrowseAllAndHasNoRxsTransformer.h; path = Classes/SelectedCatNotBrowseAllAndHasNoRxsTransformer.h; sourceTree = "<group>"; };
+		8509A41614B4BEB800B19C21 /* SelectedCatNotBrowseAllAndHasNoRxsTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectedCatNotBrowseAllAndHasNoRxsTransformer.m; path = Classes/SelectedCatNotBrowseAllAndHasNoRxsTransformer.m; sourceTree = "<group>"; };
+		8509A41D14B4EB6B00B19C21 /* DeleteCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeleteCategoryController.h; path = Classes/DeleteCategoryController.h; sourceTree = "<group>"; };
+		8509A41E14B4EB6B00B19C21 /* DeleteCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeleteCategoryController.m; path = Classes/DeleteCategoryController.m; sourceTree = "<group>"; };
+		8509A42014B4EDB000B19C21 /* DeleteCategory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DeleteCategory.xib; path = NIB/DeleteCategory.xib; sourceTree = "<group>"; };
+		8509A42214B5135F00B19C21 /* RecipeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeWindowController.h; path = Classes/RecipeWindowController.h; sourceTree = "<group>"; };
+		8509A42314B5135F00B19C21 /* RecipeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeWindowController.m; path = Classes/RecipeWindowController.m; sourceTree = "<group>"; };
+		851392351439F9C10029A7F3 /* ToDoList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = ToDoList.txt; path = Metadata/ToDoList.txt; sourceTree = "<group>"; };
+		8519FEB716541FB700B47C78 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8519FF0F1655927F00B47C78 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		851CE72614C340AD00579387 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		851CE72714C340AD00579387 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		852A250714B7F496009F8D82 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		852A8ECE168279E100108697 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = SOURCE_ROOT; };
+		852A8ECF168279E100108697 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = SOURCE_ROOT; };
+		852B783C1699B17300B2C914 /* MyCancelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCancelButton.h; path = Classes/MyCancelButton.h; sourceTree = "<group>"; };
+		852B783D1699B17300B2C914 /* MyCancelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCancelButton.m; path = Classes/MyCancelButton.m; sourceTree = "<group>"; };
+		852B783E1699B17300B2C914 /* MyDoneButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyDoneButton.h; path = Classes/MyDoneButton.h; sourceTree = "<group>"; };
+		852B783F1699B17300B2C914 /* MyDoneButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyDoneButton.m; path = Classes/MyDoneButton.m; sourceTree = "<group>"; };
+		852B78421699B19700B2C914 /* CancelButtonAddCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CancelButtonAddCat.h; path = Classes/CancelButtonAddCat.h; sourceTree = "<group>"; };
+		852B78431699B19700B2C914 /* CancelButtonAddCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CancelButtonAddCat.m; path = Classes/CancelButtonAddCat.m; sourceTree = "<group>"; };
+		852B78441699B19700B2C914 /* DoneButtonAddCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoneButtonAddCat.h; path = Classes/DoneButtonAddCat.h; sourceTree = "<group>"; };
+		852B78451699B19700B2C914 /* DoneButtonAddCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoneButtonAddCat.m; path = Classes/DoneButtonAddCat.m; sourceTree = "<group>"; };
+		852BADC914C9F36C00142BD9 /* SelectedRecipesToNegatedBoolTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectedRecipesToNegatedBoolTransformer.h; path = Classes/SelectedRecipesToNegatedBoolTransformer.h; sourceTree = "<group>"; };
+		852BADCA14C9F36C00142BD9 /* SelectedRecipesToNegatedBoolTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectedRecipesToNegatedBoolTransformer.m; path = Classes/SelectedRecipesToNegatedBoolTransformer.m; sourceTree = "<group>"; };
+		852BADCC14CA188100142BD9 /* SelectedHasRecipesTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectedHasRecipesTransformer.h; path = Classes/SelectedHasRecipesTransformer.h; sourceTree = "<group>"; };
+		852BADCD14CA188100142BD9 /* SelectedHasRecipesTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectedHasRecipesTransformer.m; path = Classes/SelectedHasRecipesTransformer.m; sourceTree = "<group>"; };
+		852D2BA41649AF9600D773AD /* ExportWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExportWindowController.xib; path = NIB/ExportWindowController.xib; sourceTree = "<group>"; };
+		852D2BA61649B2A400D773AD /* ImportWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImportWindowController.h; path = Classes/ImportWindowController.h; sourceTree = "<group>"; };
+		852D2BA71649B2A400D773AD /* ImportWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImportWindowController.m; path = Classes/ImportWindowController.m; sourceTree = "<group>"; };
+		852D2BA91649B34A00D773AD /* ImportWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImportWindowController.xib; path = NIB/ImportWindowController.xib; sourceTree = "<group>"; };
+		852D2BAD1649BA5F00D773AD /* About.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = About.xib; path = NIB/About.xib; sourceTree = "<group>"; };
+		852D2BB11649BB1800D773AD /* EditCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditCategoryController.h; path = Classes/EditCategoryController.h; sourceTree = "<group>"; };
+		852D2BB21649BB1800D773AD /* EditCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditCategoryController.m; path = Classes/EditCategoryController.m; sourceTree = "<group>"; };
+		852D2BB41649BB4000D773AD /* ExportWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportWindowController.h; path = Classes/ExportWindowController.h; sourceTree = "<group>"; };
+		852D2BB51649BB4000D773AD /* ExportWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExportWindowController.m; path = Classes/ExportWindowController.m; sourceTree = "<group>"; };
+		852D53FE16B1F70300A09DCE /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyScrollView.h; path = Classes/MyScrollView.h; sourceTree = "<group>"; };
+		852D53FF16B1F70400A09DCE /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyScrollView.m; path = Classes/MyScrollView.m; sourceTree = "<group>"; };
+		852D542716B5D8AA00A09DCE /* Red Sweater Software */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Red Sweater Software"; sourceTree = "<group>"; };
+		852D544C16B7277200A09DCE /* NSSplitView+CCD_LayoutAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSplitView+CCD_LayoutAdditions.h"; sourceTree = "<group>"; };
+		852D544D16B7277300A09DCE /* NSSplitView+CCD_LayoutAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSplitView+CCD_LayoutAdditions.m"; sourceTree = "<group>"; };
+		8532B4FB1437785D00B78AAC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		8539DB8114BB8BD3001B95C9 /* DgxDropZoneBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DgxDropZoneBoxView.h; path = Classes/DgxDropZoneBoxView.h; sourceTree = "<group>"; };
+		8539DB8214BB8BD3001B95C9 /* DgxDropZoneBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DgxDropZoneBoxView.m; path = Classes/DgxDropZoneBoxView.m; sourceTree = "<group>"; };
+		8539DB8F14BE1E3D001B95C9 /* StringToLongEnoughToSaveTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringToLongEnoughToSaveTransformer.h; path = Classes/StringToLongEnoughToSaveTransformer.h; sourceTree = "<group>"; };
+		8539DB9014BE1E3D001B95C9 /* StringToLongEnoughToSaveTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringToLongEnoughToSaveTransformer.m; path = Classes/StringToLongEnoughToSaveTransformer.m; sourceTree = "<group>"; };
+		853FAA63164C8423003AC5F7 /* HungryMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HungryMe.entitlements; sourceTree = "<group>"; };
+		854AC7231497ECE100DA58A8 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Classes/MainView.h; sourceTree = "<group>"; };
+		854AC7241497ECE100DA58A8 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Classes/MainView.m; sourceTree = "<group>"; };
+		8550B8D31677B0DC001B94AC /* AddRecipeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRecipeController.h; path = Classes/AddRecipeController.h; sourceTree = "<group>"; };
+		8550B8D41677B0DC001B94AC /* AddRecipeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddRecipeController.m; path = Classes/AddRecipeController.m; sourceTree = "<group>"; };
+		85523D0F14CB3ED0003C1E54 /* RemoveDocumentsDB.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RemoveDocumentsDB.sh; sourceTree = "<group>"; };
+		85523D1414CB677D003C1E54 /* MyTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabView.h; sourceTree = "<group>"; };
+		85523D1514CB677E003C1E54 /* MyTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabView.m; sourceTree = "<group>"; };
+		855252FE135753D500B4EDEF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		855252FF135753D500B4EDEF /* DebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugMacros.h; path = ../DebugMacros.h; sourceTree = "<group>"; };
+		855253181357623A00B4EDEF /* libsqlite3.0.8.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.8.6.dylib; path = ../SqliteLib/libsqlite3.0.8.6.dylib; sourceTree = "<group>"; };
+		8552532513588BE500B4EDEF /* iHungryMac_ND.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iHungryMac_ND.xcdatamodel; sourceTree = "<group>"; };
+		8565180F14D4F48E00696779 /* EditRecipe.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditRecipe.xib; path = NIB/EditRecipe.xib; sourceTree = "<group>"; };
+		8565181114D4F4A900696779 /* EditRecipeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditRecipeController.h; path = Classes/EditRecipeController.h; sourceTree = "<group>"; };
+		8565181214D4F4A900696779 /* EditRecipeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditRecipeController.m; path = Classes/EditRecipeController.m; sourceTree = "<group>"; };
+		8565181514D73FA200696779 /* SelectedCategoryIsNotBrowseAllTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectedCategoryIsNotBrowseAllTransformer.m; path = Classes/SelectedCategoryIsNotBrowseAllTransformer.m; sourceTree = "<group>"; };
+		8565181714D7447C00696779 /* SelectedCategoryIsNotBrowseAllTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectedCategoryIsNotBrowseAllTransformer.h; path = Classes/SelectedCategoryIsNotBrowseAllTransformer.h; sourceTree = "<group>"; };
+		856B6A1916AC8A0200907D76 /* MyButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyButtonCell.h; path = Classes/MyButtonCell.h; sourceTree = "<group>"; };
+		856B6A1A16AC8A0200907D76 /* MyButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyButtonCell.m; path = Classes/MyButtonCell.m; sourceTree = "<group>"; };
+		856F626D166E85B400311181 /* MyPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyPanel.h; path = Classes/MyPanel.h; sourceTree = "<group>"; };
+		856F626E166E85B400311181 /* MyPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyPanel.m; path = Classes/MyPanel.m; sourceTree = "<group>"; };
+		856FEABA16869D740071C0E5 /* iHungryMac386-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHungryMac386-Info.plist"; sourceTree = "<group>"; };
+		857255E61419346B00840CE5 /* MyCatArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCatArrayController.h; sourceTree = "<group>"; };
+		857255E71419346B00840CE5 /* MyCatArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCatArrayController.m; sourceTree = "<group>"; };
+		857BAB5F14E979C200B6FA52 /* Import Export User Recipes FAQ HungryMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Import Export User Recipes FAQ HungryMe.txt"; sourceTree = "<group>"; };
+		857BAB6114E9F91600B6FA52 /* Getting Started Help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Getting Started Help.txt"; sourceTree = "<group>"; };
+		857BAB6214E9F91600B6FA52 /* Import and Export Help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Import and Export Help.txt"; sourceTree = "<group>"; };
+		857BAB6514EA177000B6FA52 /* ResourcePathTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourcePathTransformer.h; path = Classes/ResourcePathTransformer.h; sourceTree = "<group>"; };
+		857BAB6614EA177000B6FA52 /* ResourcePathTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourcePathTransformer.m; path = Classes/ResourcePathTransformer.m; sourceTree = "<group>"; };
+		857BAB6814EA185200B6FA52 /* iHungryMePlus_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iHungryMePlus_16.png; path = iHungryMac_ND/iHungryMePlus_16.png; sourceTree = "<group>"; };
+		857BAB6914EA185200B6FA52 /* iHungryMePlus_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iHungryMePlus_32.png; path = iHungryMac_ND/iHungryMePlus_32.png; sourceTree = "<group>"; };
+		85876B5C14D9CC560018B188 /* PrintWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintWindowController.h; sourceTree = "<group>"; };
+		85876B5D14D9CC570018B188 /* PrintWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintWindowController.m; sourceTree = "<group>"; };
+		85876B6114D9D0A70018B188 /* PrintWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrintWindow.xib; sourceTree = "<group>"; };
+		85957CE7169B1AFF00014A7C /* NSArrayController+NameCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArrayController+NameCheck.h"; path = "Classes/NSArrayController+NameCheck.h"; sourceTree = "<group>"; };
+		85957CE8169B1AFF00014A7C /* NSArrayController+NameCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArrayController+NameCheck.m"; path = "Classes/NSArrayController+NameCheck.m"; sourceTree = "<group>"; };
+		8596C17B1677BBC700966BC4 /* AddRecipe.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddRecipe.xib; path = NIB/AddRecipe.xib; sourceTree = "<group>"; };
+		8596C17D1677CC4E00966BC4 /* DeleteRecipeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeleteRecipeController.h; path = Classes/DeleteRecipeController.h; sourceTree = "<group>"; };
+		8596C17E1677CC4F00966BC4 /* DeleteRecipeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeleteRecipeController.m; path = Classes/DeleteRecipeController.m; sourceTree = "<group>"; };
+		8596C1801677D79700966BC4 /* DeleteRecipe.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DeleteRecipe.xib; path = NIB/DeleteRecipe.xib; sourceTree = "<group>"; };
+		85A354C4182B4EC200A05C7F /* RecipeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecipeView.xib; path = NIB/RecipeView.xib; sourceTree = "<group>"; };
+		85AF046516C6E7D3003FD4B0 /* AppDescription.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = AppDescription.rtf; sourceTree = "<group>"; };
+		85B3820F166C63AE0003438F /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyButton.h; path = Classes/MyButton.h; sourceTree = "<group>"; };
+		85B38210166C63AF0003438F /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyButton.m; path = Classes/MyButton.m; sourceTree = "<group>"; };
+		85B38212166CFEE10003438F /* MyRxCancelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyRxCancelButton.h; path = Classes/MyRxCancelButton.h; sourceTree = "<group>"; };
+		85B38213166CFEE10003438F /* MyRxCancelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyRxCancelButton.m; path = Classes/MyRxCancelButton.m; sourceTree = "<group>"; };
+		85B38215166CFFC30003438F /* MyRxDoneButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyRxDoneButton.h; path = Classes/MyRxDoneButton.h; sourceTree = "<group>"; };
+		85B38216166CFFC30003438F /* MyRxDoneButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyRxDoneButton.m; path = Classes/MyRxDoneButton.m; sourceTree = "<group>"; };
+		85C102C41438ABE100504E53 /* RecipePrintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipePrintView.h; sourceTree = "<group>"; };
+		85C102C51438ABE100504E53 /* RecipePrintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipePrintView.m; sourceTree = "<group>"; };
+		85C5440E14A2626400CFCF7B /* iHungryMePlus_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iHungryMePlus_512.png; sourceTree = "<group>"; };
+		85C5F3481357463B00183DB6 /* HungryMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungryMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C5F34C1357463B00183DB6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		85C5F34F1357463B00183DB6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		85C5F3501357463B00183DB6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		85C5F3511357463B00183DB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85C5F3561357463B00183DB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85C5F3591357463B00183DB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85C5F35C1357463B00183DB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		85CC845B13B4D74F00FD9618 /* IngredXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IngredXML.h; path = Classes/IngredXML.h; sourceTree = "<group>"; };
+		85CC845C13B4D74F00FD9618 /* IngredXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IngredXML.m; path = Classes/IngredXML.m; sourceTree = "<group>"; };
+		85CC845D13B4D74F00FD9618 /* MainPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPreferenceController.h; path = Classes/MainPreferenceController.h; sourceTree = "<group>"; };
+		85CC845E13B4D74F00FD9618 /* MainPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPreferenceController.m; path = Classes/MainPreferenceController.m; sourceTree = "<group>"; };
+		85CC845F13B4D74F00FD9618 /* MyAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppController.h; path = Classes/MyAppController.h; sourceTree = "<group>"; };
+		85CC846013B4D74F00FD9618 /* MyAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppController.m; path = Classes/MyAppController.m; sourceTree = "<group>"; };
+		85CC846113B4D74F00FD9618 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTableView.h; path = Classes/MyTableView.h; sourceTree = "<group>"; };
+		85CC846213B4D74F00FD9618 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTableView.m; path = Classes/MyTableView.m; sourceTree = "<group>"; };
+		85CC846513B4D74F00FD9618 /* MyTabViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTabViewItem.h; path = Classes/MyTabViewItem.h; sourceTree = "<group>"; };
+		85CC846613B4D74F00FD9618 /* MyTabViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTabViewItem.m; path = Classes/MyTabViewItem.m; sourceTree = "<group>"; };
+		85CC846713B4D74F00FD9618 /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTextView.h; path = Classes/MyTextView.h; sourceTree = "<group>"; };
+		85CC846813B4D74F00FD9618 /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTextView.m; path = Classes/MyTextView.m; sourceTree = "<group>"; };
+		85CC846913B4D74F00FD9618 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = Classes/Photo.h; sourceTree = "<group>"; };
+		85CC846A13B4D74F00FD9618 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = Classes/Photo.m; sourceTree = "<group>"; };
+		85CC846B13B4D74F00FD9618 /* Preferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Preferences.plist; path = Classes/Preferences.plist; sourceTree = "<group>"; };
+		85CC846C13B4D74F00FD9618 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipe.h; path = Classes/Recipe.h; sourceTree = "<group>"; };
+		85CC846D13B4D74F00FD9618 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recipe.m; path = Classes/Recipe.m; sourceTree = "<group>"; };
+		85CC846E13B4D74F00FD9618 /* RecipeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeDefines.h; path = Classes/RecipeDefines.h; sourceTree = "<group>"; };
+		85CC847113B4D74F00FD9618 /* RecipeXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeXML.h; path = Classes/RecipeXML.h; sourceTree = "<group>"; };
+		85CC847213B4D74F00FD9618 /* RecipeXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeXML.m; path = Classes/RecipeXML.m; sourceTree = "<group>"; };
+		85CC847313B4D74F00FD9618 /* SpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeechController.h; path = Classes/SpeechController.h; sourceTree = "<group>"; };
+		85CC847413B4D74F00FD9618 /* SpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeechController.m; path = Classes/SpeechController.m; sourceTree = "<group>"; };
+		85CC847513B4D74F00FD9618 /* TableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableCellView.h; path = Classes/TableCellView.h; sourceTree = "<group>"; };
+		85CC847613B4D74F00FD9618 /* TableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableCellView.m; path = Classes/TableCellView.m; sourceTree = "<group>"; };
+		85CC847713B4D74F00FD9618 /* VersionXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VersionXML.h; path = Classes/VersionXML.h; sourceTree = "<group>"; };
+		85CC847813B4D74F00FD9618 /* VersionXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VersionXML.m; path = Classes/VersionXML.m; sourceTree = "<group>"; };
+		85CC847913B4D74F00FD9618 /* XmlListReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmlListReader.h; path = Classes/XmlListReader.h; sourceTree = "<group>"; };
+		85CC847A13B4D74F00FD9618 /* XmlListReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XmlListReader.m; path = Classes/XmlListReader.m; sourceTree = "<group>"; };
+		85CE896014F92EF4008DF814 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = NIB/MainWindow.xib; sourceTree = "<group>"; };
+		85D368E614E1DED000674E78 /* PrintingAtLeastOneRecipeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrintingAtLeastOneRecipeTransformer.h; path = Classes/PrintingAtLeastOneRecipeTransformer.h; sourceTree = "<group>"; };
+		85D368E714E1DED000674E78 /* PrintingAtLeastOneRecipeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrintingAtLeastOneRecipeTransformer.m; path = Classes/PrintingAtLeastOneRecipeTransformer.m; sourceTree = "<group>"; };
+		85D67A131645CC5D00CF6AD4 /* DgxPathWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DgxPathWindowController.h; path = Classes/DgxPathWindowController.h; sourceTree = "<group>"; };
+		85D67A141645CC5D00CF6AD4 /* DgxPathWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DgxPathWindowController.m; path = Classes/DgxPathWindowController.m; sourceTree = "<group>"; };
+		85D67A151645CC5D00CF6AD4 /* DgxPathWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DgxPathWindowController.xib; path = Classes/DgxPathWindowController.xib; sourceTree = "<group>"; };
+		85D86B3214DFF28E00D70AEF /* PrintRecipeArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrintRecipeArrayController.h; path = Classes/PrintRecipeArrayController.h; sourceTree = "<group>"; };
+		85D86B3314DFF28E00D70AEF /* PrintRecipeArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrintRecipeArrayController.m; path = Classes/PrintRecipeArrayController.m; sourceTree = "<group>"; };
+		85E53DA8166D6AE200FBC3AC /* IRTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTableView.h; sourceTree = "<group>"; };
+		85E53DA9166D6AE200FBC3AC /* IRTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRTableView.m; sourceTree = "<group>"; };
+		85E7BB83149C466F0059DDB8 /* AddCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddCategoryController.h; path = Classes/AddCategoryController.h; sourceTree = "<group>"; };
+		85EB310C14EAD7BE00825734 /* AboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutWindowController.h; path = Classes/AboutWindowController.h; sourceTree = "<group>"; };
+		85EB310D14EAD7BE00825734 /* AboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutWindowController.m; path = Classes/AboutWindowController.m; sourceTree = "<group>"; };
+		85F83A861430D1D800D3DAD2 /* RecipeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeWindow.h; sourceTree = "<group>"; };
+		85F83A871430D1D800D3DAD2 /* RecipeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeWindow.m; sourceTree = "<group>"; };
+		85FDB39F1492E31600A6AF81 /* ImportExportDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportExportDefines.h; sourceTree = "<group>"; };
+		85FDB3BD14950FA800A6AF81 /* RxFilteredArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxFilteredArrayController.h; path = Classes/RxFilteredArrayController.h; sourceTree = "<group>"; };
+		85FDB3BE14950FA900A6AF81 /* RxFilteredArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RxFilteredArrayController.m; path = Classes/RxFilteredArrayController.m; sourceTree = "<group>"; };
+		EA5880F41BAB1186007B197F /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageView.h; path = Classes/MyImageView.h; sourceTree = "<group>"; };
+		EA5880F51BAB1186007B197F /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyImageView.m; path = Classes/MyImageView.m; sourceTree = "<group>"; };
+		EA5880F81BAB1F35007B197F /* 63_ApplePancake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 63_ApplePancake.png; sourceTree = "<group>"; };
+		EAB05D481B28984300E9B430 /* ReleaseNotesV-2.0.1(2.0).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ReleaseNotesV-2.0.1(2.0).txt"; sourceTree = "<group>"; };
+		EAB185841B172B8500D1659B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EAB2FEE119F5E6A600DA7A4A /* IHM_Recipes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = IHM_Recipes.xml; sourceTree = "<group>"; };
+		EAB397FC19F566C70083C98E /* AddCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddCategoryController.m; path = Classes/AddCategoryController.m; sourceTree = "<group>"; };
+		EAB397FE19F569080083C98E /* CategoryRx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryRx.h; path = Classes/CategoryRx.h; sourceTree = "<group>"; };
+		EAB397FF19F569080083C98E /* CategoryRx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryRx.m; path = Classes/CategoryRx.m; sourceTree = "<group>"; };
+		EAB3980119F56CBA0083C98E /* iHungryMac_ND 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iHungryMac_ND 2.xcdatamodel"; sourceTree = "<group>"; };
+		EABAC3361A1460C100D91ABF /* SqlFromXml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqlFromXml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABAC34B1A1460C100D91ABF /* SqlFromXmlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqlFromXmlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABAC3501A1460C100D91ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABAC3511A1460C100D91ABF /* SqlFromXmlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlFromXmlTests.m; sourceTree = "<group>"; };
+		EABAC35A1A14636300D91ABF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SqliteFromXml/AppDelegate.m; sourceTree = "<group>"; };
+		EABAC35B1A14636300D91ABF /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyWindowController.m; path = SqliteFromXml/MyWindowController.m; sourceTree = "<group>"; };
+		EABAC35C1A14636300D91ABF /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = SqliteFromXml/MainWindow.xib; sourceTree = "<group>"; };
+		EABAC35D1A14636300D91ABF /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyWindowController.h; path = SqliteFromXml/MyWindowController.h; sourceTree = "<group>"; };
+		EABAC3601A14636300D91ABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		EABAC3621A14636300D91ABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		EABAC3641A14636300D91ABF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "MainMenu XXX.xib"; sourceTree = "<group>"; };
+		EABAC3661A14636300D91ABF /* SqliteFromXml.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SqliteFromXml.xcdatamodel; sourceTree = "<group>"; };
+		EABAC3671A14636300D91ABF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SqliteFromXml/main.m; sourceTree = "<group>"; };
+		EABAC3681A14636300D91ABF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SqliteFromXml/AppDelegate.h; sourceTree = "<group>"; };
+		EABAC3691A14636300D91ABF /* SqliteFromXml-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SqliteFromXml-Info.plist"; path = "SqliteFromXml/SqliteFromXml-Info.plist"; sourceTree = "<group>"; };
+		EABAC36A1A14636300D91ABF /* SqliteFromXml-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SqliteFromXml-Prefix.pch"; path = "SqliteFromXml/SqliteFromXml-Prefix.pch"; sourceTree = "<group>"; };
+		EABAC36B1A14636300D91ABF /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = SqliteFromXml/MainView.m; sourceTree = "<group>"; };
+		EABAC36C1A14636300D91ABF /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = SqliteFromXml/MainView.h; sourceTree = "<group>"; };
+		EABAC3811A14646700D91ABF /* SqlFromXml.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SqlFromXml.entitlements; sourceTree = "<group>"; };
+		EABAC3821A146C3C00D91ABF /* XmlListReader5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XmlListReader5.m; path = SqliteFromXml/XmlListReader5.m; sourceTree = "<group>"; };
+		EABAC3831A146C3C00D91ABF /* XmlListReader5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmlListReader5.h; path = SqliteFromXml/XmlListReader5.h; sourceTree = "<group>"; };
+		EAC79BE21A16354F00D7F5A2 /* Model1to2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model1to2.xcmappingmodel; sourceTree = "<group>"; };
+		EAC79BE41A16990C00D7F5A2 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Category.h; path = Classes/Category.h; sourceTree = "<group>"; };
+		EAC79BE51A16990C00D7F5A2 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Category.m; path = Classes/Category.m; sourceTree = "<group>"; };
+		EADB4AA31A209C1E0073A3E2 /* ObjectsToTitleTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectsToTitleTransformer.h; sourceTree = "<group>"; };
+		EADB4AA41A209C1E0073A3E2 /* ObjectsToTitleTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectsToTitleTransformer.m; sourceTree = "<group>"; };
+		EADC6E511A28D94E008070A0 /* SSAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlert.h; sourceTree = "<group>"; };
+		EADC6E521A28D94E008070A0 /* SSAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlert.m; sourceTree = "<group>"; };
+		EAE14BC81B155496002FD6F1 /* ReleaseNotes V2-0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ReleaseNotes V2-0.txt"; sourceTree = "<group>"; };
+		EAF094E519F1922600D4829F /* HM_16to1024.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HM_16to1024.icns; sourceTree = "<group>"; };
+		EAF179501B12051F00AD0A7B /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		EAF3FD4B1A223F540019F663 /* HungryMeHelp2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HungryMeHelp2; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C5F3451357463B00183DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF179511B12051F00AD0A7B /* Quartz.framework in Frameworks */,
+				8519FF101655927F00B47C78 /* Carbon.framework in Frameworks */,
+				85C5F34D1357463B00183DB6 /* Cocoa.framework in Frameworks */,
+				85B75E46167C3D4E00D94270 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABAC3331A1460C100D91ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABAC3481A1460C100D91ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8509906B167E52E300C745A7 /* HungryMe Dist */ = {
+			isa = PBXGroup;
+			children = (
+				85099077167E52E300C745A7 /* AppDelegate.h */,
+				85099078167E52E300C745A7 /* AppDelegate.m */,
+				8509907A167E52E300C745A7 /* MainMenu.xib */,
+				8509906C167E52E300C745A7 /* Supporting Files */,
+			);
+			path = "HungryMe Dist";
+			sourceTree = "<group>";
+		};
+		8509906C167E52E300C745A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8509906D167E52E300C745A7 /* HungryMe Dist-Info.plist */,
+				8509906E167E52E300C745A7 /* InfoPlist.strings */,
+				85099071167E52E300C745A7 /* main.m */,
+				85099073167E52E300C745A7 /* HungryMe Dist-Prefix.pch */,
+				85099074167E52E300C745A7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8539DB8E14BE1DC0001B95C9 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				EADB4AA31A209C1E0073A3E2 /* ObjectsToTitleTransformer.h */,
+				EADB4AA41A209C1E0073A3E2 /* ObjectsToTitleTransformer.m */,
+				857BAB6514EA177000B6FA52 /* ResourcePathTransformer.h */,
+				857BAB6614EA177000B6FA52 /* ResourcePathTransformer.m */,
+				85D368E614E1DED000674E78 /* PrintingAtLeastOneRecipeTransformer.h */,
+				85D368E714E1DED000674E78 /* PrintingAtLeastOneRecipeTransformer.m */,
+				852BADCC14CA188100142BD9 /* SelectedHasRecipesTransformer.h */,
+				852BADCD14CA188100142BD9 /* SelectedHasRecipesTransformer.m */,
+				852BADC914C9F36C00142BD9 /* SelectedRecipesToNegatedBoolTransformer.h */,
+				852BADCA14C9F36C00142BD9 /* SelectedRecipesToNegatedBoolTransformer.m */,
+				8539DB8F14BE1E3D001B95C9 /* StringToLongEnoughToSaveTransformer.h */,
+				8539DB9014BE1E3D001B95C9 /* StringToLongEnoughToSaveTransformer.m */,
+				8565181714D7447C00696779 /* SelectedCategoryIsNotBrowseAllTransformer.h */,
+				8565181514D73FA200696779 /* SelectedCategoryIsNotBrowseAllTransformer.m */,
+				8509A41514B4BEB800B19C21 /* SelectedCatNotBrowseAllAndHasNoRxsTransformer.h */,
+				8509A41614B4BEB800B19C21 /* SelectedCatNotBrowseAllAndHasNoRxsTransformer.m */,
+			);
+			name = Transformers;
+			sourceTree = "<group>";
+		};
+		855252FB1357535200B4EDEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				852D542716B5D8AA00A09DCE /* Red Sweater Software */,
+				85957CE7169B1AFF00014A7C /* NSArrayController+NameCheck.h */,
+				85957CE8169B1AFF00014A7C /* NSArrayController+NameCheck.m */,
+				85EB310C14EAD7BE00825734 /* AboutWindowController.h */,
+				85EB310D14EAD7BE00825734 /* AboutWindowController.m */,
+				851CE72614C340AD00579387 /* AppDelegate.h */,
+				851CE72714C340AD00579387 /* AppDelegate.m */,
+				852D544C16B7277200A09DCE /* NSSplitView+CCD_LayoutAdditions.h */,
+				852D544D16B7277300A09DCE /* NSSplitView+CCD_LayoutAdditions.m */,
+				85E7BB83149C466F0059DDB8 /* AddCategoryController.h */,
+				EAB397FC19F566C70083C98E /* AddCategoryController.m */,
+				8550B8D31677B0DC001B94AC /* AddRecipeController.h */,
+				8550B8D41677B0DC001B94AC /* AddRecipeController.m */,
+				852B78421699B19700B2C914 /* CancelButtonAddCat.h */,
+				852B78431699B19700B2C914 /* CancelButtonAddCat.m */,
+				EAC79BE41A16990C00D7F5A2 /* Category.h */,
+				EAC79BE51A16990C00D7F5A2 /* Category.m */,
+				EAB397FE19F569080083C98E /* CategoryRx.h */,
+				EAB397FF19F569080083C98E /* CategoryRx.m */,
+				8509A41D14B4EB6B00B19C21 /* DeleteCategoryController.h */,
+				8509A41E14B4EB6B00B19C21 /* DeleteCategoryController.m */,
+				8596C17D1677CC4E00966BC4 /* DeleteRecipeController.h */,
+				8596C17E1677CC4F00966BC4 /* DeleteRecipeController.m */,
+				8539DB8114BB8BD3001B95C9 /* DgxDropZoneBoxView.h */,
+				8539DB8214BB8BD3001B95C9 /* DgxDropZoneBoxView.m */,
+				85D67A131645CC5D00CF6AD4 /* DgxPathWindowController.h */,
+				85D67A141645CC5D00CF6AD4 /* DgxPathWindowController.m */,
+				852B78441699B19700B2C914 /* DoneButtonAddCat.h */,
+				852B78451699B19700B2C914 /* DoneButtonAddCat.m */,
+				852D2BB11649BB1800D773AD /* EditCategoryController.h */,
+				852D2BB21649BB1800D773AD /* EditCategoryController.m */,
+				8565181114D4F4A900696779 /* EditRecipeController.h */,
+				8565181214D4F4A900696779 /* EditRecipeController.m */,
+				852D2BB41649BB4000D773AD /* ExportWindowController.h */,
+				852D2BB51649BB4000D773AD /* ExportWindowController.m */,
+				852D2BA61649B2A400D773AD /* ImportWindowController.h */,
+				852D2BA71649B2A400D773AD /* ImportWindowController.m */,
+				85CC845B13B4D74F00FD9618 /* IngredXML.h */,
+				85CC845C13B4D74F00FD9618 /* IngredXML.m */,
+				85E53DA8166D6AE200FBC3AC /* IRTableView.h */,
+				85E53DA9166D6AE200FBC3AC /* IRTableView.m */,
+				854AC7231497ECE100DA58A8 /* MainView.h */,
+				854AC7241497ECE100DA58A8 /* MainView.m */,
+				85CC845D13B4D74F00FD9618 /* MainPreferenceController.h */,
+				85CC845E13B4D74F00FD9618 /* MainPreferenceController.m */,
+				85CC845F13B4D74F00FD9618 /* MyAppController.h */,
+				85CC846013B4D74F00FD9618 /* MyAppController.m */,
+				852B783C1699B17300B2C914 /* MyCancelButton.h */,
+				852B783D1699B17300B2C914 /* MyCancelButton.m */,
+				85B3820F166C63AE0003438F /* MyButton.h */,
+				85B38210166C63AF0003438F /* MyButton.m */,
+				856B6A1916AC8A0200907D76 /* MyButtonCell.h */,
+				856B6A1A16AC8A0200907D76 /* MyButtonCell.m */,
+				857255E61419346B00840CE5 /* MyCatArrayController.h */,
+				857255E71419346B00840CE5 /* MyCatArrayController.m */,
+				852B783E1699B17300B2C914 /* MyDoneButton.h */,
+				852B783F1699B17300B2C914 /* MyDoneButton.m */,
+				EA5880F41BAB1186007B197F /* MyImageView.h */,
+				EA5880F51BAB1186007B197F /* MyImageView.m */,
+				856F626D166E85B400311181 /* MyPanel.h */,
+				856F626E166E85B400311181 /* MyPanel.m */,
+				85B38215166CFFC30003438F /* MyRxDoneButton.h */,
+				85B38216166CFFC30003438F /* MyRxDoneButton.m */,
+				85B38212166CFEE10003438F /* MyRxCancelButton.h */,
+				85B38213166CFEE10003438F /* MyRxCancelButton.m */,
+				852D53FE16B1F70300A09DCE /* MyScrollView.h */,
+				852D53FF16B1F70400A09DCE /* MyScrollView.m */,
+				85036B20169C9C5A00594AF4 /* MySpeechButton.h */,
+				85036B21169C9C5A00594AF4 /* MySpeechButton.m */,
+				85036B23169C9C8400594AF4 /* MySpeechStopButton.h */,
+				85036B24169C9C8400594AF4 /* MySpeechStopButton.m */,
+				85CC846113B4D74F00FD9618 /* MyTableView.h */,
+				85CC846213B4D74F00FD9618 /* MyTableView.m */,
+				85523D1414CB677D003C1E54 /* MyTabView.h */,
+				85523D1514CB677E003C1E54 /* MyTabView.m */,
+				85CC846513B4D74F00FD9618 /* MyTabViewItem.h */,
+				85CC846613B4D74F00FD9618 /* MyTabViewItem.m */,
+				85CC846713B4D74F00FD9618 /* MyTextView.h */,
+				85CC846813B4D74F00FD9618 /* MyTextView.m */,
+				85CC846913B4D74F00FD9618 /* Photo.h */,
+				85CC846A13B4D74F00FD9618 /* Photo.m */,
+				85CC846B13B4D74F00FD9618 /* Preferences.plist */,
+				85D86B3214DFF28E00D70AEF /* PrintRecipeArrayController.h */,
+				85D86B3314DFF28E00D70AEF /* PrintRecipeArrayController.m */,
+				85876B5C14D9CC560018B188 /* PrintWindowController.h */,
+				85876B5D14D9CC570018B188 /* PrintWindowController.m */,
+				85CC846C13B4D74F00FD9618 /* Recipe.h */,
+				85CC846D13B4D74F00FD9618 /* Recipe.m */,
+				85C102C41438ABE100504E53 /* RecipePrintView.h */,
+				85C102C51438ABE100504E53 /* RecipePrintView.m */,
+				85F83A861430D1D800D3DAD2 /* RecipeWindow.h */,
+				85F83A871430D1D800D3DAD2 /* RecipeWindow.m */,
+				8509A42214B5135F00B19C21 /* RecipeWindowController.h */,
+				8509A42314B5135F00B19C21 /* RecipeWindowController.m */,
+				85CC847113B4D74F00FD9618 /* RecipeXML.h */,
+				85CC847213B4D74F00FD9618 /* RecipeXML.m */,
+				85FDB3BD14950FA800A6AF81 /* RxFilteredArrayController.h */,
+				85FDB3BE14950FA900A6AF81 /* RxFilteredArrayController.m */,
+				85CC847313B4D74F00FD9618 /* SpeechController.h */,
+				85CC847413B4D74F00FD9618 /* SpeechController.m */,
+				85CC847513B4D74F00FD9618 /* TableCellView.h */,
+				85CC847613B4D74F00FD9618 /* TableCellView.m */,
+				85CC847713B4D74F00FD9618 /* VersionXML.h */,
+				85CC847813B4D74F00FD9618 /* VersionXML.m */,
+				85CC847913B4D74F00FD9618 /* XmlListReader.h */,
+				85CC847A13B4D74F00FD9618 /* XmlListReader.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		85B12FFA1383FC3200D6A8B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3FD4B1A223F540019F663 /* HungryMeHelp2 */,
+				EAB2FEE119F5E6A600DA7A4A /* IHM_Recipes.xml */,
+				EAF094E519F1922600D4829F /* HM_16to1024.icns */,
+				856FEABA16869D740071C0E5 /* iHungryMac386-Info.plist */,
+				857BAB6814EA185200B6FA52 /* iHungryMePlus_16.png */,
+				857BAB6914EA185200B6FA52 /* iHungryMePlus_32.png */,
+				857BAB6114E9F91600B6FA52 /* Getting Started Help.txt */,
+				857BAB6214E9F91600B6FA52 /* Import and Export Help.txt */,
+				857BAB5F14E979C200B6FA52 /* Import Export User Recipes FAQ HungryMe.txt */,
+				852A250714B7F496009F8D82 /* Defaults.plist */,
+				85C5440E14A2626400CFCF7B /* iHungryMePlus_512.png */,
+				EAC79BE21A16354F00D7F5A2 /* Model1to2.xcmappingmodel */,
+				8552532413588BE500B4EDEF /* iHungryMac_ND.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		85B1301E1386BBC600D6A8B1 /* CoreRecipes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreRecipes;
+			sourceTree = "<group>";
+		};
+		85B130CE1389685200D6A8B1 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				EAB05D481B28984300E9B430 /* ReleaseNotesV-2.0.1(2.0).txt */,
+				EAE14BC81B155496002FD6F1 /* ReleaseNotes V2-0.txt */,
+				85AF046516C6E7D3003FD4B0 /* AppDescription.rtf */,
+				851392351439F9C10029A7F3 /* ToDoList.txt */,
+				85523D0F14CB3ED0003C1E54 /* RemoveDocumentsDB.sh */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+		85C5F33D1357463B00183DB6 = {
+			isa = PBXGroup;
+			children = (
+				EA5880F71BAB1F35007B197F /* Photos */,
+				EADC6E501A28D94E008070A0 /* SSAlert */,
+				8519FF0F1655927F00B47C78 /* Carbon.framework */,
+				8519FEB716541FB700B47C78 /* WebKit.framework */,
+				853FAA63164C8423003AC5F7 /* HungryMe.entitlements */,
+				85FDB39F1492E31600A6AF81 /* ImportExportDefines.h */,
+				855252FE135753D500B4EDEF /* Constants.h */,
+				8532B4FB1437785D00B78AAC /* Constants.m */,
+				85CC846E13B4D74F00FD9618 /* RecipeDefines.h */,
+				85B130CE1389685200D6A8B1 /* Metadata */,
+				8539DB8E14BE1DC0001B95C9 /* Transformers */,
+				855252FB1357535200B4EDEF /* Classes */,
+				85CC841A13B4CE9300FD9618 /* NIB */,
+				85B1301E1386BBC600D6A8B1 /* CoreRecipes */,
+				85B12FFA1383FC3200D6A8B1 /* Resources */,
+				850920761365FBFE00940F56 /* DeleteRules.txt */,
+				85C5F3531357463B00183DB6 /* Supporting Files */,
+				EABAC3591A14628300D91ABF /* SqlFromXml */,
+				8509906B167E52E300C745A7 /* HungryMe Dist */,
+				EABAC34E1A1460C100D91ABF /* SqlFromXmlTests */,
+				85C5F34B1357463B00183DB6 /* Frameworks */,
+				85C5F3491357463B00183DB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85C5F3491357463B00183DB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C5F3481357463B00183DB6 /* HungryMe.app */,
+				EABAC3361A1460C100D91ABF /* SqlFromXml.app */,
+				EABAC34B1A1460C100D91ABF /* SqlFromXmlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C5F34B1357463B00183DB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB185841B172B8500D1659B /* SenTestingKit.framework */,
+				EAF179501B12051F00AD0A7B /* Quartz.framework */,
+				85C5F34C1357463B00183DB6 /* Cocoa.framework */,
+				85C5F34E1357463B00183DB6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85C5F34E1357463B00183DB6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				855253181357623A00B4EDEF /* libsqlite3.0.8.6.dylib */,
+				85C5F34F1357463B00183DB6 /* AppKit.framework */,
+				85C5F3501357463B00183DB6 /* CoreData.framework */,
+				85C5F3511357463B00183DB6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		85C5F3531357463B00183DB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				852A8ECE168279E100108697 /* NSFileManager+DirectoryLocations.h */,
+				852A8ECF168279E100108697 /* NSFileManager+DirectoryLocations.m */,
+				85C5F3551357463B00183DB6 /* InfoPlist.strings */,
+				855252FF135753D500B4EDEF /* DebugMacros.h */,
+				85C5F3591357463B00183DB6 /* main.m */,
+				85C5F35B1357463B00183DB6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			path = iHungryMac_ND;
+			sourceTree = "<group>";
+		};
+		85CC841A13B4CE9300FD9618 /* NIB */ = {
+			isa = PBXGroup;
+			children = (
+				852D2BAD1649BA5F00D773AD /* About.xib */,
+				8509A41314B49C1400B19C21 /* AddCategory.xib */,
+				8596C17B1677BBC700966BC4 /* AddRecipe.xib */,
+				8509A42014B4EDB000B19C21 /* DeleteCategory.xib */,
+				8596C1801677D79700966BC4 /* DeleteRecipe.xib */,
+				85D67A151645CC5D00CF6AD4 /* DgxPathWindowController.xib */,
+				85036B2C169EF19700594AF4 /* EditCategory.xib */,
+				8565180F14D4F48E00696779 /* EditRecipe.xib */,
+				852D2BA41649AF9600D773AD /* ExportWindowController.xib */,
+				852D2BA91649B34A00D773AD /* ImportWindowController.xib */,
+				85CE896014F92EF4008DF814 /* MainWindow.xib */,
+				85876B6114D9D0A70018B188 /* PrintWindow.xib */,
+				85A354C4182B4EC200A05C7F /* RecipeView.xib */,
+			);
+			name = NIB;
+			sourceTree = "<group>";
+		};
+		EA5880F71BAB1F35007B197F /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				EA5880F81BAB1F35007B197F /* 63_ApplePancake.png */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		EABAC34E1A1460C100D91ABF /* SqlFromXmlTests */ = {
+			isa = PBXGroup;
+			children = (
+				EABAC3511A1460C100D91ABF /* SqlFromXmlTests.m */,
+				EABAC34F1A1460C100D91ABF /* Supporting Files */,
+			);
+			path = SqlFromXmlTests;
+			sourceTree = "<group>";
+		};
+		EABAC34F1A1460C100D91ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EABAC3501A1460C100D91ABF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EABAC3591A14628300D91ABF /* SqlFromXml */ = {
+			isa = PBXGroup;
+			children = (
+				EABAC3821A146C3C00D91ABF /* XmlListReader5.m */,
+				EABAC3831A146C3C00D91ABF /* XmlListReader5.h */,
+				EABAC3811A14646700D91ABF /* SqlFromXml.entitlements */,
+				EABAC35A1A14636300D91ABF /* AppDelegate.m */,
+				EABAC35B1A14636300D91ABF /* MyWindowController.m */,
+				EABAC35C1A14636300D91ABF /* MainWindow.xib */,
+				EABAC35D1A14636300D91ABF /* MyWindowController.h */,
+				EABAC35E1A14636300D91ABF /* en.lproj */,
+				EABAC3651A14636300D91ABF /* SqliteFromXml.xcdatamodeld */,
+				EABAC3671A14636300D91ABF /* main.m */,
+				EABAC3681A14636300D91ABF /* AppDelegate.h */,
+				EABAC3691A14636300D91ABF /* SqliteFromXml-Info.plist */,
+				EABAC36A1A14636300D91ABF /* SqliteFromXml-Prefix.pch */,
+				EABAC36B1A14636300D91ABF /* MainView.m */,
+				EABAC36C1A14636300D91ABF /* MainView.h */,
+			);
+			name = SqlFromXml;
+			sourceTree = "<group>";
+		};
+		EABAC35E1A14636300D91ABF /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EABAC35F1A14636300D91ABF /* Credits.rtf */,
+				EABAC3611A14636300D91ABF /* InfoPlist.strings */,
+				EABAC3631A14636300D91ABF /* MainMenu XXX.xib */,
+			);
+			name = en.lproj;
+			path = SqliteFromXml/en.lproj;
+			sourceTree = "<group>";
+		};
+		EADC6E501A28D94E008070A0 /* SSAlert */ = {
+			isa = PBXGroup;
+			children = (
+				EADC6E511A28D94E008070A0 /* SSAlert.h */,
+				EADC6E521A28D94E008070A0 /* SSAlert.m */,
+			);
+			path = SSAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85C5F3471357463B00183DB6 /* HungryMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C5F3691357463C00183DB6 /* Build configuration list for PBXNativeTarget "HungryMe" */;
+			buildPhases = (
+				85C5F3441357463B00183DB6 /* Sources */,
+				85C5F3451357463B00183DB6 /* Frameworks */,
+				85C5F3461357463B00183DB6 /* Resources */,
+				EAD6EC7E1B18854700643C46 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HungryMe;
+			productName = iHungryMac_ND;
+			productReference = 85C5F3481357463B00183DB6 /* HungryMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EABAC3351A1460C100D91ABF /* SqlFromXml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABAC3531A1460C100D91ABF /* Build configuration list for PBXNativeTarget "SqlFromXml" */;
+			buildPhases = (
+				EABAC3321A1460C100D91ABF /* Sources */,
+				EABAC3331A1460C100D91ABF /* Frameworks */,
+				EABAC3341A1460C100D91ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SqlFromXml;
+			productName = SqlFromXml;
+			productReference = EABAC3361A1460C100D91ABF /* SqlFromXml.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EABAC34A1A1460C100D91ABF /* SqlFromXmlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABAC3561A1460C100D91ABF /* Build configuration list for PBXNativeTarget "SqlFromXmlTests" */;
+			buildPhases = (
+				EABAC3471A1460C100D91ABF /* Sources */,
+				EABAC3481A1460C100D91ABF /* Frameworks */,
+				EABAC3491A1460C100D91ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABAC34D1A1460C100D91ABF /* PBXTargetDependency */,
+			);
+			name = SqlFromXmlTests;
+			productName = SqlFromXmlTests;
+			productReference = EABAC34B1A1460C100D91ABF /* SqlFromXmlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C5F33F1357463B00183DB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					85C5F3471357463B00183DB6 = {
+						DevelopmentTeam = 3PAT8SS34X;
+					};
+					EABAC3351A1460C100D91ABF = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3PAT8SS34X;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					EABAC34A1A1460C100D91ABF = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3PAT8SS34X;
+						TestTargetID = EABAC3351A1460C100D91ABF;
+					};
+				};
+			};
+			buildConfigurationList = 85C5F3421357463B00183DB6 /* Build configuration list for PBXProject "HungryMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+				Base,
+			);
+			mainGroup = 85C5F33D1357463B00183DB6;
+			productRefGroup = 85C5F3491357463B00183DB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C5F3471357463B00183DB6 /* HungryMe */,
+				EABAC3351A1460C100D91ABF /* SqlFromXml */,
+				EABAC34A1A1460C100D91ABF /* SqlFromXmlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C5F3461357463B00183DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C5F3571357463B00183DB6 /* InfoPlist.strings in Resources */,
+				85C5F35D1357463B00183DB6 /* Credits.rtf in Resources */,
+				850920771365FBFF00940F56 /* DeleteRules.txt in Resources */,
+				85CC848413B4D74F00FD9618 /* Preferences.plist in Resources */,
+				EAB05D491B28984300E9B430 /* ReleaseNotesV-2.0.1(2.0).txt in Resources */,
+				EAF3FD4C1A223F540019F663 /* HungryMeHelp2 in Resources */,
+				85C5440F14A2626400CFCF7B /* iHungryMePlus_512.png in Resources */,
+				8509A41414B49C1400B19C21 /* AddCategory.xib in Resources */,
+				8509A42114B4EDB000B19C21 /* DeleteCategory.xib in Resources */,
+				852A250814B7F496009F8D82 /* Defaults.plist in Resources */,
+				85523D1014CB3ED0003C1E54 /* RemoveDocumentsDB.sh in Resources */,
+				8565181014D4F48E00696779 /* EditRecipe.xib in Resources */,
+				85876B6214D9D0A80018B188 /* PrintWindow.xib in Resources */,
+				857BAB6014E979C200B6FA52 /* Import Export User Recipes FAQ HungryMe.txt in Resources */,
+				857BAB6314E9F91600B6FA52 /* Getting Started Help.txt in Resources */,
+				857BAB6414E9F91600B6FA52 /* Import and Export Help.txt in Resources */,
+				857BAB6A14EA185200B6FA52 /* iHungryMePlus_16.png in Resources */,
+				857BAB6B14EA185200B6FA52 /* iHungryMePlus_32.png in Resources */,
+				85A354C5182B4EC200A05C7F /* RecipeView.xib in Resources */,
+				EA5880F91BAB1F35007B197F /* 63_ApplePancake.png in Resources */,
+				85CE896214F92EF4008DF814 /* MainWindow.xib in Resources */,
+				EAE14BC91B155496002FD6F1 /* ReleaseNotes V2-0.txt in Resources */,
+				852D2BA51649AF9600D773AD /* ExportWindowController.xib in Resources */,
+				852D2BAA1649B34A00D773AD /* ImportWindowController.xib in Resources */,
+				EAB2FEE219F5E6A600DA7A4A /* IHM_Recipes.xml in Resources */,
+				852D2BAF1649BA5F00D773AD /* About.xib in Resources */,
+				EAF094E619F1922600D4829F /* HM_16to1024.icns in Resources */,
+				8596C17C1677BBC700966BC4 /* AddRecipe.xib in Resources */,
+				8596C1811677D79800966BC4 /* DeleteRecipe.xib in Resources */,
+				85036B2D169EF19700594AF4 /* EditCategory.xib in Resources */,
+				852D542816B5D8AB00A09DCE /* Red Sweater Software in Resources */,
+				85AF046616C6E7D3003FD4B0 /* AppDescription.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABAC3341A1460C100D91ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABAC3711A14636300D91ABF /* MainWindow.xib in Resources */,
+				EABAC3751A14636300D91ABF /* InfoPlist.strings in Resources */,
+				EABAC3731A14636300D91ABF /* Credits.rtf in Resources */,
+				EABAC3771A14636300D91ABF /* MainMenu XXX.xib in Resources */,
+				EABAC37D1A14636300D91ABF /* SqliteFromXml-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABAC3491A1460C100D91ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABAC3721A14636300D91ABF /* MainWindow.xib in Resources */,
+				EABAC3761A14636300D91ABF /* InfoPlist.strings in Resources */,
+				EABAC3741A14636300D91ABF /* Credits.rtf in Resources */,
+				EABAC3781A14636300D91ABF /* MainMenu XXX.xib in Resources */,
+				EABAC37E1A14636300D91ABF /* SqliteFromXml-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EAD6EC7E1B18854700643C46 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C5F3441357463B00183DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C5F35A1357463B00183DB6 /* main.m in Sources */,
+				8552532613588BE500B4EDEF /* iHungryMac_ND.xcdatamodeld in Sources */,
+				85CC847C13B4D74F00FD9618 /* IngredXML.m in Sources */,
+				85CC847D13B4D74F00FD9618 /* MainPreferenceController.m in Sources */,
+				85CC847E13B4D74F00FD9618 /* MyAppController.m in Sources */,
+				85CC847F13B4D74F00FD9618 /* MyTableView.m in Sources */,
+				85CC848113B4D74F00FD9618 /* MyTabViewItem.m in Sources */,
+				85CC848213B4D74F00FD9618 /* MyTextView.m in Sources */,
+				85CC848313B4D74F00FD9618 /* Photo.m in Sources */,
+				85CC848513B4D74F00FD9618 /* Recipe.m in Sources */,
+				85CC848713B4D74F00FD9618 /* RecipeXML.m in Sources */,
+				85CC848813B4D74F00FD9618 /* SpeechController.m in Sources */,
+				85CC848913B4D74F00FD9618 /* TableCellView.m in Sources */,
+				85CC848A13B4D74F00FD9618 /* VersionXML.m in Sources */,
+				85CC848B13B4D74F00FD9618 /* XmlListReader.m in Sources */,
+				857255E81419346B00840CE5 /* MyCatArrayController.m in Sources */,
+				85F83A881430D1D800D3DAD2 /* RecipeWindow.m in Sources */,
+				8532B4FC1437785D00B78AAC /* Constants.m in Sources */,
+				85C102C61438ABE100504E53 /* RecipePrintView.m in Sources */,
+				85FDB3C014950FAB00A6AF81 /* RxFilteredArrayController.m in Sources */,
+				EAC79BE31A16354F00D7F5A2 /* Model1to2.xcmappingmodel in Sources */,
+				854AC7251497ECE100DA58A8 /* MainView.m in Sources */,
+				EAB397FD19F566C70083C98E /* AddCategoryController.m in Sources */,
+				8509A41714B4BEB900B19C21 /* SelectedCatNotBrowseAllAndHasNoRxsTransformer.m in Sources */,
+				8509A41F14B4EB6C00B19C21 /* DeleteCategoryController.m in Sources */,
+				8509A42414B5136000B19C21 /* RecipeWindowController.m in Sources */,
+				8539DB8314BB8BD3001B95C9 /* DgxDropZoneBoxView.m in Sources */,
+				8539DB9114BE1E3D001B95C9 /* StringToLongEnoughToSaveTransformer.m in Sources */,
+				851CE72814C340AD00579387 /* AppDelegate.m in Sources */,
+				852BADCB14C9F36C00142BD9 /* SelectedRecipesToNegatedBoolTransformer.m in Sources */,
+				852BADCE14CA188100142BD9 /* SelectedHasRecipesTransformer.m in Sources */,
+				85523D1614CB677E003C1E54 /* MyTabView.m in Sources */,
+				8565181314D4F4A900696779 /* EditRecipeController.m in Sources */,
+				EAC79BE61A16990C00D7F5A2 /* Category.m in Sources */,
+				8565181614D73FA200696779 /* SelectedCategoryIsNotBrowseAllTransformer.m in Sources */,
+				85876B5E14D9CC580018B188 /* PrintWindowController.m in Sources */,
+				85D86B3414DFF28E00D70AEF /* PrintRecipeArrayController.m in Sources */,
+				85D368E814E1DED000674E78 /* PrintingAtLeastOneRecipeTransformer.m in Sources */,
+				857BAB6714EA177000B6FA52 /* ResourcePathTransformer.m in Sources */,
+				85EB310E14EAD7BE00825734 /* AboutWindowController.m in Sources */,
+				852D2BA81649B2A400D773AD /* ImportWindowController.m in Sources */,
+				852D2BB31649BB1800D773AD /* EditCategoryController.m in Sources */,
+				852D2BB61649BB4000D773AD /* ExportWindowController.m in Sources */,
+				85B38211166C63AF0003438F /* MyButton.m in Sources */,
+				EA5880F61BAB1186007B197F /* MyImageView.m in Sources */,
+				85B38214166CFEE10003438F /* MyRxCancelButton.m in Sources */,
+				85B38217166CFFC30003438F /* MyRxDoneButton.m in Sources */,
+				85E53DAA166D6AE200FBC3AC /* IRTableView.m in Sources */,
+				856F626F166E85B400311181 /* MyPanel.m in Sources */,
+				8550B8D51677B0DC001B94AC /* AddRecipeController.m in Sources */,
+				8596C17F1677CC4F00966BC4 /* DeleteRecipeController.m in Sources */,
+				852A8ED0168279E100108697 /* NSFileManager+DirectoryLocations.m in Sources */,
+				852B78401699B17300B2C914 /* MyCancelButton.m in Sources */,
+				852B78411699B17300B2C914 /* MyDoneButton.m in Sources */,
+				852B78461699B19700B2C914 /* CancelButtonAddCat.m in Sources */,
+				852B78471699B19700B2C914 /* DoneButtonAddCat.m in Sources */,
+				85957CE9169B1AFF00014A7C /* NSArrayController+NameCheck.m in Sources */,
+				85036B22169C9C5A00594AF4 /* MySpeechButton.m in Sources */,
+				EAB3980019F569080083C98E /* CategoryRx.m in Sources */,
+				85036B25169C9C8400594AF4 /* MySpeechStopButton.m in Sources */,
+				856B6A1B16AC8A0200907D76 /* MyButtonCell.m in Sources */,
+				852D540016B1F70500A09DCE /* MyScrollView.m in Sources */,
+				852D544E16B7277300A09DCE /* NSSplitView+CCD_LayoutAdditions.m in Sources */,
+				EADB4AA51A209C1E0073A3E2 /* ObjectsToTitleTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABAC3321A1460C100D91ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABAC3841A146C3C00D91ABF /* XmlListReader5.m in Sources */,
+				EABAC3881A146C7B00D91ABF /* Recipe.m in Sources */,
+				EABAC3861A146C6F00D91ABF /* CategoryRx.m in Sources */,
+				EABAC36D1A14636300D91ABF /* AppDelegate.m in Sources */,
+				EABAC38B1A146C8600D91ABF /* Photo.m in Sources */,
+				EABAC3791A14636300D91ABF /* SqliteFromXml.xcdatamodeld in Sources */,
+				EABAC37B1A14636300D91ABF /* main.m in Sources */,
+				EABAC36F1A14636300D91ABF /* MyWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABAC3471A1460C100D91ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABAC3851A146C3C00D91ABF /* XmlListReader5.m in Sources */,
+				EABAC37C1A14636300D91ABF /* main.m in Sources */,
+				EABAC3871A146C7200D91ABF /* CategoryRx.m in Sources */,
+				EABAC38A1A146C8500D91ABF /* Photo.m in Sources */,
+				EABAC3891A146C7C00D91ABF /* Recipe.m in Sources */,
+				EABAC36E1A14636300D91ABF /* AppDelegate.m in Sources */,
+				EABAC37A1A14636300D91ABF /* SqliteFromXml.xcdatamodeld in Sources */,
+				EABAC3521A1460C100D91ABF /* SqlFromXmlTests.m in Sources */,
+				EABAC3701A14636300D91ABF /* MyWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EABAC34D1A1460C100D91ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EABAC3351A1460C100D91ABF /* SqlFromXml */;
+			targetProxy = EABAC34C1A1460C100D91ABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8509906E167E52E300C745A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8509906F167E52E300C745A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85099074167E52E300C745A7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85099075167E52E300C745A7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8509907A167E52E300C745A7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8509907B167E52E300C745A7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		85C5F3551357463B00183DB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C5F3561357463B00183DB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85C5F35B1357463B00183DB6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C5F35C1357463B00183DB6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EABAC35F1A14636300D91ABF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABAC3601A14636300D91ABF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EABAC3611A14636300D91ABF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABAC3621A14636300D91ABF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EABAC3631A14636300D91ABF /* MainMenu XXX.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABAC3641A14636300D91ABF /* en */,
+			);
+			name = "MainMenu XXX.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85C5F3671357463C00183DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iHungryMac386-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = HungryMe;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SYMROOT = "~/SqlFromXmlTestsBuild";
+				VALID_ARCHS = arm64;
+				"VALID_ARCHS[sdk=*]" = arm64;
+			};
+			name = Debug;
+		};
+		85C5F3681357463C00183DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iHungryMac386-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = HungryMe;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SYMROOT = "~/SqlFromXmlTestsBuild";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		85C5F36A1357463C00183DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = HungryMe.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHungryMac_ND/iHungryMac_ND-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					DEBUG,
+					IHUNGRY_MAC,
+				);
+				INFOPLIST_FILE = "iHungryMac386-Info.plist";
+				INFOPLIST_PREPROCESS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = HungryMe;
+				PROVISIONING_PROFILE = "";
+				SYMROOT = "~/Cocoa/HungryMeBuild";
+				VALID_ARCHS = arm64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85C5F36B1357463C00183DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = HungryMe.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHungryMac_ND/iHungryMac_ND-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = IHUNGRY_MAC;
+				INFOPLIST_FILE = "iHungryMac386-Info.plist";
+				INFOPLIST_PREPROCESS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = HungryMe;
+				PROVISIONING_PROFILE = "";
+				SYMROOT = "~/Cocoa/HungryMeBuild";
+				VALID_ARCHS = arm64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EABAC3541A1460C100D91ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_ENTITLEMENTS = SqlFromXml.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SQLITE_FROM_XML,
+					DEBUG,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					DEBUG,
+					SQLITE_FROM_XML,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "$(SRCROOT)/SqliteFromXml/SqliteFromXml-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SYMROOT = "~/SqlFromXmlBuild";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		EABAC3551A1460C100D91ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_ENTITLEMENTS = SqlFromXml.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "$(SRCROOT)/SqliteFromXml/SqliteFromXml-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		EABAC3571A1460C100D91ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SqlFromXmlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SqlFromXml.app/Contents/MacOS/SqlFromXml";
+				"VALID_ARCHS[sdk=*]" = arm64;
+			};
+			name = Debug;
+		};
+		EABAC3581A1460C100D91ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SqlFromXmlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SqlFromXml.app/Contents/MacOS/SqlFromXml";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C5F3421357463B00183DB6 /* Build configuration list for PBXProject "HungryMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C5F3671357463C00183DB6 /* Debug */,
+				85C5F3681357463C00183DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C5F3691357463C00183DB6 /* Build configuration list for PBXNativeTarget "HungryMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C5F36A1357463C00183DB6 /* Debug */,
+				85C5F36B1357463C00183DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABAC3531A1460C100D91ABF /* Build configuration list for PBXNativeTarget "SqlFromXml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABAC3541A1460C100D91ABF /* Debug */,
+				EABAC3551A1460C100D91ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABAC3561A1460C100D91ABF /* Build configuration list for PBXNativeTarget "SqlFromXmlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABAC3571A1460C100D91ABF /* Debug */,
+				EABAC3581A1460C100D91ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8552532413588BE500B4EDEF /* iHungryMac_ND.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAB3980119F56CBA0083C98E /* iHungryMac_ND 2.xcdatamodel */,
+				8552532513588BE500B4EDEF /* iHungryMac_ND.xcdatamodel */,
+			);
+			currentVersion = EAB3980119F56CBA0083C98E /* iHungryMac_ND 2.xcdatamodel */;
+			name = iHungryMac_ND.xcdatamodeld;
+			path = iHungryMac_ND/iHungryMac_ND.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		EABAC3651A14636300D91ABF /* SqliteFromXml.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EABAC3661A14636300D91ABF /* SqliteFromXml.xcdatamodel */,
+			);
+			currentVersion = EABAC3661A14636300D91ABF /* SqliteFromXml.xcdatamodel */;
+			name = SqliteFromXml.xcdatamodeld;
+			path = SqliteFromXml/SqliteFromXml.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85C5F33F1357463B00183DB6 /* Project object */;
+}

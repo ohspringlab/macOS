@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment version="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner-RecipWindCntrlr" customClass="RecipeWindowController">
+            <connections>
+                <outlet property="imageView" destination="207" id="9Zi-Si-dWR"/>
+                <outlet property="infoLabel" destination="208" id="11K-Gt-pjq"/>
+                <outlet property="infoNameTextField" destination="208" id="SHe-x3-xaP"/>
+                <outlet property="infoView" destination="208" id="pNQ-w4-MAe"/>
+                <outlet property="nextPhotoButton" destination="206" id="0Xx-RI-hiK"/>
+                <outlet property="pageController" destination="A5T-HC-Y9a" id="8Ru-cf-b2m"/>
+                <outlet property="prevPhotoButton" destination="205" id="dS0-am-P9e"/>
+                <outlet property="scrollViewC" destination="66" id="184"/>
+                <outlet property="scrollViewD" destination="62" id="182"/>
+                <outlet property="scrollViewI" destination="58" id="181"/>
+                <outlet property="scrollViewID" destination="54" id="180"/>
+                <outlet property="speechButton" destination="87" id="103"/>
+                <outlet property="speechController" destination="91" id="201"/>
+                <outlet property="stopButton" destination="89" id="104"/>
+                <outlet property="tabViewItemC" destination="9" id="sdV-Fh-1id"/>
+                <outlet property="tabViewItemD" destination="10" id="QCy-9I-quW"/>
+                <outlet property="tabViewItemI" destination="11" id="v9H-52-JV3"/>
+                <outlet property="tabViewItemID" destination="12" id="3LL-pA-7Tl"/>
+                <outlet property="tabViewItemP" destination="203" id="V8W-tu-Usg"/>
+                <outlet property="tabViewRecipe" destination="8" id="PDP-aN-Kgi"/>
+                <outlet property="textViewC" destination="67" id="83"/>
+                <outlet property="textViewD" destination="63" id="84"/>
+                <outlet property="textViewI" destination="59" id="82"/>
+                <outlet property="textViewID" destination="55" id="81"/>
+                <outlet property="window" destination="1" id="116"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" visibleAtLaunch="NO" animationBehavior="default" id="1" customClass="RecipeWindow">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="826" y="411" width="560" height="407"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1200"/>
+            <value key="minSize" type="size" width="360" height="200"/>
+            <view key="contentView" id="2" userLabel="View TopView">
+                <rect key="frame" x="0.0" y="0.0" width="560" height="407"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tabView initialItem="12" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                        <rect key="frame" x="13" y="36" width="534" height="373"/>
+                        <font key="font" metaFont="system"/>
+                        <tabViewItems>
+                            <tabViewItem label="I &amp; D" identifier="1" id="12" customClass="MyTabViewItem">
+                                <view key="view" id="13">
+                                    <rect key="frame" x="10" y="33" width="514" height="327"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54" userLabel="SV ID - Text View">
+                                            <rect key="frame" x="0.0" y="0.0" width="514" height="327"/>
+                                            <clipView key="contentView" copiesOnScroll="NO" id="28e-37-kcb" userLabel="ID Clip View">
+                                                <rect key="frame" x="1" y="1" width="498" height="329"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textView editable="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" findStyle="panel" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" spellingCorrection="YES" id="55" userLabel="tv ID">
+                                                        <rect key="frame" x="0.0" y="0.0" width="498" height="329"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <size key="minSize" width="497" height="325"/>
+                                                        <size key="maxSize" width="515" height="10000000"/>
+                                                        <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <size key="minSize" width="497" height="325"/>
+                                                        <size key="maxSize" width="515" height="10000000"/>
+                                                        <connections>
+                                                            <binding destination="-2" name="font" keyPath="self.appDel.tableFont" id="146"/>
+                                                        </connections>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </clipView>
+                                            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="57">
+                                                <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </scroller>
+                                            <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="56">
+                                                <rect key="frame" x="499" y="1" width="15" height="329"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </scroller>
+                                        </scrollView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="54" secondAttribute="bottom" id="254"/>
+                                        <constraint firstItem="54" firstAttribute="top" secondItem="13" secondAttribute="top" id="256"/>
+                                        <constraint firstItem="54" firstAttribute="leading" secondItem="13" secondAttribute="leading" id="7NX-IJ-akc"/>
+                                        <constraint firstAttribute="trailing" secondItem="54" secondAttribute="trailing" id="CZ2-Gs-NF2"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="nextKeyView" destination="87" id="197"/>
+                                    </connections>
+                                </view>
+                                <connections>
+                                    <outlet property="initialFirstResponder" destination="55" id="191"/>
+                                    <outlet property="textView" destination="55" id="99"/>
+                                </connections>
+                            </tabViewItem>
+                            <tabViewItem label="Ingredients" identifier="2" id="11" customClass="MyTabViewItem">
+                                <view key="view" id="18" userLabel="View">
+                                    <rect key="frame" x="10" y="33" width="514" height="327"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58" userLabel="SV I - Text View">
+                                            <rect key="frame" x="0.0" y="0.0" width="514" height="327"/>
+                                            <clipView key="contentView" copiesOnScroll="NO" id="aPw-qr-3py" userLabel="I Clip View">
+                                                <rect key="frame" x="1" y="1" width="498" height="329"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textView editable="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" findStyle="panel" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" spellingCorrection="YES" id="59" userLabel="tv I">
+                                                        <rect key="frame" x="0.0" y="0.0" width="498" height="329"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <size key="minSize" width="497" height="325"/>
+                                                        <size key="maxSize" width="515" height="10000000"/>
+                                                        <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <size key="minSize" width="497" height="325"/>
+                                                        <size key="maxSize" width="515" height="10000000"/>
+                                                        <connections>
+                                                            <binding destination="-2" name="font" keyPath="self.appDel.tableFont" id="151"/>
+                                                        </connections>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </clipView>
+                                            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="61">
+                                                <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </scroller>
+                                            <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="60">
+                                                <rect key="frame" x="499" y="1" width="15" height="329"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </scroller>
+                                        </scrollView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="58" secondAttribute="bottom" id="250"/>
+                                        <constraint firstItem="58" firstAttribute="top" secondItem="18" secondAttribute="top" id="251"/>
+                                        <constraint firstItem="58" firstAttribute="leading" secondItem="18" secondAttribute="leading" id="Clh-bH-UcH"/>
+                                        <constraint firstAttribute="trailing" secondItem="58" secondAttribute="trailing" id="Vry-9c-CRo"/>
+                                    </constraints>
+                                </view>
+                                <connections>
+                                    <outlet property="initialFirstResponder" destination="59" id="192"/>
+                                    <outlet property="textView" destination="59" id="100"/>
+                                </connections>
+                            </tabViewItem>
+                            <tabViewItem label="Directions" identifier="3" id="10" customClass="MyTabViewItem">
+                                <view key="view" id="23">
+                                    <rect key="frame" x="10" y="33" width="514" height="327"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62" userLabel="SV D - Text View">
+                                            <rect key="frame" x="0.0" y="0.0" width="514" height="327"/>
+                                            <clipView key="contentView" copiesOnScroll="NO" id="4z8-1b-6rP" userLabel="D Clip View">
+                                                <rect key="frame" x="1" y="1" width="498" height="329"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textView editable="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" findStyle="panel" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" spellingCorrection="YES" id="63" userLabel="tvD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="498" height="329"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <size key="minSize" width="497" height="325"/>
+                                                        <size key="maxSize" width="515" height="10000000"/>
+                                                        <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <size key="minSize" width="497" height="325"/>
+                                                        <size key="maxSize" width="515" height="10000000"/>
+                                                        <connections>
+                                                            <binding destination="-2" name="font" keyPath="self.appDel.tableFont" id="154"/>
+                                                        </connections>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </clipView>
+                                            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="65">
+                                                <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </scroller>
+                                            <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="64">
+                                                <rect key="frame" x="499" y="1" width="15" height="329"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </scroller>
+                                        </scrollView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="62" firstAttribute="top" secondItem="23" secondAttribute="top" id="246"/>
+                                        <constraint firstItem="62" firstAttribute="leading" secondItem="23" secondAttribute="leading" id="247"/>
+                                        <constraint firstAttribute="bottom" secondItem="62" secondAttribute="bottom" id="248"/>
+                                        <constraint firstItem="62" firstAttribute="centerX" secondItem="23" secondAttribute="centerX" id="249"/>
+                                        <constraint firstAttribute="trailing" secondItem="62" secondAttribute="trailing" id="9iU-vj-knc"/>
+                                        <constraint firstItem="62" firstAttribute="leading" secondItem="23" secondAttribute="leading" id="UmS-8D-tnn"/>
+                                    </constraints>
+                                </view>
+                                <connections>
+                                    <outlet property="initialFirstResponder" destination="63" id="193"/>
+                                    <outlet property="textView" destination="63" id="101"/>
+                                </connections>
+                            </tabViewItem>
+                            <tabViewItem label="Comments" identifier="4" id="9" customClass="MyTabViewItem">
+                                <view key="view" id="28" userLabel="View">
+                                    <rect key="frame" x="10" y="33" width="514" height="327"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66" userLabel="SV C - Text View">
+                                            <rect key="frame" x="0.0" y="0.0" width="514" height="327"/>
+                                            <clipView key="contentView" copiesOnScroll="NO" id="WkZ-4d-IZd" userLabel="C Clip View">
+                                                <rect key="frame" x="1" y="1" width="498" height="329"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textView editable="NO" importsGraphics="NO" richText="NO" horizontallyResizable="YES" findStyle="panel" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" linkDetection="YES" spellingCorrection="YES" id="67" userLabel="Text View C">
+                                                        <rect key="frame" x="0.0" y="0.0" width="498" height="329"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <size key="minSize" width="497" height="325"/>
+                                                        <size key="maxSize" width="515" height="10000000"/>
+                                                        <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <size key="minSize" width="497" height="325"/>
+                                                        <size key="maxSize" width="515" height="10000000"/>
+                                                        <connections>
+                                                            <binding destination="-2" name="font" keyPath="self.appDel.tableFont" id="157"/>
+                                                        </connections>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </clipView>
+                                            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="69">
+                                                <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </scroller>
+                                            <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="68">
+                                                <rect key="frame" x="499" y="1" width="15" height="329"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </scroller>
+                                        </scrollView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="66" firstAttribute="centerX" secondItem="28" secondAttribute="centerX" id="242"/>
+                                        <constraint firstItem="66" firstAttribute="leading" secondItem="28" secondAttribute="leading" id="243"/>
+                                        <constraint firstAttribute="bottom" secondItem="66" secondAttribute="bottom" id="244"/>
+                                        <constraint firstItem="66" firstAttribute="top" secondItem="28" secondAttribute="top" id="245"/>
+                                        <constraint firstItem="66" firstAttribute="leading" secondItem="28" secondAttribute="leading" id="PGy-pH-gXq"/>
+                                        <constraint firstAttribute="trailing" secondItem="66" secondAttribute="trailing" id="t3g-BL-zoP"/>
+                                    </constraints>
+                                </view>
+                                <connections>
+                                    <outlet property="initialFirstResponder" destination="67" id="195"/>
+                                    <outlet property="textView" destination="67" id="102"/>
+                                </connections>
+                            </tabViewItem>
+                            <tabViewItem label="Photos" identifier="5" id="203" userLabel="Photos">
+                                <view key="view" id="204">
+                                    <rect key="frame" x="10" y="33" width="514" height="327"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="205" userLabel="Square Button &lt;">
+                                            <rect key="frame" x="3" y="296" width="48" height="27"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="48" id="eDn-B6-IZG"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSLeftFacingTriangleTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="215">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                        </button>
+                                        <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="206" userLabel="Square Button &gt;">
+                                            <rect key="frame" x="463" y="296" width="48" height="27"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="48" id="kpm-mG-V4s"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSRightFacingTriangleTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="212">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                        </button>
+                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="207" userLabel="MyIV" customClass="MyImageView">
+                                            <rect key="frame" x="-6" y="-10" width="526" height="301"/>
+                                            <imageCell key="cell" selectable="YES" editable="YES" alignment="left" imageScaling="proportionallyUpOrDown" imageFrameStyle="grayBezel" id="211"/>
+                                        </imageView>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="208" userLabel="InfoLabel">
+                                            <rect key="frame" x="65" y="296" width="384" height="27"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" title="No Photos Found" id="209">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                <connections>
+                                                    <outlet property="representedObject" destination="207" id="MFk-ti-G8N"/>
+                                                </connections>
+                                            </textFieldCell>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="208" firstAttribute="leading" secondItem="205" secondAttribute="trailing" constant="14" id="7PO-Zg-S6t"/>
+                                        <constraint firstItem="205" firstAttribute="leading" secondItem="204" secondAttribute="leading" constant="3" id="Eay-u5-r5S"/>
+                                        <constraint firstItem="206" firstAttribute="leading" secondItem="208" secondAttribute="trailing" constant="14" id="RVd-Vt-5ab"/>
+                                        <constraint firstItem="206" firstAttribute="top" secondItem="204" secondAttribute="top" constant="4" id="Yks-Um-xfz"/>
+                                        <constraint firstItem="205" firstAttribute="top" secondItem="204" secondAttribute="top" constant="4" id="aqo-ld-A0P"/>
+                                        <constraint firstItem="208" firstAttribute="top" secondItem="204" secondAttribute="top" constant="4" id="bpe-9I-cXd"/>
+                                        <constraint firstItem="207" firstAttribute="top" secondItem="206" secondAttribute="bottom" constant="8" id="ebS-2K-FSu"/>
+                                        <constraint firstAttribute="trailing" secondItem="206" secondAttribute="trailing" constant="3" id="kED-nL-8FM"/>
+                                        <constraint firstItem="207" firstAttribute="leading" secondItem="204" secondAttribute="leading" constant="-3" id="km0-Y7-vqj"/>
+                                        <constraint firstAttribute="trailing" secondItem="207" secondAttribute="trailing" constant="-3" id="mL1-FH-4jb"/>
+                                        <constraint firstItem="207" firstAttribute="top" secondItem="205" secondAttribute="bottom" constant="8" id="mus-hv-Oin"/>
+                                        <constraint firstItem="207" firstAttribute="top" secondItem="208" secondAttribute="bottom" constant="8" id="rMV-yE-e5s"/>
+                                        <constraint firstAttribute="bottom" secondItem="207" secondAttribute="bottom" constant="-3" id="zAA-kC-Rsg"/>
+                                    </constraints>
+                                </view>
+                            </tabViewItem>
+                        </tabViewItems>
+                        <connections>
+                            <binding destination="133" name="fontName" keyPath="values.NSFontNameAttribute" id="161"/>
+                            <outlet property="delegate" destination="-2" id="202"/>
+                            <outlet property="nextKeyView" destination="87" id="200"/>
+                        </connections>
+                    </tabView>
+                    <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87" userLabel="Speech Button">
+                        <rect key="frame" x="443" y="19" width="98" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="232"/>
+                        </constraints>
+                        <buttonCell key="cell" type="roundRect" title="Speech" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="88">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="cellTitle"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="sayIt:" target="91" id="95"/>
+                            <outlet property="nextKeyView" destination="89" id="198"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="89" userLabel="Stop Button">
+                        <rect key="frame" x="337" y="19" width="98" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="220"/>
+                        </constraints>
+                        <buttonCell key="cell" type="roundRect" title="Stop" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="90">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="cellTitle"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="stopIt:" target="91" id="105"/>
+                            <outlet property="nextKeyView" destination="8" id="199"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="87" firstAttribute="leading" secondItem="89" secondAttribute="trailing" constant="8" symbolic="YES" id="233"/>
+                    <constraint firstItem="87" firstAttribute="baseline" secondItem="89" secondAttribute="baseline" id="234"/>
+                    <constraint firstItem="89" firstAttribute="top" secondItem="8" secondAttribute="bottom" constant="8" symbolic="YES" id="235"/>
+                    <constraint firstItem="8" firstAttribute="top" secondItem="2" secondAttribute="top" constant="4" id="236"/>
+                    <constraint firstItem="8" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="237"/>
+                    <constraint firstItem="8" firstAttribute="trailing" secondItem="87" secondAttribute="trailing" id="238"/>
+                    <constraint firstAttribute="bottom" secondItem="89" secondAttribute="bottom" constant="20" symbolic="YES" id="239"/>
+                    <constraint firstAttribute="trailing" secondItem="8" secondAttribute="trailing" constant="20" symbolic="YES" id="240"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8" secondAttribute="trailing" constant="20" id="622-3y-4Cx"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="132"/>
+                <outlet property="initialFirstResponder" destination="8" id="196"/>
+            </connections>
+            <point key="canvasLocation" x="-89" y="241.5"/>
+        </window>
+        <customObject id="91" userLabel="Speech Controller" customClass="SpeechController">
+            <connections>
+                <outlet property="startButton" destination="87" id="96"/>
+                <outlet property="stopButton" destination="89" id="97"/>
+                <outlet property="tabView" destination="8" id="98"/>
+            </connections>
+        </customObject>
+        <customObject id="135" customClass="AppDelegate"/>
+        <userDefaultsController representsSharedInstance="YES" id="133"/>
+        <pagecontroller id="A5T-HC-Y9a">
+            <connections>
+                <outlet property="delegate" destination="-2" id="zi4-JY-R9a"/>
+                <outlet property="view" destination="207" id="5FX-Ke-AFz"/>
+            </connections>
+        </pagecontroller>
+    </objects>
+    <resources>
+        <image name="NSLeftFacingTriangleTemplate" width="9" height="12"/>
+        <image name="NSRightFacingTriangleTemplate" width="9" height="12"/>
+    </resources>
+</document>

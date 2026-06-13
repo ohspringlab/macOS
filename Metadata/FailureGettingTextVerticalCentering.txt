@@ -1,0 +1,124 @@
+FailureGettingTextVerticalCentering
+
+http://dl.dropbox.com/u/5289776/CutOfDescendersInTableView.png
+
+//
+//  MyTableViewCell.h
+
+#import <Foundation/Foundation.h>
+
+
+@interface MyTableViewCell : NSTextFieldCell {
+@private
+    
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder;
+- (id)initTextCell:(NSString *)aString;
+- (id)initImageCell:(NSImage *)anImage;
+@end
+
+
+
+//
+//  MyTableViewCell.m
+//  iHungryMac386
+//
+//  Created by Mark on 5/23/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "MyTableViewCell.h"
+#import "AppDelegate.h"
+
+@implementation MyTableViewCell
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        // Initialization code here.
+    }
+    
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+	id cell = [super initWithCoder:aDecoder];
+   [cell setVerticalCentering:YES];
+   DLog(@"verticalCentering=%d",[cell _cFlags.vCentered];
+	return cell;
+}
+
+- (id)initTextCell:(NSString *)aString{
+   id cell = [super initTextCell:aString];
+   
+   return cell;
+}
+
+- (id)initImageCell:(NSImage *)anImage{
+   id cell = [super initImageCell:anImage];
+   return cell;
+}
+
+/***   THIS SORT OF WORKS
+- (NSRect)titleRectForBounds:(NSRect)theRect {
+   NSRect titleFrame = [super titleRectForBounds:theRect];
+   NSSize titleSize = [[self attributedStringValue] size];
+   titleFrame.origin.y = theRect.origin.y  + (theRect.size.height - titleSize.height) / 2.0;
+   
+   return titleFrame;
+}
+
+- (void)drawInteriorWithFrame:(NSRect)cellFrame inView:(NSView *)controlView {
+   NSRect titleRect = [self titleRectForBounds:cellFrame];
+   [[self attributedStringValue] drawInRect:titleRect];
+}
+ ***/
+
+
+
+- (void)dealloc
+{
+    [super dealloc];
+}
+
+@end
+
+
+//
+//  CellTextVerticalCenter.h
+
+#import <Foundation/Foundation.h>
+
+//@interface NSTextFieldCell (CellTextVerticalCenter)
+#import "MyTableViewCell.h" 
+
+@interface MyTableViewCell (CellTextVerticalCenter)
+
+- (void)setVerticalCentering:(BOOL)centerVertical;
+
+@end
+
+//
+//  CellTextVerticalCenter.h
+
+#import <Foundation/Foundation.h>
+
+//@interface NSTextFieldCell (CellTextVerticalCenter)
+#import "MyTableViewCell.h" 
+
+@interface MyTableViewCell (CellTextVerticalCenter)
+
+- (void)setVerticalCentering:(BOOL)centerVertical;
+
+@end
+
+
+(gdb) po self
+<MyTableViewCell: 0x155810>
+(gdb) p (int)[self verticalCentering]
+Target does not respond to this message selector.
+(gdb) p (int) _cFlags.vCentered
+$1 = 1

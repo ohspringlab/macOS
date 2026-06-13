@@ -1,0 +1,46 @@
+3ufnh9ntNajhzw  nettalk pwd   mejbarron/PsqUR6fYbQePi3
+
+ 954-04001a
+ 954-0241a upper
+ isPDF=1
+2015-05-24 14:04:26.301 HungryMe[2110:1634339] -[PrintWindowController printRecipe:]
+ Rx:Carnitas - Little pieces of browned pork
+[self printInfo={
+    NSBottomMargin = 90;
+    NSCopies = 1;
+    NSDestinationFormat = "com.apple.documentformat.default";
+    NSDetailedErrorReporting = 0;
+    NSFaxNumber = "";
+    NSFirstPage = 1;
+    NSHorizonalPagination = 1;
+    NSHorizontallyCentered = 0;
+    NSJobDisposition = NSPrintSpoolJob;
+    NSJobSavingFileNameExtensionHidden = 0;
+    NSLastPage = 2147483647;
+    NSLeftMargin = 72;
+    NSMustCollate = 1;
+    NSOrientation = 0;
+    NSPagesAcross = 1;
+    NSPagesDown = 1;
+    NSPaperName = "iso-a4";
+    NSPaperSize = "NSSize: {595, 842}";
+    NSPrintAllPages = 1;
+    NSPrintProtected = 0;
+    NSPrintSelectionOnly = 0;
+    NSPrintTime = "0000-12-30 00:00:00 +0000";
+    NSPrinter = "{\n    \"Device Description\" =     {\n        NSDeviceIsPrinter = YES;\n    };\n    \"Language Level\" = 3;\n    Name = \"HP DESKJET 840C\";\n    Type = \"Generic PCL Laser Printer\";\n}";
+    NSPrinterName = "HP DESKJET 840C";
+    NSRightMargin = 72;
+    NSSavePath = "";
+    NSScalingFactor = 1;
+    NSTopMargin = 90;
+    NSVerticalPagination = 0;
+    NSVerticallyCentered = 0;
+}
+
+I have a wireless and wired network on my router. The Wired system looks this way.
+
+Modem -> Router -> Switch 
+
+The Duo 2 is connected to the TP-Link switch.
+I also have a network drive attach to the switch

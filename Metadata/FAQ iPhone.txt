@@ -1,0 +1,258 @@
+iPhone
+
+--- Import/Export User Recipes FAQ ---
+
+Frequently asked questions about Import and Export of user-defined recipes. 
+The content and format of an import and an export DGX file is identical. Only the naming differs.
+For your convenience, this file can be moved to your computer using iTunes File Sharing.
+See FAQ #4.
+
+[ #1 ] How is the importation actually done?
+
+1. Move a properly formatted DG_Recipe_Import.dgx file to the device using iTunes File Sharing. (Example DGX file is found near bottom of this file. See FAQ #6 for details.)
+
+2. Using the system Settings app, set the app's Preference 'Import Recipes' to ON
+
+3. Visit the apps Home view and touch the 'Import' button.
+
+
+[ #2 ] How do I export all the user-defined recipes in iHungryMe or iHungryMe+?
+
+Select: Home-> Info Button-> 'Export User Recipes' Button.
+
+This creates a file in the app's Documents folder named:
+
+  DG_Recipes_Export.dgx
+
+which is accessible with iTunes File Sharing.(See FAQ #4)
+
+No photos for the recipe are exported.
+
+
+[ #3 ] How do I backup my user-defined recipes?
+
+Create the file : 
+
+  DG_Recipes_Export.dgx
+
+as outlined in #2 above and copy it elsewhere using iTunes File Sharing ('Save to...'). 
+
+The recipes are not backed up until you move the DGX file off of your iOS device.
+
+
+[ #4 ] How do I read and store these files on my device?
+
+Certain iOS apps such as iHungryMe and iHungryMe+ have enabled file sharing with iTunes. 
+
+To access an app's shared files on an iOS devices, simply use:
+
+iTunes-> Devices-> Your Connected Device-> Apps-> FileSharing-> The App
+
+- select file + Delete Key -> deletes file from app's Documents folder
+
+- select file + 'Save to...'  -> backs up selected file from device to chosen location
+
+- 'Add...'   -> move a file to the app's Documents folder
+
+Do NOT delete the app's database file named: IHM_Recipes.sqlite.
+
+If you do delete this file by mistake, the app will recreate the database (the next time loaded) in the state you found it the first time it loaded. Simply reboot the device to unload the app. Unloading an app can also be accomplish using the taskbar, accessible with a double click on round button at the bottom. All of the user-defined recipes will be missing. (Backup your user-defined recipes!)
+
+If you have a backup of your user-defined recipes (see FAQ #3), they may be re-imported using the method outlined in FAQ #1 and detailed in FAQ #5.
+
+
+[ #5 ] How do I move user recipes from one iOS device to another?
+
+- Create DGX export file as explained in FAQ #3 above.
+- Copy or move this file somewhere else using iTunes File Sharing.
+- Rename the file:
+
+from:  DG_Recipes_Export.dgx
+to:    DG_Recipes_Import.dgx
+
+- connect the second device to your computer
+- Using iTunes File Sharing, (using Add...) copy the renamed DGX file to the app's Document folder using 'Add...', as explain in #4 above.
+- Set the app's Preference 'Import Recipes' to ON using:
+
+Device's Settings app-> iHungryMe Preferences-> Import User Recipes 
+
+- Touch the 'Import' button on the home view, and the recipes in the DGX file will be imported.
+
+If the 'Import' button is not present at the upper right of the home view, then either the
+DG_Recipes_Import.dgx file is missing on the device or the app's 'Import Recipes' preference has not been set to ON.
+
+Note: the Preference will automatically be reset to OFF after the completion of the import and after the cancellation of the import.
+
+
+[ #6 ] How do I create a DGX file myself, so that I can instantly import many recipes of my choice?
+
+- Create a text file using a text editor, say TextEdit on a Mac or Notepad on Windows. 
+
+Name the file:
+
+DG_Recipes_Import.dgx  (case sensitive)
+
+(if a wordprocessor is used, save it as a text file.)
+
+Each imported recipe must contain at least three lines:
+
+1. Correctly formated Recipe Name  line
+
+2. Directions@  line
+
+3. Comments@  line
+
+The areas following Recipe Name, Directions@ tag and Comments@ tag may be empty but the order listed must be observed.
+
+You can optionally include categories on the Recipe Name line. These categories can be new or pre-exist the import of the recipe. The format for including recipe categories is provided later.
+
+The ingredients are followed by the DirectionsTag, namely,
+
+  Directions@
+
+The directions are followed by the CommentsTag, namely,
+
+  Comments@
+
+The comments, if any, must be after the Comments@ tag.
+
+Please note that the 'Directions@' and 'Comments@' tags serve only to separate data areas and are not actually written to the database.
+
+- order the parts of the recipes such that you have Recipe Name, Ingredients, Directions and Comments in that order. 
+
+Begin each recipe with Recipe Name enclosed in double square brackets, e.g.,
+
+[[Apple Pie]] 
+
+You may optionally include 1 or more categories (new or exisiting) for the recipe, as follows:
+
+[[Apple Pie :: Desserts :: Treats :: Some New Category]]
+
+IMPORTANT:  the pairs of square brackets and paired colons must not be separated by white space. Other than that, white space is unimportant.
+
+Follow the recipe name by the ingredients text.
+
+Follow the ingredients text with the Directions Tag,
+
+  Directions@
+
+Follow the directions text by the Comments Tag
+
+  Comments@
+
+The recipe's comments end the recipe's datD.
+
+Put as many recipes as you like into a DGX import file.
+
+Note: the directions and comments tags serve only to separate data sections. These tags are not written to the database.
+
+An example of a DGX file is found near the bottom of this file.
+
+
+[ #7 ]  I try to import my recipes but I don't see the 'Import' button. What is wrong?
+
+Check in iTunes File Sharing that the import file is present on the device in the app's area and has the case sensitive name:
+
+  DG_Recipes_Import.dgx
+
+Be sure too, that you have the app's Preference 'Import Recipes' set to ON. 
+
+
+[ #8 ] Can I share my user-defined recipes with my friends who have an iPhone, iPod Touch or iPad?
+
+Yes! Your recipes can be shared by emailing them to your friends. It is done this way:
+
+1. Ensure that your friend has iHungryMe/MePlus version 2.1 or later.
+
+2. Export your user-defined recipes following FAQ #2 above.
+
+3. Rename the DG_Recipes_Export.dgx to DG_Recipes_Import.dgx
+and send it to your friends.
+
+
+NOTE: Just below you see how to edit one of your own recipes so that it can be imported.
+
+
+--- Begin Downloaded Recipe Text File---
+
+Tomato Soup 
+
+What's better than fresh, creamy tomato soup on a Sunday night? Ground cloves add the flavor we all remember as kids. Just go very easy, as it is a strong spice.
+Yield: Makes 6 to 8 servings
+
+ingredients
+2 tablespoons butter
+2 tablespoons olive oil
+1 large onion, chopped
+1 tablespoon minced garlic
+2 tablespoons flour
+3 1/2 pounds ripe tomatoes, chopped
+2 tablespoons tomato paste
+1 teaspoon sugar
+3 cups Fresh Vegetable Broth
+1/8 teaspoon ground cloves
+Salt and pepper, to taste
+1/2 cup half-and-half
+
+preparation
+1. Melt the butter with the oil over low heat in a pot.
+
+2. Add the onion; wilt over low heat for 8 to 10 minutes. Add the garlic during the last 2 minutes, stirring. Sprinkle with flour and cook 3 minutes longer, stirring.
+
+3. Add the tomatoes, tomato paste, sugar, and broth. Bring to a boil, reduce heat to a simmer and cover; cook over medium-low heat for 30 minutes. Season with cloves, salt, and pepper. Remove from heat and cool slightly.
+
+4. Purée the soup in a food processor. Pour through a strainer into a pot. Stir in the half-and-half.
+
+5. Warm the soup before serving.
+
+--- End Downloaded Recipe ---
+
+
+--- Begin Same In DGX Format Ready For Import ---
+
+
+[[Tomato Soup :: Soups :: Treats :: Some New Category ]]
+
+2 tablespoons butter
+2 tablespoons olive oil
+1 large onion, chopped
+1 tablespoon minced garlic
+2 tablespoons flour
+3 1/2 pounds ripe tomatoes, chopped
+2 tablespoons tomato paste
+1 teaspoon sugar
+3 cups Fresh Vegetable Broth
+1/8 teaspoon ground cloves
+Salt and pepper, to taste
+1/2 cup half-and-half
+
+Directions@
+
+preparation
+1. Melt the butter with the oil over low heat in a pot.
+
+2. Add the onion; wilt over low heat for 8 to 10 minutes. Add the garlic during the last 2 minutes, stirring. Sprinkle with flour and cook 3 minutes longer, stirring.
+
+3. Add the tomatoes, tomato paste, sugar, and broth. Bring to a boil, reduce heat to a simmer and cover; cook over medium-low heat for 30 minutes. Season with cloves, salt, and pepper. Remove from heat and cool slightly.
+
+4. Purée the soup in a food processor. Pour through a strainer into a pot. Stir in the half-and-half.
+
+5. Warm the soup before serving.
+
+Comments@
+
+What's better than fresh, creamy tomato soup on a Sunday night? Ground cloves add the flavor we all remember as kids. Just go very easy, as it is a strong spice.
+
+--- End same in DGX Format file Ready For Import ---
+
+
+Until you build your confidence, I suggest you import only 1 to 4 recipes at a time. For your convenience, a log file (available to iTunes File Sharing) is created each time you import recipes into iHungryMe/iHungryMe+. Should the import fail, examination of this log file will help you identify exactly where the format mistake is found in the import DGX text file. This log file is named:
+
+   DG_Recipes_Import.log
+
+Recipes with exact names that already exist in the database, if found in an import DGX file, are skipped to avoid duplication.
+
+You might begin your study of importing recipes by copying and pasting the recipe above into your device's Mail app. Then email the recipe to yourself. On your computer copy and paste the recipe from email into your text editor and save it to a properly named import DGX file. Connect your device and then use iTunes File Sharing to move the new import DGX file to your device. If the import fails, check FAQ #7 here above.
+
+*** NOTE ***   You may well choose to add new categories as you import a DGX file. This is a quick and easy way to add new categories to the database, but If you choose to associate a newly imported recipe with a pre-existing category, be sure to check the spelling carefully. For example, if you have a pre-existing category named: 'Treats' and you import a new recipe with the category: 'Treat' , you would then have two search categories, when you actually want only one. 
+

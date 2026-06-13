@@ -1,0 +1,72 @@
+name: macOS Apple Silicon Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build HungryMe on Apple Silicon
+    runs-on: macos-15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Show runner and Xcode versions
+        run: |
+          uname -m
+          sw_vers
+          xcodebuild -version
+
+      - name: Verify Apple Silicon project settings
+        run: |
+          PROJECT_FILE="HungryMe.xcodeproj/project.pbxproj"
+
+          test -f "$PROJECT_FILE"
+          grep -q "ARCHS = arm64" "$PROJECT_FILE"
+          grep -q "MACOSX_DEPLOYMENT_TARGET = 11.0" "$PROJECT_FILE"
+
+          if grep -q "x86_64" "$PROJECT_FILE"; then
+            echo "Unexpected x86_64 architecture found in project settings."
+            exit 1
+          fi
+
+      - name: Verify client DGX sample
+        run: |
+          SAMPLE_FILE="Client Samples/New recipes.dgx"
+
+          test -f "$SAMPLE_FILE"
+          grep -Fq "A Sugar Water" "$SAMPLE_FILE"
+          grep -Fq "User-Defined" "$SAMPLE_FILE"
+          grep -Fq "American" "$SAMPLE_FILE"
+          grep -Fq "Directions@" "$SAMPLE_FILE"
+          grep -Fq "Comments@" "$SAMPLE_FILE"
+
+      - name: Verify DGX drag-drop/import source path
+        run: |
+          grep -q "pathExtension" "Classes/DgxDropZoneBoxView.m"
+          grep -q "dgx" "Classes/DgxDropZoneBoxView.m"
+          grep -q "importRecipes" "Classes/DgxDropZoneBoxView.m"
+          grep -q "DIRECTIONS_TAG_STRING" "Classes/MyAppController.m"
+          grep -q "COMMENTS_TAG_STRING" "Classes/MyAppController.m"
+
+      - name: Build app for arm64 macOS
+        run: |
+          xcodebuild \
+            -project HungryMe.xcodeproj \
+            -target HungryMe \
+            -configuration Debug \
+            -destination 'platform=macOS,arch=arm64' \
+            -derivedDataPath build/DerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: Verify built app binary is arm64
+        run: |
+          APP_BINARY="build/DerivedData/Build/Products/Debug/HungryMe.app/Contents/MacOS/HungryMe"
+
+          test -f "$APP_BINARY"
+          file "$APP_BINARY"
+          file "$APP_BINARY" | grep -q "arm64"

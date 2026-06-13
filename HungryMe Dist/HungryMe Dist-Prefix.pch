@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HungryMe Dist' target in the 'HungryMe Dist' project
+//
+
+#ifdef __OBJC__
+   #import <Cocoa/CocoD.h>
+#endif

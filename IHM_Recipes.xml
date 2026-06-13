@@ -1,0 +1,2612 @@
+<xml>
+  <!--recipes version="1.34" date="10/26/2011" -->
+   <!-- recipes version="1.40" date="11/04/2011" -->
+   <!--recipes version="1.41" date="11/15/2011" -->
+      <!--recipes version="1.43" date="1/30/2012" -->
+      <!-- recipes version="1.44" date="8/8/2012" -->
+   <!-- recipes version="1.45" date="11/14/2012" below is Nothing keep update "03/26/2014"-->
+   <!-- recipes version="1.47" date="03/26/2014" below fixes WhiteFish categ 1 -->
+   <!--recipes version="1.50" date="09/03/2014" -->
+   <recipes version="1.51" date="02/09/2015" >
+  	  <recipe  date="2/1/2011" id="1" name="Lime Garlic Soup" categ="soup" categ2="" tag="LimeSoup">
+		<photo iPhoneContentMode="12" iPadContentMode="0" name="01_LimeGarlicSoup.png" />
+		<specs ctime="0:05" ptime="0:04" serves="2" />
+		<ingreds>
+			<ingred name="olive oil" amt="2" unit="Tbsp" note="" />
+			<ingred name="dried oregano" amt="2" unit="tsp" note="" />
+			<ingred name="garlic" amt="1-2" unit="cloves" note="(finely chopped)" />
+			<ingred name="chicken broth" amt="14" unit="oz" note="" />
+			<ingred name="lime juice" amt="2" unit="Tbsp" note="" />
+			<ingred name="chicken breast" amt="1/2" unit="cup" note="(cooked, optional)" />
+			<ingred name="fresh jalapeno" amt="1" unit="" note="(seeded, sliced, optional)" />
+			<ingred name="cherry tomato" amt="3" unit="" note="(quartered, optional)" />
+			<ingred name="sliced scallions" amt="2" unit="Tbsp" note="(optional)" />
+			<ingred name="tortilla chips" amt="1" unit="cup" note="(optional)" />
+		</ingreds> 
+		<directions>
+			<direction>Heat oil at medium heat until hot. Add oregano and stir for 1 minute.
+			</direction>
+			<direction>Add garlic and stir for 1 minute or until it begins to turn pale brown.
+			</direction>
+			<direction>Add broth and optionally the sliced cooked chicken. Increase heat and simmer for 3 minutes or more.
+			</direction>
+			<direction>Add the lime juice. Check for salt. 
+			</direction>
+			<direction>Ladle into bowls and serve. Have dishes for passing with jalapeno rings, cherry tomatoes, scallions and chips.
+			</direction>
+		</directions>
+		<comment>Quick, easy, lovely aromD. Garnish with very thinly sliced jalapeno rings, cherry tomatoes, scallions or chives and corn chips. Add cooked strips of chicken breast and call it a meal! If you add no salt and still find it too salty, you may slightly dilute with water, but I suggest you search out a broth with lower salt content. The garlic and the oregano provide a lovely aromD. I know of no other truly delicious soup that is either quicker or easier. The photo (with dried garden-grown oregano) shows the soup without the options. If you remove the chicken from consideration, adding all the options  might add less then 3 minutes of prep time. I strongly recommend you try this soup with all the above. It moves from very good to truly memorable. Making homemade chicken stock is not difficult. You may well prefer cooking the chicken strips raw in the oil, garlic and oregano for several minutes and then extending the simmering of broth to insure that the chicken is cooked. If you don't love this soup, you have the wrong broth.
+		</comment>
+	  </recipe>	
+      <recipe  date="10/4/2011" id="2" name="Barb's Sausage Chili" categ="soup" categ2="" tag="SausageChili">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:25" ptime="0:05" serves="4-6" />
+         <ingreds>
+            <ingred name="olive oil" amt="1" unit="Tbsp" note="" />
+            <ingred name="onion" amt="1/2" unit="cup" note="(chopped medium)" />
+            <ingred name="pork sausage" amt="1" unit="lb." note="(sweet italian/brats)" />
+            <ingred name="celery" amt="1" unit="stalk" note="(diced)" />
+            <ingred name="diced tomatoes" amt="28" unit="oz. can" note="(with juice)" />
+            <ingred name="chicken broth" amt="14" unit="oz. can" note="" />
+            <ingred name="molasses/maple syrup" amt="2-3" unit="Tbsp" note="" />
+            <ingred name="black pepper" amt="1/2" unit="tsp" note="" />
+            <ingred name="ground cumin" amt="2" unit="tsp" note="" />
+            <ingred name="ground sage" amt="1" unit="tsp" note="" />
+            <ingred name="red kidney beans" amt="3 1/2" unit="cups" note="(cooked)" />
+            <ingred name="salt" amt="1 1/2" unit="tsp" note="(to taste)" />
+            
+         </ingreds>
+         <directions>
+            <direction>Add oil, onion and thinly sliced sausage to skillet. Cook at medium heat until meat begins to brown.
+            </direction>
+            <direction>Add celery and cook for three more minutes.
+            </direction>
+            <direction>Add remaining ingredients: tomatoes, broth, molasses(or syrup), pepper, cumin, ground sage, beans and simmer for at least 15 minutes.
+            </direction>
+         </directions>
+         <comment>This chili is very different in character from the average chili. Most chilis cry out to be made fiery hot with red pepper. This chili is different. This soup improves with reheating. You can substitute tomato juice for the broth. Serve with cornbread. Chili is much improved by cooking your own beans. Pour dried beans on the counter or table to sort. Remove possible grit or misshapen beans. Soak dried beans overnight, and rinse well. Better yet, soak with two or three changes of water to reduce the dreaded bean effect. If you don't have time to soak, boil twice with a change of water. Boil until passing the 'done to the bite' test, perhaps 45 minutes (depending on soak time). Drain. Rinse well. Add salt to beans only after the boiling is done or the beans will get hard. If this chili seem boring, add a bit more salt. Nothing keeps food from being its best more than undersalting does.  If you have to use canned beens, add them about 10 minutes before serving. See Home->Treats->Kathleen's Spicy Nuts->Comments for information on roasting cumin seed. I love beans, but have to say that few things are more tasteless than an unsalted bean. Serve left over beans with a vinaigrette ( 2 Tbsp Oil, 2 Tbsp cider vinegar and 1/2 tsp salt and optionally 1/4 tsp Dijon mustard ), chopped onions and parsley.</comment>
+      </recipe>	
+	   <recipe  date="10/4/2011" id="3" name="Tomato Red Lentil Soup" categ="soup" categ2="" tag="LentilSoup">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="03_TomatoLentilSoup.png" />
+         <specs ctime="0:55" ptime="0:12" serves="4-6" />
+         <ingreds>
+            <ingred name="red lentils" amt="1" unit="cups" note="" />
+            <ingred name="water" amt="4" unit="cup" note="" />
+            <ingred name="tomatoes" amt="14" unit="oz" note="(w/ juice)" />
+            <ingred name="ground coriander seed" amt="1" unit="tsp" note="" />
+            <ingred name="ground cumin" amt="1" unit="tsp" note="(pref. roasted)" />
+            <ingred name="ground cayenne" amt="1/2" unit="tsp" note="(hot!)" />
+            <ingred name="chopped onion" amt="2" unit="Tbsp" note="" />
+            <ingred name="chopped garlic" amt="3" unit="cloves" note="" />
+            <ingred name="salt" amt="1 1/2" unit="tsp" note="(minimum)" />
+            <ingred name="lemon juice" amt="2" unit="Tbsp" note="" />
+            <ingred name="black mustard seeds" amt="1" unit="tsp" note="" />
+            <ingred name="vegetable oil" amt="1 1/2" unit="Tbsp" note="" />
+            <ingred name="fresh coriander" amt="2" unit="Tbsp" note="(optional)" />
+         </ingreds>
+         <directions>
+            <direction>In a large pot cook lentils in 4 cups water for 20 minutes at a slow boil, with lid aslant.
+            </direction>
+            <direction>Meanwhile in a processor puree tomatoes, onion and garlic.
+            </direction>
+            <direction>Add tomato puree, ground coriander, ground cumin, and cayenne to lentils. Cover. 
+            </direction>
+            <direction>Continue cooking at slow boil for another 35 minutes. Ensure that the lentils are cooked.
+            </direction>
+            <direction>Add lemon juice and salt. Adjust for salt and thickness. Turn heat very low.
+            </direction> 
+            <direction>In a small pan heat oil over medium heat until hot, but not smoking. Add mustard seeds. Cover and wait a minute until seeds have popped.
+            </direction>
+            <direction>Temper the soup by adding the oil and mustard seeds. Serve garnished with fresh coriander.
+            </direction>
+         </directions>
+         <comment>Extraordinary! You must try this soup! Freezes excellently. A fine example of the whole being greater than the sum of its parts. Red lentils are found at Indian and Middle Eastern groceries. You may substitute yellow split peas or even split green peas and still have a very good soup, but you must cook them an additional 15-20 minutes. Before serving you may well like to puree soup with an immersion blender. See Home->Treats->Kathleen's Spicy Nuts->Comments for information on roasting cumin seed. The dry pan roasting of the seed takes only two minutes. Please try it!</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="4" name="Mexican Tomato Salsa" categ="treat"  categ2="vegan" tag="Salsa">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="04_SalsD.png" />
+         <specs ctime="0:00" ptime="0:06" serves="4-6" />
+         <ingreds>
+            <ingred name="diced tomatoes" amt="14" unit="oz" note="(w/ 1/2 the juice)" />
+            <ingred name="fresh coriander" amt="3" unit="Tbsp" note="(chopped, or parsley)" />
+            <ingred name="hot sauce" amt="1-2" unit="tsp" note="" />
+            <ingred name="lime juice" amt="2" unit="Tbsp" note="(or lemon)" />
+            <ingred name="jalapenos" amt="2" unit="Tbsp" note="(canned)" />
+            <ingred name="diced onions" amt="1" unit="Tbsp" note="" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="(to taste)" />
+         </ingreds>
+         <directions>
+            <direction>Add all ingredients to food processor and pulse 6-8 times.
+            </direction>
+         </directions>
+         <comment>Do use coriander and lime if you can. You can substitute lemon juice and/or parsley. Canned yellow banana pepper rings make a fine substitute for the jalapenos. Salsa, salad, and salary all derive from words for salt. Alton Brown says, "Salt is the thing that make everything taste bad, when it's not there". Read Mark Kurlansky's "The History of Salt".</comment>
+      </recipe>
+      <recipe  date="4/26/2011" id="5" name="Swiss Potato Cake (Rösti)" categ="veggie"  categ2="vegan" tag="PotatoCake">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="05_Roesti.png" />
+         <specs ctime="0:28" ptime="0:10" serves="4-6" />
+         <ingreds>
+            <ingred name="russet potatoes" amt="2" unit="lbs." note="(4-5 medium)" />
+            <ingred name="vegetable oil" amt="4" unit="Tbsp" note="(2+2)" />
+            <ingred name="butter" amt="1" unit="Tbsp" note="(Vegan skip)" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Boil hard for 10 minutes (14 minutes if large potatoes) with skins on. The point of a sharp knife should go in about one inch before appreciable resistance.
+            </direction>
+            <direction>Drain, cool and peel. Refrigerate for at least an hour (or 30 minutes uncovered in freezer).
+            </direction>
+            <direction>Grate potatoes shortly before cooking. Toss in the salt. Heat 3 Tbsp. oil and butter until very hot in a heavy 12 inch (30 cm.) pan. Add potatoes. Spread with a spatulD.
+            </direction>
+            <direction>Fry uncovered for about 10 minutes. Pan should be hot but not smoking. Shake several times to keep loosened from the bottom. Potatoes should be quite brown.  
+            </direction>
+            <direction>When potatoes are very brown, invert onto tray or plate, while pressing together. Add 2 Tbsp. oil to pan, and slide back into pan.
+            </direction>
+            <direction>Reduce to medium heat.  Add a bit more oil at pan's edge if needed. Cook about 7 more minutes. Both sides should be well browned.
+            </direction>
+         </directions>
+         <comment>Oil is kept hot but not smoking. If you wish to include onions, sauté them in butter and add initially between two layers of potatoes. Top with some middle eastern labna, sour cream, or grated sharp cheddar. If you love hash browns, and have to have them done right, this is the method. Cast iron skillets are wonderful. On ebay.com find out what cast iron pans are sought after. Get yourself one 12 inch(30 cm.). Better still, buy a pair, the second at 10". Your grandchildren will quite possibly argue for possession, when you are gone. Their care is simple; never leave them wet. Clean, dry and lightly oil for a lifetime of pleasing, reduced-burning, non-stick use. Google: 'cast iron seasoning' for more details.</comment>
+      </recipe>
+      <recipe  date="2/10/2011" id="6" name="Romaine Salad with Vinaigrette" categ="veggie"  categ2="vegan" tag="The Salad">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:00" ptime="0:04" serves="4-6" />
+         <ingreds>
+            <ingred name="cider vinegar" amt="2" unit="Tbsp." note="" />
+            <ingred name="green onion" amt="1" unit="" note="(entire, chopped)" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="" />
+            <ingred name="olive oil" amt="2" unit="Tbsp" note="" />
+            <ingred name="chopped romaine lettuce" amt="6-8" unit="cups" note="" />
+         </ingreds>
+         <directions>
+            <direction>Combine vinegar, salt and chopped onion. Stir well. Marinate onion at least 10 minutes.
+            </direction>
+            <direction>Cut romaine starting from the tip into 3/4 inch slices. Wash, drain and spin dry.
+            </direction>
+            <direction>Place the lettuce, the olive oil and the marinated onion in a large bowl and toss well.
+            </direction>
+         </directions>
+         <comment>You can vary this salad by addition of 1 oz of your favorite blue cheese. Or go with grated Reggiano, Piave, Romano, and/or fresh garlic. Smash garlic clove by striking the flat side of a knife covering the clove. Place well crushed garlic in the 2 Tbsp of vinegar. Tease garlic for a bit. Remove garlic and add the onion, vinegar and oil to salad. There is no need to remove the garlic skin prior to smashing it. Crushed pita chips double as great croutons (add just prior to tossing). To make garlic croutons, toast well your best bread, cut into cubes and then stir the cubes briefly in a heated skillet with garlic butter possibly seasoned with celery salt. Substitute any onion for green onion. For reasons that I don't understand, you have to reduce the amount of salt when using this dressing with leaf lettuce, say 20 percent. Caveat emptor; I love salt and use a slightly rounded 1/2 teaspoon of salt with Romaine and a bit less than 1/2 tsp for leaf lettuce. I am surprised at the prevalence of 2:1 and 3:1 ratios of oil to vinegar that I encounter in vinaigrette recipes. Over the years I have steadily reduced this ratio until I arrived at the truth and beauty of 1:1. What ever your taste, I strongly recommend you try cider vinegar in your salads.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="7" name="Pasta alla Carrettiera" categ="entree"  categ2="vegan" tag="PastaCarrettiera">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="07_PastaCarrettiere.png" />
+         <specs ctime="0:15" ptime="0:05" serves="3" />
+         <ingreds>
+            <ingred name="salt" amt="2" unit="tsp" note="(in 3 quarts water)" />
+            <ingred name="olive oil" amt="3" unit="Tbsp" note="" />
+            <ingred name="diced tomatoes" amt="14" unit="oz" note="(can)" />
+            <ingred name="parsley" amt="1/2" unit="cup" note="(chopped, stems removed)" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="(on tomatoes)" />
+            <ingred name="garlic" amt="1" unit="cloves" note="(minced or smashed)" />
+            <ingred name="grated parmesan" amt="1/4" unit="cup" note="(optional)" />
+            <ingred name="spaghetti" amt="10" unit="oz." note="" />
+         </ingreds>
+         <directions>
+            <direction>Start bringing to a boil 3-4 quarts of water with 2 tsp salt.
+            </direction>
+            <direction>Place oil, tomatoes, three quarters of chopped parsley and 1/2 tsp salt in a heavy skillet. Cook at medium heat for 15 minutes, stirring occasionally to avoid burning. 
+            </direction>
+            <direction>Set timer. Cook pasta one minute less than suggested on box. Stir well after one minute of cooking to avoid clumping.
+            </direction>
+            <direction>Add the garlic to the sauce shortly before the end of cooking, say four minutes before. 
+            </direction>
+            <direction> When pasta is done, drain well and place in skillet with sauce. Toss well and adjust for salt and oil. Optionally add cheese. Garnish with remaining parsley and serve. 
+            </direction>
+         </directions>
+         <comment> You may prefer doubling the tomatoes. The sauce's cooking time is slightly reduced by first draining the tomatoes. If you choose to smash the garlic with your hand using a spatula or the side of a knife (simpler and quicker than mincing), you may want to remove the garlic just prior to adding the pasta to the sauce. If your pasta is done ahead of the sauce, drain it and return it to the warm cooking pot. Add some olive oil and toss, so as to keep the pasta from sticking, and cover. A tablespoon or two of oil in the cooking water will also serve to greatly reduce clumping. Optionally grate on some good Italian cooking cheese such as Parmesan, Grana Padano, or my current favorite, Piave. Garnish with parsley. Serve with a green salad [Home->Veggies->Romaine Salad]. I predict that this is the entree from this collection, that you will return to most often. Viva ItaliD. After very short consideration, I nominate this for the best entree recipe in the world award. IMHO this recipe gets 10 out of 10 in many areas including: taste, aroma, dependability, ease of production, speed of production, cost of ingredients, availability of ingredients 24/7, its ability to sustain you through many hours of fasting or exercise, its ability to please everyone in the extended family and it repeatability with out complaints. You simply can not make this gloriously delicious pasta and ever go back to Prego. I can think of no other recipe that can more realistically be scheduled for dinner once a week, year round and take care of a seventh of all your 'What-Can-I-Make-For-Dinner' problems. My family eats it more often than that. Get out the red wine and prepare to feel lucky! My wife likes the freshness of the tomatoes after 15 minutes of cooking. I prefer the intensity of flavor that comes from cooking it another 10 minutes, or until the tomatoes darken and collapse. Use a garlic press and further speed this already very quick recipe. There is no need to peel garlic placed in the press. Actually, removal from the press is made easier by not peeling. If you choose to smash the garlic, you will find that peeling the garlic is a snap thereafter. About the name: the carters of Rome acted as their 'Two Men and a Truck'. Needing a very quick and easy meal at a fire in the streets, they reputedly settled on this pasta sauce.  The photo does no justice to this dish. - Mark Barron
+         </comment>
+      </recipe>
+      <recipe  date="11/04/2011" id="8" name="Welsh Rarebit" categ="sauce"  categ2="" tag="WelshRarebit">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="08_WelshRarebit2.png" />
+         <specs ctime="0:10" ptime="0:05" serves="4-6" />
+         <ingreds>
+            <ingred name="butter" amt="1" unit="Tbsp" note="" />
+            <ingred name="beer" amt="1" unit="cup" note="" />
+            <ingred name="sharp cheddar" amt="1" unit="lb." note="(grated)" />
+            <ingred name="eggs" amt="2" unit="" note="(room temp, beaten)" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="curry powder" amt="1/2" unit="tsp" note="(optional)" />
+            <ingred name="dry mustard" amt="1/4" unit="tsp" note="(or 1/2 tsp dijon)" />
+            <ingred name="ground cayenne pepper" amt="1" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Warm butter and beer in double boiler.  
+            </direction>
+            <direction>Melt cheese in beer.
+            </direction>
+            <direction>Stir in beaten eggs.
+            </direction>
+            <direction>Stir in salt, curry powder and mustard.
+            </direction>
+            <direction>Serve on toast and/or Roasted Tomatoes [Home->Veggies], heavily dusting with the cayenne.
+            </direction>
+         </directions>
+         <comment>My local Costco has great aged cheddars, priced lower than Kraft Sharp: Tillamook Black and Dubliner.  I truly love this dish!</comment>
+      </recipe> 
+      <recipe  date="6/29/2011" id="9" name="Roasted Tomatoes" categ="veggie" categ2="vegan" tag="RoastTomato">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="09_RoastedTomatoes2.png" />
+         <specs ctime="1:30" ptime="0:04" serves="4" />
+         <ingreds>
+            <ingred name="fresh tomatoes" amt="1" unit="lb." note="(sliced)" />
+            <ingred name="fresh garlic" amt="2" unit="tsp" note="(minced)" />
+            <ingred name="olive oil" amt="2-3" unit="Tbsp" note="" />
+            <ingred name="salt" amt="(to taste)" unit="" note="" />
+         </ingreds>
+         <directions>
+            <direction>Place tomatoes halves in open ovenproof dish.
+            </direction>
+            <direction>Mix oil and garlic well. Drizzle over the tomatoes. I use a small pitcher.
+            </direction>
+            <direction>Salt tomatoes. Cook for at least 90 minutes at 350-375 F (177-191 C). Baste Twice. Done when edges start to blacken.
+            </direction>
+         </directions>
+         <comment>The simplicity of this dish will not prepare you for its amazing taste. I suggest you try Campari tomatoes. For a change, bake with 1/4 tsp dried oregano. Enjoy!</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="10" name="Instant Semisweet Chocolate" categ="treat" categ2="vegan" tag="ChocolateSauce">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:01" ptime="0:01" serves="2" />
+         <ingreds>
+            <ingred name="cocoa powder" amt="1" unit="tsp" note="" />
+            <ingred name="sugar" amt="4" unit="tsp" note="" />
+            <ingred name="water" amt="1 1/2" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Place ingredients in microwave-safe dish. Stir.
+            </direction>
+            <direction>Three times heat (15 seconds?) to a frothy boil in microwave and stir.
+            </direction>
+         </directions>
+         <comment>Additional sugar together with additional cooking will make for a firmer sauce. </comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="11" name="Roasted Nuts" categ="treat" categ2="vegan" tag="Nuts">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="11_RoastedPecans.png" />
+         <specs ctime="0:15" ptime="0:01" serves="4" />
+         <ingreds>
+            <ingred name="almond, pecan, ..." amt="1" unit="lb." note="(any nut)" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven to 325 F (163 C).
+            </direction>
+            <direction>Place Nuts on a heavy cookie sheet. Set timer for 10 minutes, do not burn. Bake about 15 minutes. The top pecan in the photo is unroasted. The lower one is properly roasted.
+            </direction>
+         </directions>
+         <comment>All nuts are greatly improved by roasting. Nuts are done when you can begin to smell them well. Pecans are more sensitive to burning (perhaps use 300 F), check and stir more often. Forget about pine nuts in Pesto. See [Home->Entrees->Pesto with Roasted Pecans]. Use chopped roasted pecans. It's best to always have some roasted nuts on hand! </comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="12" name="Citrus Peel Candy" categ="treat" categ2="vegan" tag="CandiedCitrus">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="12_CandiedPeel.png" />
+         <specs ctime="0:40" ptime="0:03" serves="4" />
+         <ingreds>
+            <ingred name="grapefruit peel" amt="2" unit="entire" note="(all fruit removed)" />
+            <ingred name="sugar" amt="1 3/4" unit="cup" note="(1/4 cup for coating later)" />
+         </ingreds>
+         <directions>
+            <direction>Cut peel (fruit and membrane removed) into 8 or more pieces per fruit. Further cutting may be done later.
+            </direction>
+            <direction>Boil peel 15 minutes in water to cover. Drain.
+            </direction>
+            <direction>Again boil peel 15 minutes in water to cover. Drain.
+            </direction>
+            <direction>Bring to boil 1 1/2 cup sugar in 3/4 cup water. Stir until syrup is clear.
+            </direction>
+            <direction>Add peel and simmer until syrup has lost almost all its water, perhaps 15 minutes.
+            </direction>
+            <direction>Cool and arrange on racks (best), or wax paper lined cookie sheet. Dry several days. Turn twice.
+            </direction>
+            <direction>Once firmer and dried, roll peel in sugar until lightly coated. If you roll too soon, it is not a problem, but the sugar coating will be much thicker.
+            </direction>
+         </directions>
+         <comment>Optionally dip finished peel in "Instant Bittersweet Chocolate Sauce" or "Chocolate Dipping Sauce" both in [Home->Treats]. Serve with strong coffee! Freezes well.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="13" name="Codfish Cakes" categ="entree" categ2="" tag="CodCake">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="13_CodfishCake.png" />
+         <specs ctime="0:18" ptime="0:06" serves="4" />
+         <ingreds>
+            <ingred name="codfish" amt="8-10" unit="oz." note="(salted or frozen)" />
+            <ingred name="mashed potatoes" amt="2 1/2" unit="cups" note="(see comments)" />
+            <ingred name="eggs" amt="2" unit="large" note="" />
+            <ingred name="chopped onion" amt="1" unit="cup" note="" />
+            <ingred name="bread crumbs" amt="1" unit="cup" note="(more if not dried)" />
+            <ingred name="salt" amt="1" unit="tsp" note="(to taste)" />
+            <ingred name="parsley" amt="1" unit="handful" note="(chopped,stems removed)" />
+            <ingred name="vegetable oil" amt="1" unit="cup" note="(1/8 inch in skillet)" />
+            <ingred name="lemon" amt="1" unit="sliced" note="(imperative!)" />
+         </ingreds>
+         <directions>
+            <direction>Slowly simmer fish in water to cover for 10 minutes. Drain and break into small pieces. I use two forks.
+            </direction>
+            <direction>Chop parsley, onion. In a mixing bowl thoroughly mix cod, potatoes, eggs, onions, bread crumbs, parsley and salt.
+            </direction>
+            <direction>In a heavy skillet heat vegetable oil until very hot but not smoking.
+            </direction> 
+            <direction>Form round flat cakes with your hands resembling hamburger patties but thinner, say 1/2" thick and about three inches wide.
+            </direction>
+            <direction>Fry about 3 1/2 to 4 minutes per side. The onions need to cook, so I suggest you cook until patties are dark brown on both sides.
+            </direction>
+            <direction>Poke cakes with a fork to aide absorption of lemon juice at serving time. Salt.
+            </direction>
+         </directions>
+         <comment>Uncooked patties will store covered several days in refrigerator. I eagerly devour these cakes, be it breakfast, lunch or dinner. These cakes are not going to be all that they can be, without great mashed potatoes. See World Class Mashed Potatoes [Home->Veggies]. The bread crumbs are mainly to aid in handling the sticky cakes. This recipe is improved by using salt cod. You will have a better, stronger cod flavor using less cod. The price per pound can be almost triple. I prefer salt cod from CanadD. Simply soak 12-24 hours in covered container with three changes of water. If you choose to use frozen codfish, use Atlantic Cod.  Frozen cod is much cheaper and more widely available, use 50% more fish. Server with plenty of lemon juice, and don't make the mistake of assuming that the salted cod will still contain much salt. I find no difference in salt required by frozen cod or salted cod that has been soaked. Read Mark Kurlansky's "Cod: A Biography of the Fish That Changed the World" [Audiobook available]</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="14" name="World Class Mashed Potatoes" categ="veggie" categ2="" tag="MashedPotato">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:20" ptime="0:10" serves="4-6" />
+         <ingreds>
+            <ingred name="baking potatoes" amt="1 1/2" unit="lb." note="" />
+            <ingred name="butter" amt="3" unit="Tbsp" note="(unsalted)" />
+            <ingred name="black pepper" amt="5-8" unit="grindings" note="" />
+            <ingred name="salt" amt="1" unit="tsp" note="(to taste)" />
+            <ingred name="milk" amt="2/3" unit="cup" note="(room temp)" />
+         </ingreds>
+         <directions>
+            <direction>Peel potatoes if you prefer. Cut across length into slices no more than 3/4". The skin improves taste and impairs appearance.
+            </direction>
+            <direction>Boil in salted water for 15-20 minutes and test for doneness with a sharp knife. Don't overcook or overtest. Cooking time varies with potato variety. Salt raises the boiling temperature of water.
+            </direction>
+            <direction>Drain well. Mash together with the butter, salt and pepper, using perhaps a food mill, hand masher or electric beater. Do not use your food processor, since the potatoes need to stay somewhat mealy.
+            </direction> 
+            <direction>Slowly incorporate the milk into the mashing. Stop adding when you observe desired consistency. Add a bit less if using for Codfish Cakes:[Home->Entrees].
+            </direction>
+            <direction>Potatoes will keep several days covered in refrigerator.
+            </direction>
+         </directions>
+         <comment>Russets work well. You may substitute half and half or heavy cream for the milk. If you are looking for compliments, use cream.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="15" name="Baba Ganoush" categ="veggie" categ2="vegan" tag="BabaGanouj">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="15_BabD.png" />
+         <specs ctime="0:45" ptime="0:05" serves="3-4" />
+         <ingreds>
+            <ingred name="eggplant" amt="1" unit="lb." note="(450 mg)" />
+            <ingred name="garlic" amt="2" unit="cloves" note="(minced)" />
+            <ingred name="tahini" amt="1-3" unit="Tbsp" note="" />
+            <ingred name="lemon juice" amt="3" unit="Tbsp" note="" />
+            <ingred name="parsley" amt="1" unit="handful" note="" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="or more" />
+            <ingred name="black pepper" amt="to taste" unit="" note="" />
+            <ingred name="honey" amt="2-3 Tbsp" unit="" note="(optional)" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven to 375 F (191 C). Using a sharp knife tip, pierce the skin 6-8 times to insure the eggplant does not explode.
+            </direction>
+            <direction>Bake until eggplant collapses to about half way, perhaps 45 minutes.
+            </direction>
+            <direction>Cool to handle. Remove flesh from the skin. Discard skin. Drain eggplant, allowing the colloids to drain for at least 10 minutes in a colander. 
+            </direction>
+            <direction>Pulse 10 times all ingredients in food processor. Done when smooth.
+            </direction>
+         </directions>
+         <comment>Serve this luscious middle eastern delight with pita chips. The honey is favored by many to eliminate any bitterness.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="16" name="Sweet and Sour Cabbage" categ="veggie" categ2="vegan" tag="S&amp;S Cabbage">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:06" ptime="0:06" serves="4" />
+         <ingreds>
+            <ingred name="cabbage" amt="6-8" unit="cups" note="(rough cut)" />
+            <ingred name="sugar" amt="6" unit="Tbsp" note="" />
+            <ingred name="water" amt="1/2" unit="cup" note="" />
+            <ingred name="cider vinegar" amt="1/4" unit="cup" note="" />
+            <ingred name="soy sauce" amt="1" unit="Tbsp" note="" />
+            <ingred name="corn starch" amt="1 - 1 1/2" unit="Tbsp" note="" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="vegetable oil" amt="3" unit="oz." note="" />
+         </ingreds>
+         <directions>
+            <direction>Core and rough cut cabbage into, say 2 inch pieces.
+            </direction>
+            <direction>In a small bowl mix water, sugar, vinegar, soy sauce, cornstarch and salt.
+            </direction>
+            <direction>Heat oil in a large heavy pan over medium high heat until hot. Add cabbage. Cook, stirring for 3-4 minutes.
+            </direction>
+            <direction>Remove from heat. Remove cabbage from the pan.
+            </direction>
+            <direction> Add the sauce to pan and return to the heat. The sugar will tend to cling to the bottom. Stir until it thickens, say 40 seconds.
+            </direction>
+            <direction>Add the cabbage and toss while cooking for another 1-2 minutes.
+            </direction>
+         </directions>
+         <comment>The cabbage should still have a bit of crunch. Don't overcook.</comment> 
+      </recipe>
+      <recipe  date="2/1/2011" id="17" name="Onion Tomato Chutney" categ="sauce" categ2="vegan" tag="Chutney">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:40" ptime="0:05" serves="6-8" />
+         <ingreds>
+            <ingred name="yellow onion" amt="1" unit="medium large" note="" />
+            <ingred name="vegetable oil" amt="2" unit="Tbsp" note="" />
+            <ingred name="tomato paste" amt="2" unit="Tbsp" note="" />
+            <ingred name="water" amt="2" unit="cup" note="" />
+            <ingred name="cider vinegar" amt="1/2" unit="cup" note="" />
+            <ingred name="golden raisins" amt="3/4" unit="cup" note="" />
+            <ingred name="brown sugar" amt="1/3" unit="cup" note="" />
+            <ingred name="salt" amt="" unit="" note="(to taste)" />
+            <ingred name="vegetable oil" amt="2" unit="oz." note="" />
+         </ingreds>
+         <directions>
+            <direction>In a skillet heat oil and add onions. Cook while stirring for 5 minutes. Onions should begin to brown.
+            </direction>
+            <direction>In a bowl slowly add the water to the paste. Then add to skillet along with the rest of the ingredients.
+            </direction>
+            <direction>Simmer for 30 to 40 minutes. 
+            </direction>
+         </directions>
+         <comment>Serve with crackers previously spread with Goat Cheese Spread [Home->Snacks]</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="18" name="Goat Cheese Spread" categ="snack" categ2="" tag="GoatCheese">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:00" ptime="0:06" serves="many" />
+         <ingreds>
+            <ingred name="goat cheese" amt="1" unit="11 oz. log" note="" />
+            <ingred name="unsalted butter" amt="6" unit="Tbsp" note="" />
+            <ingred name="garlic" amt="1/2" unit="clove" note="(minced or pressed)" />
+            <ingred name="chives" amt="1" unit="Tbsp" note="(finely chopped)" />
+         </ingreds>
+         <directions>
+            <direction>Cream all ingredients. The Kitchen Aid is perfect here.
+            </direction>
+            <direction>Hold chives over small bowl and scissor them.
+            </direction>
+            <direction>Spread cheese on crackers and garnish with chives.
+            </direction>
+         </directions>
+         <comment>Keep well covered in refrigerator. Consider combining on crackers with Tomato Onion Chutney:[Home->Sauces] or [Home->Vegan] I use the soft french goat cheese roll from Costco.</comment>
+      </recipe>
+      <recipe  date="10/14/2011" id="19" name="Mexican Tomato Sauce" categ="sauce"  categ2="vegan" tag="MexTomato">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="19_TortillD.png" /> 
+         <specs ctime="0:40" ptime="0:05" serves="4-6" />
+         <ingreds>
+            <ingred name="garlic" amt="1" unit="clove" note="(minced)" />
+            <ingred name="vegetable oil" amt="2" unit="Tbsp" note="" />
+            <ingred name="cayenne" amt="1/4" unit="tsp" note="" />
+            <ingred name="yellow onion" amt="1" unit="medium chopped" note="" />
+            <ingred name="tobasco" amt="1" unit="tsp" note="" />
+            <ingred name="chili powder" amt="1" unit="tsp" note="" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="" />
+            <ingred name="ground cumin seed" amt="1/2" unit="tsp" note="(roasted)" />
+            <ingred name="honey" amt="1" unit="Tbsp" note="" />
+            <ingred name="tomatoes" amt="14" unit="oz" note="(canned)" />
+            <ingred name="tomato sauce" amt="8" unit="oz." note="(canned)" />
+         </ingreds>
+         <directions>
+            <direction>Sauté garlic, oil, cayenne, onion, tabasco, chili powder, salt and cumin until the onions are translucent. 
+            </direction>
+            <direction>Add honey, tomatoes and tomato sauce and simmer uncovered for 30 minutes. You may substitute 1 Tbsp tomato paste with 1 cup of water slowly added to it for the canned tomato sauce.
+            </direction>
+         </directions>
+         <comment>Substitute 3 oz. tomato paste for the canned tomato sauce. Roast cumin seeds about 1-2 minutes in a very hot, not greased, heavy skillet, stirring until the seeds emit that wonderful smell and just begin to darken. Grind seeds once cooled. I use a high speed bladed grinder that is normally used for coffee beans. I hope that this sauce inspires you to make open-faced homemade tacos. Everything is extremely easy except the homemade corn tortillas. You need this sauce, tortillas, shredded lettuce, jalapenos or yellow pepper rings, chopped onions, grated cheddar, sour cream, labna or yoghurt, and refried beans.  The refried beans are boiled pintos, mashed and combined with oil, water and sautéed onions. The critical move is to dedicate yourself to making homemade tortillas. Mexican women have the opportunity of going daily to a local store to obtain a tortilla paste. The best we can do is buy dry Masa HarinD. Quaker makes Masa HarinD. You will also find it called MasecD. Follow directions on package exactly. The dough will seem too dry. Keep the bowl covered while you work to reduce drying. If you are cooking for more than yourself, get someone to help with this since the rolled tortilla needs to go into the hot skillet immediately. Split a plastic sandwich bag down the sides. Place a 1 1/2" dough ball centered in bag. Press bag in metal tortilla press. Continue to roll out quite thin with a rolling pin. Gently peel back one side of the bag and then the other. As you pull back the plastic, continually alter the angle of your pull. Flip tortilla into your hand from the plastic and then into the pan. You might well not succeed at first try. When you do, the 60 seconds spent in a very hot cast iron skillet will produce a wonderful, fragrant, scorch spotted, puffed tortilla worthy of all the work. Pressing down with a spatula increases puffing. Trust me here, this is a world class meal. I never tire of it. Serve with one of Mexico's many excellent beers, say Superior, Negra Modelo or Tecate, and thank Mexico for its truly wonderful food culture. If you are ever in Chicago visit Rick Bayless' Frontera Grill.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="20" name="Annie's Fajitas" categ="entree"  categ2="" tag="Fajitas">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:14" ptime="0:10" serves="4" />
+         <ingreds>
+            <ingred name="pork tenderloin" amt="1" unit="lb." note="" />
+            <ingred name="fresh ginger" amt="2" unit="tsp" note=" (grated)" />
+            <ingred name="japanese soya sauce" amt="6-8" unit="Tbsp" note="" />
+            <ingred name="vegetable oil" amt="2" unit="Tbsp" note="" />
+            <ingred name="red wine" amt="2" unit="Tbsp" note="(optional)" />
+            <ingred name="garlic" amt="2" unit="cloves" note="crushed or minced" />
+            <ingred name="fresh cilantro" amt="3" unit="Tbsp" note="(diced,begin sauce)" />
+            <ingred name="lime juice" amt="4" unit="Tbsp" note="" />
+            <ingred name="cayenne" amt="1/4" unit="tsp" note="(optional)" />
+            <ingred name="salt" amt="(to taste, end sauce)" unit="" note="" />
+            <ingred name="yellow onion" amt="1" unit="large" note="(cut into eighths)" />
+            <ingred name="bell pepper" amt="" unit="1 or 2" note="(sliced)" />
+            <ingred name="tortillas" amt="4" unit="large" note="" />
+            
+         </ingreds>
+         <directions>
+            <direction>Marinate pork 1-3 hours with ginger, soy sauce, oil, wine and garlic. Use a ziplock bag to facilitate turning and minimize marinade volume. Increase the effectiveness of the marinade by repeatedly poking pork with a fork.
+            </direction>
+            <direction>Mix cilantro, lime juice, salt and cayenne.
+            </direction>
+            <direction>Skewer alternately onion and green pepper.
+            </direction>
+            <direction>Grill tenderloin until done, perhaps 5-7 minutes a side. Slice at thickest point to test for doneness.
+            </direction>
+            <direction>At the five minute mark, put the skewered veggies on grill with meat. 
+            </direction>
+            <direction>Remove all from grill. Slice tenderloin in 1/2" slices. 
+            </direction>
+            <direction>Place meat, and vegetables on tortillD. Dress with cilantro sauce. Wrap and serve.
+            </direction>
+         </directions>
+         <comment>Serve with a Mexican beer. This sauce has many applications. My teenage daughter made this recipe.</comment>
+      </recipe>
+      <recipe  date="8/4/2011" id="21" name="Pork Satay" categ="entree"  categ2="" tag="Satee">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="21_PorkSatay.png" />
+         <specs ctime="0:15" ptime="0:15" serves="4-6" />
+         <ingreds>
+            <ingred name="pork tenderloin" amt="1" unit="lb." note="" />
+            <ingred name="sambal oelek" amt="1" unit="tsp" note="(begin marinade)" />
+            <ingred name="soya sauce" amt="3" unit="Tbsp" note="" />
+            <ingred name="garlic" amt="2" unit="cloves" note="(1 + 1,crushed)" />
+            <ingred name="peanut oil" amt="1" unit="Tbsp" note="(end marinade)" />
+            <ingred name="sambal oelek" amt="1" unit="tsp" note="(begin sauce)" />
+            <ingred name="yellow onion" amt="3-4" unit="Tbsp" note="(chopped)" />
+            <ingred name="lemon zest" amt="1" unit="tsp" note="" />
+            <ingred name="garlic" amt="2" unit="cloves" note="(diced)" />
+            <ingred name="brown sugar" amt="2" unit="tsp" note="" />
+            <ingred name="peanut oil" amt="3" unit="Tbsp" note="" />
+            <ingred name="salt" amt="1/4" unit="tsp" note="(to taste)" />
+            <ingred name="coconut milk" amt="1" unit="cup" note="" />
+            <ingred name="peanut butter" amt="4" unit="Tbsp" note="" />
+            <ingred name="soya sauce" amt="1" unit="Tbsp" note="" />
+            <ingred name="lemon juice" amt="2" unit="tsp" note="(end sauce)" />
+         </ingreds>
+         <directions>
+            <direction>Slice tenderloin in 1 - 1 1/2" (25 - 38 mm.) cubes.
+            </direction>
+            <direction>Marinate pork 1-3 hours in ingredients 2-5, namely, 1 tsp. sambal oelek, 1 Tbsp. soya sauce, 1 clove garlic and 1 Tbsp oil. Use a ziplock bag to facilitate turning and minimize marinade volume.
+            </direction>
+            <direction>Start on the sauce by mixing 1 tsp. more sambal oelek, 3-4 Tbsp yellow onion, 1 tsp. lemon zest, 1 clove garlic and 2 tsp. brown sugar in the food processor.
+            </direction>
+            <direction>Heat the 3 Tbsp of oil in a heavy skillet and cook the contents of the processor at medium high until the onions are soft.
+            </direction>
+            <direction>Add the last five remaining ingredients to the processor mix: salt, milk, peanut butter, soya sauce and lemon juice. Simmer for 5-6 minutes.
+            </direction>
+            <direction>Skewer and grill tenderloin until done, perhaps 5-7 minutes a side.
+            </direction>
+         </directions>
+         <comment>Serve on rice [Home->Treats->Long Grain Rice] with a Mexican beer. It is fine to substitute milk for coconut milk. Substitute 1/2 tsp of cayenne or 1 to 2 tsp. pepper flakes for the sambal oelek. Substitute any vegetable oil for peanut oil.</comment>
+      </recipe> 
+      <recipe  date="2/1/2011" id="22" name="Harissa" categ="sauce"  categ2="vegan" tag="Harissa">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="22_HarissD.png" />
+         <specs ctime="0:00" ptime="0:10" serves="4" />
+         <ingreds>
+            <ingred name="japones peppers" amt="15" unit="" note="(dried)" />
+            <ingred name="garlic" amt="1" unit="clove" note="(minced)" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="" />
+            <ingred name="olive oil" amt="2" unit="Tbsp" note="" />
+            <ingred name="ground coriander" amt="1" unit="tsp" note="(optional)" />
+            <ingred name="ground caraway" amt="1" unit="tsp" note="" />
+            <ingred name="ground cumin" amt="1/2" unit="tsp" note="(roasted)" />
+         </ingreds>
+         <directions>
+            <direction>Never touch your face when working with peppers. Afterwards wash hands 60 seconds with detergent.
+            </direction>
+            <direction>Bring a quart of salted water to boil. Remove from heat. Put peppers in water, cover, soak for 15 minutes. 
+            </direction>
+            <direction>Now that the peppers have softened, for each pepper cut off cap, then gently slit peppers open lengthwise.
+            </direction>
+            <direction>Place finger of one hand firmly on tip of pepper to secure it to cutting surface.
+            </direction>
+            <direction>Using the dull side of the knife gently slide the seed out of the top of the pepper.
+            </direction>
+            <direction>Discard seeds. Grind all ingredients to a paste in a food processor. This may take a couple minutes if the peppers have not been adequately softened by the hot water.
+            </direction>
+         </directions>
+         <comment>The small, thin red japone pepper is a 9 out of 10 on the heat scale. This make a fiery hot harissa suitable for [Home->Entrees->North African Shrimp] and [Home->Entrees->Moroccan Chicken]. Think about large batches divided and frozen. Use absolutely any combination of peppers you like. The larger the pepper, the easier it is to remove the seeds. Harissa is very much about heat and herbs. Ancho peppers are flavorful but milder. Consider putting the smoky flavor of chipotles in the mix. Harissa is great on crackers. Serve with crackers previously spread with Goat Cheese Spread [Home->Snacks]. If batch is too small for your processor, simply double or triple it next time. The ratio of peppers to herbs is not critical. See Home->Treats->Kathleen's Spicy Nuts->Comments for more about roasting cumin seed. The flavor is amazing and really lingers. Serve with a dry red wine, such as Cabernet Sauvignon, Malbec or Shiraz.  Harissa, when covered with oil, keeps weeks in the refrigerator. If you don't mind having seeds, use pepper flakes such at used on pizza to greatly shorten the preparation time.</comment>
+      </recipe> 
+      <recipe  date="2/1/2011" id="23" name="Swedish Meatballs" categ="entree"  categ2="" tag="Meatballs">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:30" ptime="0:10" serves="6" />
+         <ingreds>
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="black pepper" amt="1/2" unit="tsp" note="" />
+            <ingred name="egg" amt="1" unit="" note="" />
+            <ingred name="hard cheese" amt="3" unit="Tbsp" note="(grated)" />
+            <ingred name="parsley" amt="1/4" unit="cup" note="(chopped)" />
+            <ingred name="onion" amt="3/4" unit="cup" note="(chopped)" />
+            <ingred name="garlic" amt="2" unit="cloves" note="(chopped)" />
+            <ingred name="bread crumbs" amt="1" unit="cup" note="" />
+            <ingred name="oregano" amt="1 1/2" unit="tsp" note="" />
+            <ingred name="water" amt="1 1/2" unit="cups" note="" />
+            <ingred name="ground chuck" amt="1" unit="lb." note="" />
+         </ingreds>
+         <directions>
+            <direction>Mix together all but meat and water in large bowl with wooden spoon. 
+            </direction>
+            <direction>Then add water and meat and mix thoroughly with wooden spoon and/or hands. 
+            </direction>
+            <direction>Form meatballs into 1 1/2 inch balls and place in bottom of large pot. 
+            </direction>
+            <direction>Add 2/3 cup water and turn to high heat. Once boiling, reduce heat to a slow simmer and cover. Simmer for 30 minutes.
+            </direction>
+         </directions>
+         <comment>These meatballs are delicious and tender. Serve with [Home->Sauces->Italian Tomato Sauce]. The meatball mixture is very wet. This enables their tenderness. Don't yield to a natural inclination to reduce the water. Serve with pasta or by themselves.</comment>
+      </recipe> 
+	   <recipe  date="2/1/2011" id="24" name="Italian Tomato Sauce" categ="sauce"  categ2="vegan" tag="TomatoSauce">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:35" ptime="0:10" serves="6" />
+         <ingreds>
+            <ingred name="tomatoes" amt="14" unit="oz. can" note="(with juice)" />
+            <ingred name="celery" amt="1/3" unit="cup" note="(chopped)" />
+            <ingred name="carrot" amt="1/3" unit="cup" note="(chopped)" />
+            <ingred name="onion" amt="1/3" unit="cup" note="(chopped)" />
+            <ingred name="salt" amt="1 1/2" unit="tsp" note="(to taste)" />
+            <ingred name="olive oil" amt="1/2" unit="cup" note="" />
+         </ingreds>
+         <directions>
+            <direction>Put tomatoes, celery, carrots in food processor and puree. 
+            </direction>
+            <direction>Sauté onions in oil until browning starts.  
+            </direction>
+            <direction>Add vegetable puree and salt to onions and simmer gently for at least 25 minutes.
+            </direction>
+         </directions>
+         <comment>Serve with [Home->Entrees->Swedish Meat Balls] </comment>
+      </recipe>
+      
+      <recipe  date="2/1/2011" id="26" name="Smoked Haddock Gratin" categ="entree"  categ2="" tag="FinnanHaddie">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="26_SmokedHaddockGratin.png" />
+         <specs ctime="1:00" ptime="0:15" serves="6" />
+         <ingreds>
+            <ingred name="smoked haddock" amt="1" unit="lb." note="" />
+            <ingred name="onions" amt="3" unit="cup" note="sliced" />
+            <ingred name="butter" amt="2" unit="Tbsp" note="" />
+            <ingred name="flour" amt="5" unit="Tbsp" note="" />
+            <ingred name="milk" amt="2" unit="cup" note="" />
+            <ingred name="heavy cream" amt="1" unit="cup" note="" />
+            <ingred name="bay leaf" amt="1" unit="" note="" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="potatoes" amt="4-5" unit="cups" note="" />
+            <ingred name="black pepper" amt="1/4" unit="tsp" note="" />
+            <ingred name="bread crumbs" amt="3/4" unit="cup" note="" />
+            <ingred name="diced tomatoes" amt="14" unit="oz. can" note="(drained)" />
+         </ingreds>
+         <directions>
+            <direction>Sauté onions in butter for 7-10 minutes over medium heat.  
+            </direction>
+            <direction>Add add 5 T flour and stir - 3 minutes.
+            </direction>
+            <direction>Add milk and cream and cook until scalded. Add bay leaf, salt and pepper.
+            </direction>
+            <direction>Simmer sauce 10 minutes. Remove bay leaf.
+            </direction>
+            <direction>Simmer with stirring 10 minutes.
+            </direction>
+            <direction>Cut, break or flake smoked fish into pieces. If you using fresh or frozen fish, first poach it 8-10 minutes.
+            </direction>
+            <direction>Boil or steam potatoes until nearly done. Cool, skin, slice. 
+            </direction>
+            <direction>Layer:1/3 Sauce, 1/3 Potato, 1/3 Haddock, 1/2 Tomatoes, 1/3 Sauce, 1/3 Potato, 1/3 Haddock, 1/2 Tomatoes, 1/3 Sauce, 1/3 Potato, 1/3 Haddock
+            </direction>
+            <direction>Sprinkle with bread crumbs. Dot with butter. Bake 45 minutes at 375 F (191 C) or until bubbly and brown.
+            </direction>
+         </directions>
+         <comment>A meal to dream about. Here we have a great recipe owing nothing to continental europe. Substitute smoked pollock.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="27" name="Pasta alla Carbonara" categ="entree"  categ2="" tag="PastaCarbonara">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:20" ptime="0:05" serves="3" />
+         <ingreds>
+            <ingred name="salt" amt="2" unit="tsp" note="(in 3-4 quarts water)" />
+            <ingred name="bratwurst" amt="2" unit="" note="(or sweet italian)" />
+            <ingred name="milk" amt="3/4" unit="cup" note="" />
+            <ingred name="parsley" amt="1" unit="handful" note="(stems removed)" />
+            <ingred name="parmesan cheese" amt="1/3" unit="cup" note="(grated)" />
+            <ingred name="egg" amt="1" unit="large" note="" />
+            <ingred name="garlic" amt="2" unit="cloves" note="(smashed)" />
+            <ingred name="spaghetti" amt="10" unit="oz." note="" />
+         </ingreds>
+         <directions>
+            <direction>Start bringing 3-4 quarts of of water with 2 tsp salt to a boil.
+            </direction>
+            <direction>Squeeze out sausage from skins into a heavy skillet at medium heat. Try for say 1 - 1 1/2 inch pieces. 
+            </direction>
+            <direction>As the sausage cooks, use a blunt end metal spatula to reduce the piece size, to say 1/2 inch.
+            </direction>
+            <direction>Shortly before the meat is done add the garlic (smashed under a spatula or knife).
+            </direction>
+            <direction>When done, remove from heat. Tilt pan and remove most of the oil.
+            </direction>
+            <direction>Return to heat and add the milk and the garlic. Boil until the milk scalds and a skin forms on it. Remove from heat and remove any large garlic chunks.
+            </direction>
+            <direction>In the Cuisinart mix parsley, egg and cheese.  
+            </direction>
+            <direction>Rewarm sausage if necessary. Add cooked and well drained spaghetti to skillet. Toss in 1 Tbsp oil. Then Add the contents of the processor.
+            </direction>
+            <direction>Stir well, check for salt and serve.
+            </direction>
+         </directions>		
+         <comment>Serve with grated parmigiano reggiano and a green salad [Home->Veggies->Romaine Salad]. To be more authentic, run down about 4-6 oz. of italian pancetta instead of the sausage. The 200 plus degrees of the pasta cooks the egg. About the name: we see the English word carbon and the French word charbon in the name. Supposedly these charcoal makers picked this pasta as a convenient one to haul to the forests of Italy for their work.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="28" name="Kathleen's Spicy Nuts" categ="treat"  categ2="vegan" tag="SpicyNuts">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="28_SpicyPecans.png" />
+         <specs ctime="0:05" ptime="0:05" serves="4-6" />
+         <ingreds>
+            <ingred name="nuts" amt="2" unit="cups" note="(almonds, pecans etc.)" />
+            <ingred name="peanut oil" amt="2" unit="Tbsp" note="" />
+            <ingred name="chili oil" amt="1" unit="Tbsp" note="" />
+            <ingred name="sugar" amt="1/2" unit="cup" note="" />
+            <ingred name="salt" amt="1 1/2" unit="tsp" note="" />
+            <ingred name="ground cumin seed" amt="1/2" unit="tsp" note="" />
+            <ingred name="pepper flakes" amt="1" unit="tsp" note="" />
+            <ingred name="sugar" amt="1" unit="Tbsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Heat oil at medium heat. Add nuts and sugar.
+            </direction>
+            <direction> Sauté until golden and sugar caramelizes. Stir constantly. Beware of popping.
+            </direction>
+            <direction>Remove to a bowl and mix with spices.
+            </direction>
+            <direction>Dump on cookie sheet and separate while hot.
+            </direction>
+         </directions>		
+         <comment>Almonds are best here. Consider starting with Roasted Nuts, see:[Home->Treats]. If you do not have chili oil(sesame hot oil, available at Asian food stores), go with 3 Tbsp regular oil. Try pecans or other nuts. Roast cumin seed at med-high heat in a heavy pan without oil. Cool. Grind. Store in a sealed labeled container.  It is done in several minutes -- when you smell the lovely and intense odor and see the seeds just begin to darken. Cool. Grind. Store in a sealed labeled container. See Home->Sauces->Mexican Tomato Sauce->Comments for more details.</comment>
+      </recipe>
+	   <recipe  date="2/1/2011" id="29" name="Hot Chicken Curry" categ="entree"  categ2="" tag="ChickenCurry">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:45" ptime="0:05" serves="4" />
+         <ingreds>
+            <ingred name="grd. cayenne" amt="1" unit="tsp" note="" />
+            <ingred name="grd. cumin" amt="1" unit="Tbsp" note="" />
+            <ingred name="smoked paprika" amt="1" unit="Tbsp" note="" />
+            <ingred name="grd. tumeric" amt="1" unit="Tbsp" note="" />
+            <ingred name="pepper flake" amt="1" unit="Tbsp" note="" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="garlic" amt="2-3" unit="cloves" note="(smashed)" />
+            <ingred name="lemon juice" amt="1/3" unit="cup" note="" />
+            <ingred name="chicken" amt="2 1/2" unit="lb." note="(skinned)" />
+            <ingred name="vegetable oil" amt="4" unit="Tbsp" note="" />
+            <ingred name="yoghurt" amt="1 1/2" unit="cup" note="" />
+         </ingreds>
+         <directions>
+            <direction>Marinate chicken 2-4 hours using all ingredient except the oil and yoghurt.
+            </direction>
+            <direction> Place chicken in baking dish. Drizzle with oil. Cover. Cook 40-45 minutes at 400 F (204 C).
+            </direction>
+            <direction>Turn and baste twice during baking.
+            </direction>
+            <direction>Serve with rice [Home->Treats->Long Grain Rice] and cover with yoghurt.
+            </direction>
+         </directions>		
+			<comment>I can not decide if I prefer the chicken or the rice and fiery sauce. If you have no ground cayenne pepper substitute 1 Tablespoon ordinary ground hot red pepper, because cayenne is much higher on the 'heat' scale.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="30" name="Long Grain Rice" categ="treat"  categ2="vegan" tag="Rice">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:15" ptime="0:01" serves="3-4" />
+         <ingreds>
+            <ingred name="basmati long grain rice" amt="1" unit="cup" note="" />
+            <ingred name="water" amt="2" unit="cup" note="" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Use a heavy pot with a cover.
+            </direction>
+            <direction>Place rice, water and salt in pot.
+            </direction>
+            <direction>Turn heat to high and bring to a boil. 
+            </direction>
+            <direction>Cover and turn heat to very low simmer; probably the lowest temp possible.
+            </direction>
+            <direction>Cook about 15 minutes. Check after 12 minutes.
+            </direction>
+            <direction>Rice is done when you can first scrape to the bottom and find no water. Leave it several minutes more at very low heat to increase fluffiness.
+            </direction>
+         </directions>		
+         <comment>If your sense of a low simmer is different from mine, check 3 minutes sooner. If you find water at bottom of the pot, check again in 3 minutes. If you initially wait two minutes too long to check for a boil, no problem. If rice is done few minutes before you check it, fine, it's on at low heat. As you can tell, I grew up hearing that it was difficult to make rice. Life is short, so use only Basmati rice. </comment>
+      </recipe>
+	   <recipe  date="2/1/2011" id="31" name="Open Face Anchovy Sandwich" categ="snack"  categ2="" tag="AnchovySand">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="31_AnchovySandwich.png" />
+         <specs ctime="0:00" ptime="0:08" serves="2" />
+         <ingreds>
+            <ingred name="anchovy fillets" amt="1" unit="can" note="(about 10 fillets)" />
+            <ingred name="milk" amt="1/4" unit="cup" note="(or yoghurt)" />
+            <ingred name="toast" amt="2" unit="slices" note="" />
+            <ingred name="shredded lettuce" amt="" unit="" note="(to cover toast)" />
+            <ingred name="scallions" amt="2" unit="tsp" note="(minced)" />
+            <ingred name="lemon juice" amt="2" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Drain oil from anchovies and allow them to soak in the milk(or yoghurt) for 3 minutes or more.
+            </direction>
+            <direction>Toast 2 pieces of substantial bread. Drain anchovies. Pat dry.
+            </direction>
+            <direction>Cover toast with lettuce. Top with 5 anchovy fillets each.
+            </direction>
+            <direction>Distribute scallions and drizzle with lemon juice.
+            </direction>
+         </directions>		
+			<comment> I discovered this sandwich in a small Swiss restaurant in Toronto. I have never met an anchovy that I found too strong. I never soak mine. If you love fish, I have two recommendations 1) seek out Matjes Herring (without cinnamon) from Holland and serve on boiled potatoes with sour cream, and 2) Home->Entrees->Smoked Haddock Gratin.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="32" name="Jim Lahey's No Knead Bread" categ="treat"  categ2="vegan" tag="NoKneadBread">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="32_BreadSmall2.png" />
+         <specs ctime="1:00" ptime="0:05" serves="4-6" />
+         <ingreds>
+            <ingred name=" " amt="" unit="" note="(Read comments page first)" />
+            <ingred name="all purpose flour" amt="3" unit="cups" note="" />
+            <ingred name="salt" amt="1" unit="Tbsp" note="(Lahey says 1 1/4 tsp)" />
+            <ingred name="dry yeast" amt="1/8" unit="tsp" note="(Lahey says 1/4 tsp)" />
+            <ingred name="water" amt="1 5/8" unit="cup" note="" />
+         </ingreds>
+         <directions>
+            <direction>In a very large bowl mix the three dry ingredients thoroughly to distribute evenly.
+            </direction>
+            <direction>Add water and mix half-heartedly by hand for 30-60 seconds. Simply incorporate all flour to produce a 'shaggy' dough.
+            </direction>
+            <direction>Cover with plastic wrap. And place somewhere 65-75 degrees F (19-23 C) for 10-48 hours. Your labor time is about half up. 
+            </direction>
+            <direction>At the time of your choosing, dump bubbling dough onto a well greased cookie sheet, or Silpat.
+            </direction>
+            <direction>Using a large spatula or better a wooden handled "French scraper" flip north, east, west and south corners of dough about 2/3 way towards the opposite side.
+            </direction>
+            <direction>Using tea sieve or flour sifter containing flour, tap to heavily dust the newly formed squarish loaf. Cover with a tea towel. Set timer for 2 or 2 1/2 hours. 
+            </direction>
+            <direction>When timer rings, preheat oven to 450 F (230 C). Insert cast iron pot with lid aslant. Beneath it place pizza tray or similar to protect from burning.
+            </direction>
+            <direction>Set timer for 25 minutes, or your 450 F preheat time plus 10 minutes . 
+            </direction>
+            <direction>When time is up, place the heated pot on stove door. To insure a non-stick loaf, coat pot's bottom with 1 Tbsp. vegetable oil just before putting dough in pot, using a dump-and-tilt method. 
+            </direction>
+            <direction>Unceremoniously dump dough from sheet or Silpat into pot. With pot holders, give pot a quick shake. Replace lid and return to oven. Yes, dough is not evenly distributed. That is fine.
+            </direction>
+            <direction>Cook bread for 30 minutes covered. Remove lid. Cook bread for 30 minutes uncovered.
+            </direction>
+            <direction>Place your gorgeous loaf of bread on a rack to cool! Phone your neighbors.
+            </direction>
+         </directions>		
+         <comment>Trust yourself. "Yes we can!" Cast-iron is not imperative. Try any wood-free metal pot or pyrex. The prep time listed is the time you actually use your hands to produce this world class bread. I may have overestimated this time. Bread making need not tie you down. Make the dough (4 minutes) and then later bake it when you feel like it. Find out all you want to know about the story of this fabulously easy bread by googling "Bittman No Knead Bread". There is one error in Lahey's recipe. Lahey, a man whose work and creativity have done very much for us, uses far too little salt. Mark Bittman is right, 1 Tbsp salt for 3 cups of flour is not too much. I always make a double recipe, baked an extra 10 minutes (35 min and 35 min), circa 3 lbs., and freeze half. I use an 8 quart Bayou Classic cast-iron pot. It could be considerably smaller and still work fine. You will probably want closer to a 3 quart pot for a single batch. Include 1/3 cup golden flax seed in dough as a variation. Watch Bittman in his great online videos at http://www.markbittman.com .
+         </comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="33" name="Edith's Plum Crumble" categ="dessert"  categ2="" tag="FruitCrumble">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:30" ptime="0:08" serves="6" />
+         <ingreds>
+            <ingred name="all purpose flour" amt="3/4" unit="cup" note="" />
+            <ingred name="sugar" amt="3/4" unit="cup" note="" />
+            <ingred name="sliced almonds" amt="1/2" unit="cup" note="(2 oz. by weight)" />
+            <ingred name="salt" amt="1/4" unit="tsp" note="" />
+            <ingred name="butter" amt="1/4" unit="lb." note="(cut to pieces)" />
+            <ingred name="fresh fruit" amt="2" unit="lb." note="(plum,peach, etc.)" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven 425 F (218 C).
+            </direction>
+            <direction>Pulse flour, sugar, almonds and salt until nuts are chopped.
+            </direction>
+            <direction>Add butter and pulse until mixture begins to clump.
+            </direction>
+            <direction>Spread fruit in suitable ovenproof dish and spread topping over it.  
+            </direction>
+            <direction>Bake until golden. 25-30 minutes.
+            </direction>
+         </directions>		
+         <comment>Use any fruit you like. Serve with ice cream. Rhubarb requires an additional 1/2 sugar for a very tart crumble.</comment>
+      </recipe>
+	  	<recipe  date="2/1/2011" id="34" name="Yoghurt Delight" categ="treat"  categ2="" tag="YoghurtDelight">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="34_YoghurtDelight.png" />
+         <specs ctime="0:00" ptime="0:04" serves="4" />
+         <ingreds>
+            <ingred name="apple" amt="1" unit="" note="" />
+            <ingred name="plain yoghurt" amt="3-4" unit="cups" note="" />
+            <ingred name="sugar" amt="1" unit="Tbsp" note="" />
+            <ingred name="vanilla extract" amt="1/4" unit="Tbsp" note="" />
+            <ingred name="heavy cream" amt="1" unit="Tbsp" note="(optional)" />
+            <ingred name="cinnamon" amt="1/2" unit="tsp" note="(scant)" />
+            <ingred name="nuts" amt="3" unit="Tbsp" note="(roasted?)" />
+            <ingred name="raisins" amt="1/2" unit="cup" note="" />
+         </ingreds>
+         <directions>
+            <direction>Quarter apple and core. Chop to small pieces of desired size.
+            </direction>
+            <direction>In a bowl combine yoghurt, sugar, vanilla, heavy cream and cinnamon. Mix well.
+            </direction>
+            <direction>Place apple in individual bowls and top with yoghurt mixture, raisins, and coarsely chopped nuts.
+            </direction>
+         </directions>
+			<comment>Great any time of day. A better breakfast for the kids. See [Home->Treats->Roasted Nuts]</comment>
+      </recipe>
+	  	<recipe  date="2/1/2011" id="35" name="Celery Potatoes" categ="veggie"  categ2="vegan" tag="CeleryPotato">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:30" ptime="0:15" serves="4-6" />
+         <ingreds>
+            <ingred name="russet potatoes" amt="1" unit="lb." note="" />
+            <ingred name="celery" amt="1 - 1 1/2" unit="cup" note="" />
+            <ingred name="olive oil" amt="5" unit="Tbsp" note="" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="lemon juice" amt="2" unit="Tbsp" note=""/>
+         </ingreds>
+         <directions>
+            <direction>Remove leaves from celery. Chop into 2 - 3 inch pieces.
+            </direction>
+            <direction>Peel potatoes and chop into quarters.
+            </direction>
+            <direction>Place celery, oil and water to cover in a pot. Boil for 6 minutes.
+            </direction>
+            <direction>Add potatoes, oil, lemon juice, salt and water to cover. Cover pot and cook 20 more minutes.  
+            </direction>
+            <direction>When vegetables are both done to taste, remove the vegetables and boil liquid hard until almost all water is gone. 
+            </direction>
+            <direction>Return vegetables to pot. Warm several minutes at medium heat and serve. 
+            </direction>
+         </directions>		
+         <comment>Try this one - a delight! You may prefer to snap celery and drag away most strings.</comment>
+      </recipe>
+	  	<recipe  date="2/1/2011" id="36" name="Potsticker Dumplings (Jao Tze)" categ="entree"  categ2="" tag="PotStickers">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="36_potstickersMed.png" />
+         <specs ctime="0:15" ptime="0:18" serves="6" />
+         <ingreds>
+            <ingred name="chives or scallions" amt="4" unit="Tbsp" note="(chopped)" />
+            <ingred name="ground pork" amt="1" unit="lb." note="" />
+            <ingred name="carrot" amt="2-3" unit="Tbsp" note="(chopped)" />
+            <ingred name="ginger root" amt="2" unit="tsp" note="(grated)" />
+            <ingred name="garlic" amt="2" unit="tsp" note="(minced)" />
+            <ingred name="salt and pepper" amt="1" unit="tsp" note="(to taste)" />
+            <ingred name="flour" amt="2" unit="cups" note="(dough)" />
+            <ingred name="hot water" amt="7" unit="oz." note="(dough)" />
+         </ingreds>
+         <directions>
+            <direction>Create filling by mixing chives, pork, carrot, ginger, garlic, salt and pepper.
+            </direction>
+            <direction>Create dough by mixing flour and quite hot water (140F 60C) from tap. Rest dough 10 minutes.
+            </direction>
+            <direction>Roll out dough into a fairly even log of say, 1 inch diameter. Cut in half, and then in half again.
+            </direction>
+            <direction>Cut each piece again in half, making eight pieces. Then cut each piece in fifths to create 40 pieces that are roughly the same size.
+            </direction>
+            <direction>Lightly flour surface and use rolling pin to produce potsticker skins about 3 inches in diameter. They will be rather thin. Do ten at a time.  
+            </direction>
+            <direction>Place roughly 1 heaping teaspoon of filling in center of each skin. (That would be 1/4 of filling divided 10 ways.)
+            </direction>
+            <direction>To create dumpling join opposite sides of skin and hold between thumb and forefinger of left hand. 
+            </direction>
+            <direction>Using your other hand grab near side of dough about half way between left hand and the right outside of dough. 
+            </direction>
+            <direction>Pull right hand towards left, fixing a gather by pressing. 
+            </direction>
+            <direction>Repeat three times. Then do same to the other side. See Photo. 
+            </direction>
+            <direction>Place dumplings on cheesecloth in a steamer and steam for 15 minutes or until done.
+            </direction>
+            <direction>Make dipping sauce by combining final six ingredients, namely, ginger, sugar, soy sauce, minced garlic, vinegar and sherry(optional).
+            </direction>
+         </directions>		
+         <comment>These Chinese Potstickers (Jao Tze) are simply great. Always serve with (Home->Sauces->Jao Tze Dipping Sauce) Serve these dumplings with beer. The dumpling making job is fun and much quicker for two people. You can always use Wonton Wrappers if you like. If you are in a hurry, forget about style. Simply dip a finger in water and wet a semi-circle on outside of dough circle. Fold unwetted side over and press to seal. Substitute 1/3 cup minced onions for the chives. Large 12" aluminum two layer Asian steamers are very inexpensive. </comment>
+      </recipe>
+      <recipe  date="9/11/2011" id="37" name="Calzone" categ="entree"  categ2="" tag="Calzone">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="37_Calzone.png" />
+         <specs ctime="0:20" ptime="0:15" serves="2-4" />
+         <ingreds>
+            <ingred name="flour" amt="2" unit="cup" note="" />
+            <ingred name="olive oil" amt="1" unit="Tbsp" note="(to taste)" />
+            <ingred name="yeast" amt="1" unit="tsp" note="" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="water" amt="1" unit="cup" note="(very warm)" />
+            <ingred name="onion" amt="1" unit="medium" note="(quartered)" />
+            <ingred name="mozzarella" amt="2" unit="oz." note="(or soft cheese)" />
+            <ingred name="bell pepper" amt="1" unit="medium" note="(sliced)" />
+            <ingred name="pork sausage" amt="6" unit="oz" note="(link)" />
+            <ingred name="hard cheese" amt="1/3" unit="cup" note="(grated)" />
+            <ingred name="fennel seed" amt="1/4" unit="tsp" note="" />
+            <ingred name="oregano" amt="1/4" unit="tsp" note="" />
+            <ingred name="rosemary" amt="1/4" unit="tsp" note="(optional)" />
+            <ingred name="olive oil" amt="2" unit="Tbsp" note="" />
+            <ingred name="garlic" amt="2" unit="cloves" note="(pressed/smashed)" />
+            <ingred name="salt" amt="1/4" unit="tsp" note="(for garlic paste)" />
+            <ingred name="black pepper" amt="plenty" unit="" note="" />
+            <ingred name="salt" amt="1/4" unit="tsp" note="(heaping, over each calzone)" />
+         </ingreds>
+         <directions>
+            <direction>Combine flour, yeast and salt in processor. Pulse to evenly distribute yeast and salt.
+            </direction>
+            <direction>Turn on processor and add oil, then the 140 degree F (60 C) water. 
+            </direction>
+            <direction>Stop adding water and stop processor when the dough forms a ball - a bit before all the water is added.
+            </direction>
+            <direction>Dust a surface lightly with flour and knead dough for 1 minute. Coat it with oil, place in bowl, and cover.
+            </direction>
+            <direction>Let dough rise at room temp for two hours.  
+            </direction>
+            <direction>Preheat oven to 450 F (230 C) for at least 20 minutes. If available, place quarry tiles or baking stone on mid-level oven rack, otherwise use a pizza tray without needing long preheating.
+            </direction>
+            <direction>Shortly before dough is through rising, place the sausage together with the onion in a steamer. Steam for 12 minutes. 
+            </direction>
+            <direction>Five minutes before sausage and onions are done, add sweet pepper slices. When done, thinly slice sausage.
+            </direction>
+            <direction>Crush two garlic cloves in a bowl with 1/4 teaspoon salt. Then mix with 2 Tbsp oil. 
+            </direction>
+            <direction>When dough has risen, knead 1 minute. Cut in halves. Place each in a bowl. Coat with oil. Rest dough 10 minutes.
+            </direction>
+            <direction>For each calzone, roll out dough and then stretch to approximately an 11 to 12 inch circle.
+            </direction>
+            <direction>Leaving an half inch border, coat circle with oil garlic mixture using a pastry brush.
+            </direction>
+            <direction>For each circle on 1/2 of dough layer 1/2 of grated cheese, fennel seed, oregano, rosemary, pepper slices, cheddar and thinly sliced pork sausage and at least 1/4 tsp salt.
+            </direction>
+            <direction>Fold over the unfilled half and press to seal. Give each calzone a light coating of garlic oil.
+            </direction>
+            <direction>Slide onto sheet or tiles. Cook for 10-12 minutes, until nicely browned.
+            </direction>
+         </directions>		
+         <comment>Use your favorite cheeses such as parmesan. If you bake bread, save a piece of dough and with a bit of oil added you have calzone dinner - technically known as a twofer. </comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="38" name="Roquefort Peppers" categ="treat"  categ2="" tag="RoqPeppers">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="38_cashelpeppersMed.png" />
+         <specs ctime="0:00" ptime="0:08" serves="4" />
+         <ingreds>
+            <ingred name="bell pepper" amt="1" unit="" note="(sliced)" />
+            <ingred name="roquefort cheese" amt="2" unit="oz." note="" />
+            <ingred name="butter" amt="1" unit="Tbsp" note="" />
+            <ingred name="lemon juice" amt="1" unit="Tbsp" note="" />
+            <ingred name="ground cayenne" amt="1/4" unit="tsp" note="" />
+            <ingred name="salt" amt="1/8" unit="tsp" note="(to taste)" />
+         </ingreds>
+         <directions>
+            <direction>Make a paste of cheese and butter.
+            </direction>
+            <direction>Seed and slice pepper into 1 inch wide strips. Fill with cheese paste. 
+            </direction>
+            <direction>Apply lemon juice, salt and dust well with cayenne.
+            </direction>
+         </directions>		
+         <comment>Substitute Cashel Blue cheese. A great snack or appetizer.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="39" name="Middle of the Night Cheese Cake" categ="dessert"  categ2="" tag="CheeseCake">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="39_CheeseCake.png" />
+         <specs ctime="0:45" ptime="0:12" serves="6" />
+         <ingreds>
+            <ingred name="graham cracker crumb" amt="1 1/4" unit="cup" note="(crust)" />
+            <ingred name="melted butter" amt="1/3" unit="cup" note="(crust)" />
+            <ingred name="sugar" amt="1/4" unit="cup" note="(crust)" />
+            <ingred name="eggs" amt="3" unit="" note="(large)" />
+            <ingred name="cream cheese" amt="3" unit="8 oz. packs" note="(cake)" />
+            <ingred name="sugar" amt="3/4" unit="cup" note="(cake)" />
+            <ingred name="vanilla " amt="1" unit="tsp" note="(cake)" />
+            <ingred name="mini chocholate chips" amt="2" unit="cups" note="(12 oz. bag)" />
+            <ingred name="whipping cream" amt="2" unit="Tbsp" note="(ganache)" />
+         </ingreds>
+         <directions>
+            <direction>Use a 9 inch springform cake pan. 
+            </direction>
+            <direction>Mix graham cracker crumbs, butter and 1/4 cup sugar. Press this mixture to the bottom of the assembled springform.
+            </direction>
+            <direction>Preheat oven to 425 F (218 C).
+            </direction>
+            <direction>Beat cream cheese and and 3/4 cup sugar until lumps are gone. 
+            </direction>
+            <direction>Add eggs and vanillD. Continue beating until the mixture starts to look a bit fluffier.
+            </direction>
+            <direction>Stir in 1 2/3 cups chocolate chips. Pour mixture onto graham crust.
+            </direction>
+            <direction>Thirty seconds should be enough to reasonably flatten batter in the springform. It will settle in oven.
+            </direction>
+            <direction>Bake 10 minutes. Without opening the door, reduce temperature to 250 F.
+            </direction>
+            <direction>Bake another 30-35 minutes, or until just set. The top will still look a bit "wet".
+            </direction>
+            <direction>Cool slowly to reduce cracking of cake. Try leaving cake in oven; placing a wooden spoon in oven door to allow for a slow cool down. 
+            </direction>
+            <direction>Once cool, pat to mostly fill any cracking, not worrying over this job, as the ganache will finish the crack filling for you.
+            </direction>
+            <direction>Melt the remaining 1/3 cup chocolate chips with the whipping cream. You can microwave it for perhaps 20 seconds.
+            </direction>
+            <direction>Whip with a fork lightly to slightly fluff the ganache. It will turn glossy.
+            </direction>
+            <direction>Spread this chocolate ganache on the cooled cheese cake, thus covering any remaining flaws.
+            </direction>
+            <direction>Refrigerate.
+            </direction>
+         </directions>
+         <comment>Delicious, smooth, creamy, chocolatey, beautiful. Serve with raspberries and strong coffee.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="40" name="German Apple Cake" categ="dessert"  categ2="" tag="AppleCake">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="1:00" ptime="0:12" serves="8-10" />
+         <ingreds>
+            <ingred name="apples" amt="4-5" unit="medium" note="" />
+            <ingred name="sugar" amt="5" unit="Tbsp" note="" />
+            <ingred name="ground cinnamon" amt="2" unit="tsp" note="" />
+            <ingred name="eggs" amt="4" unit="large" note="" />
+            <ingred name="oil" amt="1" unit="cup" note="" />
+            <ingred name="sugar" amt="2 1/2" unit="cup" note="(about 50% brown)" />
+            <ingred name="vanilla extract" amt="2" unit="tsp" note="" />
+            <ingred name="orange juice" amt="1/3" unit="cup" note="" />
+            <ingred name="all purpose flour" amt="3" unit="cup" note="" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="baking soda" amt="1 1/2" unit="tsp" note="" />
+            <ingred name="baking powder" amt="1 1/2" unit="tsp" note="" />
+            <ingred name="pecans" amt="1" unit="cup" note="(roasted,chopped)" />
+            <ingred name="butter" amt="4" unit="Tbsp" note="(topping)" />
+            <ingred name="brown sugar" amt="1/2" unit="cup" note="(topping)" />
+            <ingred name="vanilla extract" amt="1" unit="tsp" note="(topping)" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven to 350 F (177 C).
+            </direction>
+            <direction>Cut apples into 1-2 inch pieces. Peel if you like.  
+            </direction>
+            <direction>In a bowl combine and stir apples, cinnamon and 5 Tbsp sugar. Set aside. 
+            </direction>
+            <direction>In a second bowl combine and mix eggs, oil, 2 1/2 cup sugar, vanilla, and the orange juice.
+            </direction>
+            <direction>Mix well the flour, salt, baking soda and baking powder before adding to the egg mix. 
+            </direction>
+            <direction>Blend well.
+            </direction>
+            <direction>Stir in the pecans and apples and their juice. Do consider roasting the pecans for 15 minutes. See Roasted Nuts [Home->Treats]
+            </direction>
+            <direction>Bake about 60 minutes in a greased, floured bundt pan or a 3 1/2 quart loaf pan.
+            </direction>
+            <direction>The topping must be applied hot to the cake which may be hot or cold.
+            </direction>
+            <direction>Place the butter, brown sugar and vanilla in a pot and boil for 3 minutes while stirring.
+            </direction>
+            <direction>Drizzle topping over cake.
+            </direction>
+         </directions>
+         <comment>A very nice change of pace.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="41" name="Buffalo Wings" categ="entree"  categ2="" tag="BuffaloWings">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="41_BuffaloWings.png" />
+         <specs ctime="0:35" ptime="0:12" serves="6" />
+         <ingreds>
+            <ingred name="chicken wings" amt="40" unit="pieces" note="(tips removed)" />
+            <ingred name="milk" amt="1/3" unit="cup" note="" />
+            <ingred name="cider vinegar" amt="1" unit="Tbsp" note="" />
+            <ingred name="garlic" amt="1/2" unit="clove" note="(minced or pressed)" />
+            <ingred name="onions" amt="3" unit="Tbsp" note="(chopped)" />
+            <ingred name="mayonnaise" amt="3/4" unit="cup" note="" />
+            <ingred name="lemon juice" amt="2-3" unit="Tbsp" note="" />
+            <ingred name="blue cheese" amt="1/3" unit="cup" note="(crumbled)" />
+            <ingred name="fresh parsley" amt="1/3" unit="cup" note="(chopped)" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="" />
+            <ingred name="black pepper" amt="1/2" unit="tsp" note="" />
+            <ingred name="red hot sauce" amt="3-4" unit="Tbsp" note="(to taste)" />
+            <ingred name="butter" amt="4" unit="Tbsp" note="" />
+            <ingred name="celery sticks" amt="1" unit="cup" note="(as garnish)" />
+         </ingreds>
+         <directions>
+            <direction>Put vinegar and milk in a bowl and allow milk to curdle 10 minutes or more.  
+            </direction>
+            <direction>Preheat oven to 375 F (191 C).
+            </direction>
+            <direction>Using poultry shears or a sharp knife, remove the tips of the wings by cutting at the first joint.
+            </direction>
+            <direction>To the milk add garlic, onions, mayonnaise, lemon juice, blue cheese, parsley, salt and pepper. Set aside.
+            </direction>
+            <direction>In heavy skillet melt the butter and then add the hot sauce. Turn off heat.
+            </direction>
+            <direction>Bake the wings on a heavy cooking tray for 35-40 minutes or until done. 
+            </direction>
+            <direction>Reheat hot sauce. Toss wings in sauce.
+            </direction>
+            <direction>Serve with celery sticks and blue cheese sauce.
+            </direction>
+         </directions>
+         <comment>Serve with beer. Enjoy!</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="42" name="Bambury Pie" categ="dessert"  categ2="" tag="BamburyPie">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="42_Bambury.png" />
+         <specs ctime="0:35" ptime="0:10" serves="6-8" />
+         <ingreds>
+            <ingred name="pecan halves" amt="1" unit="cup" note="(chopped)" />
+            <ingred name="lemons" amt="2" unit="" note="(juice and zest)" />
+            <ingred name="dried currants" amt="3/4" unit="cup" note="" />
+            <ingred name="golden raisins" amt="1/4" unit="cup" note="" />
+            <ingred name="eggs" amt="4" unit="" note="(large)" />
+            <ingred name="sugar" amt="1 1/2" unit="cup" note="" />
+            <ingred name="pie shell" amt="1" unit="" note="" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven to 400 F (204 C).
+            </direction>
+            <direction>Beat the eggs in a bowl.  
+            </direction>
+            <direction>Chop the pecans in the processor.
+            </direction>
+            <direction>To the eggs add nuts, fruit, sugar, lemon juice and lemon zest. Mix well.
+            </direction>
+            <direction>Roll pie shell onto rolling pin and unroll it over the chosen pie dish. Trim edge as you like. Fill crust with mixture.
+            </direction>
+            <direction>Set timer and bake at 400 F (204 C) for 15 minutes. 
+            </direction>
+            <direction>Reduce heat to 375 F (191 C) and continue baking an additional 15-25 minutes or until crust begins to brown.
+            </direction>
+            <direction>Cool 10 minutes and serve warm.
+            </direction>
+         </directions>
+         <comment>Serve with whipped cream. Substituting almonds is fine but they are not as good as pecans here. Mix and match lemon with lime juice. This is a strongly flavored pie. If the currant taste is too strong for you, increase the ratio of golden raisins to currants. See Home->Treats->Roasted Nuts->Comments.</comment>
+      </recipe>
+	   <recipe  date="2/1/2011" id="43" name="Crème Brûlée" categ="dessert"  categ2="" tag="CremeBrulee">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="43_CremeBrulee.png" />
+         <specs ctime="0:35" ptime="0:12" serves="6" />
+         <ingreds>
+            <ingred name="vanilla extract" amt="2" unit="tsp" note="" />
+            <ingred name="sugar" amt="2" unit="tsp" note="" />
+            <ingred name="heavy cream" amt="1" unit="cup" note="" />
+            <ingred name="half and half" amt="1" unit="cup" note="" />
+            <ingred name="egg yolks" amt="2" unit="" note="" />
+            <ingred name="eggs" amt="2" unit="large" note="" />
+            <ingred name="sugar" amt="1/4" unit="cup" note="" />
+            <ingred name="salt" amt="1/4" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven to 325 F (163 C).
+            </direction>
+            <direction>In a heavy pot, heat but do not boil cream, half and half, vanilla and 2 tsp sugar.  
+            </direction>
+            <direction>Beat eggs and yolks, 1/4 cup sugar and salt in a bowl.
+            </direction>
+            <direction>Slowly, adding a little at a time, mix the hot cream mixture into eggs while stirring. This slow addition impedes curdling.
+            </direction>
+            <direction>Pour mixture into six small ramekins. 
+            </direction>
+            <direction>Place ramekins in a baking dish. Place dish in oven.
+            </direction>
+            <direction>Add hot water to baking dish until it comes about 2/3 the way up the ramekins.
+            </direction>
+            <direction>Bake until the custard just sets, about 35-40 minutes.
+            </direction>
+            <direction>Remove ramekins. Cool. Cover with plastic wrap. Refrigerate until very cold.
+            </direction>
+            <direction>Just prior to serving, put 2-3 teaspoons of sugar on top of each ramekin. 
+            </direction>
+            <direction>Caramelize the sugar under the broiler or with a gas torch. 
+            </direction>
+         </directions>
+         <comment>This is delicate in flavor, smooth, creamy and delicious! A medium sized pitcher eases the slow addition of the hot cream into the eggs while mixing, as well as the addition of water to surround the ramekins at the front edge of the oven rack. Caramelizing the sugar under a broiler requires close attention and risks clotting. Use a gas torch to quickly caramelize sugar. Both small and large torches work. Both are available at hardware stores. My six ramekins hold very close to six ounces each. Their outside diameter measurement at the lip is just under 3 3/4 inch. As you can make out in the photo, they are not filled to the rim.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="45" name="Mexican Bean Soup" categ="soup"  categ2="" tag="MexBeanSoup">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="45_MexicanBeanSoup.png" />
+         <specs ctime="1:15" ptime="0:10" serves="6" />
+         <ingreds>
+            <ingred name="pinto beans" amt="1" unit="cup" note="(dried)" />
+            <ingred name="chicken broth" amt="6" unit="cup" note="(divided 4+2)" />
+            <ingred name="chipotles in adobo" amt="2" unit="Tbsp" note="(optional)" />
+            <ingred name="canned tomatoes" amt="1 1/2" unit="cups" note="(with juice)" />
+            <ingred name="epazote" amt="2" unit="sprigs" note="finely chopped(optional) " />
+            <ingred name="garlic" amt="2" unit="cloves" note="(minced)" />
+            <ingred name="onion" amt="3" unit="Tbsp" note="(chopped)" />
+            <ingred name="salt" amt="1" unit="tsp" note="(to taste)" />
+            <ingred name="Muenster cheese" amt="6" unit="Tbsp" note="(cubed)" />
+         </ingreds>
+         <directions>
+            <direction>Presoak pinto beans overnight. 
+            </direction>
+            <direction>Cook beans in 4 cups broth until soft to bite, perhaps 45-55 minutes, depending on soaking.
+            </direction>
+            <direction>Pulse several times garlic, epazote and onions. Add tomatoes and puree. Set aside.
+            </direction>
+            <direction>Puree beans and their broth with chopped chipotles. Set aside.
+            </direction>
+            <direction>In a large pot place 3 Tbsp oil. Heat oil and add tomato puree. Cook 5-10 minutes. 
+            </direction>
+            <direction>Add beans, chipotles and remaining 2 cups broth and cook an additional 20-30 minutes. 
+            </direction>
+            <direction>Taste for salt and doneness. Ladle into bowls. Top with cheese cubes.
+            </direction>
+         </directions>
+         <comment>If you add salt to beans, always wait until the end of cooking. Unsalted beans are just as good for you as salted beans, but they are close to tasteless without salt. If you don't trust yourself to get the salt right, take a small portion and slowly add salt to it until you get it right for you. This will aide your judgment on salting the entire batch. Gouda, Muenster or Mozzarella cheeses are fine. Cooking time for beans depends on age and soaking. Garnish with fresh cilantro. Once you get the salt level right, depending initially entirely on the level of salt in the broth, this is one of the best soups I have ever had.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="46" name="Reuben Sandwich" categ="snack"  categ2="" tag="ReubenSandwich">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="46_ReubenSandwich.png" />
+         <specs ctime="0:10" ptime="0:06" serves="1" />
+         <ingreds>
+            <ingred name="pastrami" amt="1-2" unit="oz." note="(sliced)" />
+            <ingred name="best bread" amt="2" unit="slices" note="" />
+            <ingred name="sauerkraut" amt="4" unit="Tbsp" note="(drained)" />
+            <ingred name="gruyere cheese" amt="1-2" unit="oz." note="(sliced)" />
+            <ingred name="yellow pepper rings" amt="1" unit="Tbsp" note="(chopped)" />
+            <ingred name="mayonnaise" amt="1 1/2" unit="Tbsp" note="" />
+            <ingred name="green olives" amt="1" unit="Tbsp" note="(sliced, optional)" />
+            <ingred name="ketchup" amt="1" unit="Tbsp" note="" />
+            <ingred name="butter" amt="2" unit="Tbsp" note="(one each side)" />
+            <ingred name="salt" amt="" unit="" note="(to taste)" />
+         </ingreds>
+         <directions>
+            <direction>Spread the sauerkraut on the bread. Top with pastrami and then the cheese. 
+            </direction>
+            <direction>Melt 1 Tbsp butter (per side) in a medium hot heavy skillet. You want to brown well but avoid burning.
+            </direction>
+            <direction>With the second piece of bread form a sandwich and place in skillet. Brown both sides.
+            </direction>
+            <direction>Prepare the thousand island dressing by mixing mayonnaise, ketchup and pepper rings.
+            </direction>
+            <direction>Open sandwich. Apply dressing. Optionally add the green olives and serve.
+            </direction>
+         </directions>
+         <comment>Substitute chopped pickles for the pepper rings. I often substitute an aged crumbly cheddar cheese such as Tillamook Black Label or Dubliner. Place a lid over sandwich during browning to enhance cheese melt. Optionally add sliced green olives.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="47" name="Danish Rice Pudding" categ="dessert"  categ2="" tag="RicePudding">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:10" ptime="0:06" serves="6" />
+         <ingreds>
+            <ingred name="long grain rice" amt="1" unit="cup" note="" />
+            <ingred name="milk" amt="5" unit="cups" note="" />
+            <ingred name="blanched almonds" amt="1" unit="cup" note="(chopped)" />
+            <ingred name="sugar" amt="1" unit="cup" note="" />
+            <ingred name="whipping cream" amt="1" unit="cup" note="" />
+            <ingred name="frozen raspberries" amt="10 oz" unit="package" note="" />
+            <ingred name="corn startch" amt="1" unit="tsp" note="" />
+            <ingred name="water" amt="3" unit="Tbsp" note="(or vodka or gin)" />
+            <ingred name="salt" amt="" unit="" note="to taste" />
+         </ingreds>
+         <directions>
+            <direction>Cook rice and milk in a double boiler, covered until tender. Check in 45 minutes. 
+            </direction>
+            <direction>While rice cooks, brown almonds on a cookie sheet at 300 F for about 15 minutes - until golden. Chop almonds.
+            </direction>
+            <direction>Cool rice. Stir in almonds, sugar and extract.
+            </direction>
+            <direction>Stir gelatin in 1/4 cup water. Rest gelatin 5 minutes. Then dissolve gelatin over hot water. Add gelatin to rice.
+            </direction>
+            <direction>Whip the cream and fold into the rice. Pour into serving dishes and chill until very cold.
+            </direction>
+            <direction>Make the sauce by boiling the berries over medium heat. 
+            </direction>
+            <direction>Strain out the seeds if you like, and bring again to a boil.
+            </direction>
+            <direction>Mix the cornstarch with the water or gin, then add to berries and stir well. Refrigerate it too.
+            </direction>
+         </directions>
+         <comment></comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="48" name="Chocolate Dipping Sauce" categ="treat"  categ2="vegan" tag="ChocolateDip">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="48_ChocolateStrawberry.png" />
+         <specs ctime="0:04" ptime="0:06" serves="4" />
+         <ingreds>
+            <ingred name="semisweet chocolate" amt="3" unit="oz." note="" />
+            <ingred name="cocoa powder" amt="1/2" unit="tsp" note="" />
+            <ingred name="sugar" amt="2" unit="tsp" note="" />
+            <ingred name="canola oil" amt="1/2" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>In a double boiler melt together chocolate, cocoa and sugar. Taste to ensure the sugar is melted.
+            </direction>
+            <direction>Add the oil.
+            </direction>
+         </directions>
+         <comment>The oil makes the chocolate glossy. Dip citrus peel, strawberries etc. Add more sugar if you like your chocolate sweet.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="49" name="Fruit Crumble With Rolled Oats" categ="treat"  categ2="dessert" tag="FruitCrumbleOats">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="49_FruitCrumble.png" />
+         <specs ctime="0:45" ptime="0:08" serves="8-10" />
+         <ingreds>
+            <ingred name="rolled oats" amt="1" unit="cup" note="" />
+            <ingred name="flour" amt="3/8" unit="cup" note="" />
+            <ingred name="brown sugar" amt="3/4" unit="cup" note="(soft or pieces)" />
+            <ingred name="cinnamon" amt="1" unit="tsp" note="" />
+            <ingred name="butter" amt="6" unit="Tbsp" note="" />
+            <ingred name="fresh fruit" amt="2" unit="lb." note="" />
+            <ingred name="sugar" amt="3" unit="Tbsp" note="(on fruit)" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven 350 F (177 C).
+            </direction>
+            <direction>Combine oats, flour, brown sugar, cinnamon and butter in processor. Pulse 10 times or to uniformity.
+            </direction>
+            <direction>Place fruit in uncovered baking dish.
+            </direction>
+            <direction>Scatter the sugar over the fruit and then distribute crumble over fruit.
+            </direction>
+            <direction>Bake 45 minutes, or to the edge of browning.
+            </direction>
+         </directions>
+         <comment>Use pears, apricots, apples, plums or rhubarb(photo). For rhubarb increase the sugar to 1/2 cup for a very tart crumble. Ice cream is imperative.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="50" name="Andalusian Shrimp Pancake" categ="treat"  categ2="vegan" tag="SpanishShrimpPancake">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="50_ShrimpPancake.png" />
+         <specs ctime="0:08" ptime="0:08" serves="4" />
+         <ingreds>
+            <ingred name="shrimp" amt="6" unit="Tbsp" note="(finely chopped,vegan skip)" />
+            <ingred name="chickpea flour" amt="2" unit="Tbsp" note="(besan)" />
+            <ingred name="flour" amt="2" unit="Tbsp" note="" />
+            <ingred name="smoked spanish paprika" amt="1/4" unit="tsp" note="(optional)" />
+            <ingred name="baking powder" amt="1/2" unit="tsp" note="" />
+            <ingred name="parsley" amt="2" unit="Tbsp" note="(chopped)" />
+            <ingred name="scallions" amt="3" unit="Tbsp" note="(chopped)" />
+            <ingred name="olive oil" amt="2" unit="Tbsp" note="(batter)" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="" />
+            <ingred name="water" amt="8-10" unit="oz." note="" />
+            <ingred name="vegetable oil" amt="" unit="" note="(to cover pan)" />
+            <ingred name="fresh lemon" amt="1/2" unit="tsp" note="(at serving)" />
+         </ingreds>
+         <directions>
+            <direction>Finely chop the parsley. Chop the scallions. Finely chop the shrimp.
+            </direction>
+            <direction>Place shrimp, besan, flour, paprika, parsley, scallions, olive oil and salt in a bowl. Add water a bit a time, whisking smooth.
+            </direction>
+            <direction>Stir batter well. Place less than 1/4 cup of mixture in a small bowl or ladle.
+            </direction>
+            <direction>Pour batter into pan with hot oil covering bottom. You now have a few seconds only to redistribute .
+            </direction>
+            <direction>If smoking or if the bottom is very brown at 3 minutes, decrease heat slightly. Cook 3 to 4 minutes per side.
+            </direction>
+            <direction>Drizzle with lemon juice and serve.</direction>
+         </directions>
+         <comment>These pancakes are delicious. It will take practice to make presentable pancakes. Proper results require the correct heat, equipment and batter density. I recommend that you finally put the batter in your food processor and thereby reduce the chunk size of the shrimp. This will help with problem of having the  pieces all gathering together at the center of the pancake. This recipe is clearly inspired by Mark Bittman. Please try http://www.nytimes.com/2009/04/01/dining/01mini.html  or search for the podcast by searching for [Minimalist Bittman tortillitas] to see the master make Andalusian pancakes and a stream of many other wonderful dishes. With the ingredients given, I worked out the recipe amounts for you. I just came across this and I am still working on it myself. Substitute any fresh or frozen fish you like. Cod or Halibut is fine. Use cilantro, minced onions, sauté onions, chives etc. Substitute Hungarian paprikD. If the batter sits, you will need to add more water. When you pour the batter, do not pour so much that the edge of the pancake reaches the edge of the pan. The batter is very thin. I suggest a 7-9 inch pancake in an 11 inch non-stick pan.  Besan or garbanzo bean flour, is available at both Indian and Middle Eastern grocery stores.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="51" name="Indian Chipati" categ="treat"  categ2="" tag="Chipati">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="51_Chipati.png" />
+         <specs ctime="0:14" ptime="0:08" serves="3" />
+         <ingreds>
+            <ingred name="whole wheat flour" amt="1/4" unit="cup" note="" />
+            <ingred name="white flour" amt="5" unit="Tbsp" note="" />
+            <ingred name="water" amt="4" unit="Tbsp" note="" />
+            <ingred name="butter" amt="2" unit="tsp" note="(soft unsalted)" />
+            <ingred name="salt" amt="1/4" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Combine all ingredients in a bowl. Mix until it all comes together into a ball. 
+            </direction>
+            <direction>Knead with your hands for two minutes into a buttery pliable dough ball. Dust repeatedly if sticking too much to your hands.
+            </direction>
+            <direction>Rest dough for at least 10 minutes, an hour is better.
+            </direction>
+            <direction>Dust surface repeatedly, and roll out dough into and even log about 10 inches long.
+            </direction>
+            <direction>Cut log into thirds and then again into thirds to produce nine pieces of approximately the same size.  
+            </direction>
+            <direction>With each piece roll into a ball and place on a floured surface. Press down and strike lightly with the heel of your hand to produce a disk about 2 inches in diameter.
+            </direction>
+            <direction>Continue the flattening with a floured rolling pin until the chipati is 5-6 inches in diameter.(Try five and then six and compare results)
+            </direction>
+            <direction>Place several chipatis in a very hot ungreased heavy skillet. 
+            </direction>
+            <direction>Watch the chippati swell like a balloon as you lightly scorch both side, perhaps 60 second per side. 
+            </direction>
+         </directions>
+         <comment>Delicious, easy, quick, emergency bread/crackers in a hurry. Most recipes call for 100% whole wheat flour. Some experience better puffing, following initial browning, by holding the chipati on a metal spatula with holes over a gas burner. </comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="52" name="Processor Hollandaise" categ="sauce"  categ2="" tag="Hollandaise">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="52_Hollandaise.png" />
+         <specs ctime="0:01" ptime="0:08" serves="3-6" />
+         <ingreds>
+            <ingred name="butter" amt="8" unit="Tbsp" note="(1/4 lb.)" />
+            <ingred name="lemon juice" amt="2 - 2 1/2" unit="Tbsp" note="" />
+            <ingred name="salt" amt="1/4" unit="tsp" note="" />
+            <ingred name="egg yolks" amt="3" unit="" note="(large)" />
+            <ingred name="curry powder" amt="1/8" unit="tsp" note="(optional)" />
+         </ingreds>
+         <directions>
+            <direction>Combine lemon juice, salt, curry powder and yolks in food processor. It is best to allow yolks to approach room temperature before processing. 
+            </direction>
+            <direction>Heat butter to bubbling in heavy pan.
+            </direction>
+            <direction>Turn processor on high. Very slowly add hot butter. Aim at producing a very thin stream that results in taking about 1 minutes to complete.
+            </direction>
+            <direction>Allow blender to continue to run until desired thickness is reached. Serve now or refrigerate up to two days.
+            </direction>
+         </directions>
+         <comment>The butter needs to be very hot and must be added slowly. It takes time to thicken. The processor with throw clots on the wall of the bowl, as thickening begins to take hold. If the sauce refuses to thicken, you may want to process for 5 minutes. The finished sauce will thicken some as it sits. Think about transferring the hot butter to a small ceramic pitcher that is preheated with very hot tap water. The mass of the pan keeps the butter hotter; the pitcher makes the job simpler. Try it on snapped off asparagus, boiled 6-8 minutes. Even if the sauce fails to completely thicken, it will have the same glorious taste!</comment>
+		</recipe>
+		<recipe  date="8/21/2012" id="53" name="Pesto with Roasted Pecans" categ="sauce"  categ2="vegan" tag="PestoWithPecans">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:00" ptime="0:08" serves="3-4" />
+         <ingreds>
+            <ingred name="fresh basil leaves" amt="1 1/2" unit="cup" note="" />
+            <ingred name="olive oil" amt="1/2" unit="cup" note="" />
+            <ingred name="garlic" amt="1" unit="clove" note="(smashed and peeled)" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="parmigiano reggiano" amt="1/3" unit="cup" note="" />
+            <ingred name="roasted pecans" amt="3-4" unit="Tbsp" note="(chopped)" />
+         </ingreds>
+         <directions>
+            <direction>Place pecans in processor. Pulse until chopped.
+            </direction>
+            <direction>Add remaining ingredients, basil, oil, garlic, salt and cheese. Pulse until smooth.
+            </direction>
+            <direction>Serve on pastD. When pasta is nearly done place 1-2 Tbsp of the cooking water in the pesto and pulse.
+            </direction>
+            <direction>Serve now. Pesto sauce can be frozen or stored in refrigerator up to three days.
+            </direction>
+         </directions>
+         <comment>See Home->Treats->Roasted Nuts. You can substitute non-roasted pecans, but why? It only take 15 minutes to roast the pecans. The difference is immense. The first time I ate pesto I did not like it. How things change! There's nothing like it.</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="54" name="Moroccan Chicken" categ="entree"  categ2="" tag="MoroccanChicken">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="54_MoroccanChicken.png" />
+         <specs ctime="1:00" ptime="0:08" serves="3-4" />
+         <ingreds>
+            <ingred name="chicken thighs" amt="4-6" unit="" note="" />
+            <ingred name="lemon" amt="1" unit="" note="(whole, sliced)" />
+            <ingred name="green olives" amt="18-24" unit="" note="" />
+            <ingred name="garlic" amt="2-3" unit="clove" note="(smashed and peeled)" />
+            <ingred name="onion" amt="1" unit="medium" note="(sliced)" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="(heaping)" />
+            <ingred name="tumeric" amt="2" unit="tsp" note="" />
+            <ingred name="harissa" amt="2" unit="Tbsp" note="" />
+            <ingred name="ground cumin" amt="1/2" unit="tsp" note="(roasted)" />
+            <ingred name="olive oil" amt="2" unit="Tbsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven to 400 F (204 C).
+            </direction>
+            <direction>In a bowl combine and then mix olives, garlic, onions, salt, turmeric, harissa, cumin and olive oil. Set aside for 10 minutes.
+            </direction>
+            <direction>Place chicken in baking dish and cover with lemon slices. Pour above mixture over chicken. 
+            </direction>
+            <direction>Bake uncovered 30 minutes. Cover. Reduce heat to 375 F (191 C) and bake an additional 30 minutes or more.
+            </direction>
+         </directions>
+         <comment>Harissa and the best green olives can be found at Middle Eastern food stores. See Home->Treats->Kathleen's Spicy Nuts->Comments for more about roasting cumin seed.</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="55" name="French Toast" categ="treat"  categ2="snack" tag="French Toast">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:08" ptime="0:03" serves="1-2" />
+         <ingreds>
+            <ingred name="egg" amt="1" unit="" note="" />
+            <ingred name="milk" amt="3/4" unit="cup" note="" />
+            <ingred name="ground cinnamon" amt="1/8" unit="tsp" note="(optional)" />
+            <ingred name="best bread" amt="2" unit="slices" note="" />
+            <ingred name="butter" amt="4" unit="tsp" note="(two per side)" />
+            <ingred name="maple syrup" amt="" unit="" note="(too taste)" />
+         </ingreds>
+         <directions>
+            <direction>Add egg to a bowl and beat with a fork. 
+            </direction>
+            <direction>Add milk and cinnamon to egg and beat briefly.
+            </direction>
+            <direction>Heat heavy skillet to medium high. Add 2 tsp butter. 
+            </direction>
+            <direction>Dip bread slice halves in batter and brown in skillet. Flip and add additional butter. Brown and serve with syrup.
+            </direction>
+         </directions>
+         <comment>Serve with pork sausage, chorizo or bacon.</comment>
+		</recipe>
+		<recipe  date="11/14/2012" id="56" name="Apricot Flan With Nuts" categ="dessert"  categ2="" tag="ApricotFlan">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="56_ApricotFlan.png" />
+         <specs ctime="0:40" ptime="0:05" serves="4-6" />
+         <ingreds>
+            <ingred name="egg" amt="1" unit="" note="" />
+            <ingred name="cream" amt="1" unit="cup" note="" />
+            <ingred name="ground cinnamon" amt="1/8" unit="tsp" note="(optional)" />
+            <ingred name="fresh apricots" amt="2" unit="cups" note="(cut in half)" />
+            <ingred name="brown sugar" amt="1/3" unit="cup" note="" />
+            <ingred name="nuts" amt="1/4" unit="cup" note="(chopped)" />
+         </ingreds>
+         <directions>
+            <direction>Preheat oven to 375 F (191 C). 
+            </direction>
+            <direction>Add egg to a pyrex pie dish or similar and beat lightly with a fork. 
+            </direction>
+            <direction>Add milk and cinnamon to egg and beat briefly.
+            </direction>
+            <direction>Cut apricots in half and discard the pits. 
+            </direction>
+            <direction>Place apricot halves in pie dish and distribute brown sugar over the apricots.
+            </direction>
+            <direction>Bake for 40 minutes or until browning just begins. 
+            </direction>
+         </directions>
+         <comment>An easy and delicious delight. Almonds are an obvious choice. See photo with pistachios. Substitute plums or apples.</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="57" name="North African Shrimp" categ="entree"  categ2="" tag="SpicyShrimp">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="57_SpicyShrimp.png" />
+         <specs ctime="0:15" ptime="0:08" serves="3-4" />
+         <ingreds>
+            <ingred name="shrimp" amt="1" unit="cup" note="(bite size,cooked or raw)" />
+            <ingred name="olive oil" amt="4" unit="Tbsp" note="" />	
+            <ingred name="garlic" amt="2" unit="cloves" note="(chopped or pressed)" />
+            <ingred name="harissa" amt="1-2" unit="Tbsp" note="(to taste)" />
+            <ingred name="salt" amt="1/2" unit="tsp" note="(heaping)" />
+            <ingred name="lime juice" amt="2-3" unit="Tbsp" note="" />
+            <ingred name="soy sauce" amt="2" unit="Tbsp" note="" />
+            <ingred name="ginger root" amt="2" unit="Tbsp" note="(grated)" />
+            <ingred name="fresh cilantro" amt="5" unit="Tbsp" note="(4 + 1)" />
+            <ingred name="celery" amt="1/3" unit="cup" note="(coarsely chopped)" />
+         </ingreds>
+         <directions>
+            <direction>Combine oil, garlic, harissa, salt, lime juice, soy sauce, ginger and 4 Tbsp cilantro in a heavy skillet and cook at medium heat for 3 minutes.
+            </direction>
+            <direction>Add the celery and one minute later the shrimp. Continue cooking for about two minutes or until the uncooked shrimp turn reddish on both sides.
+            </direction>
+            <direction>Garnish with remaining cilantro, taste for salt and serve.
+            </direction>
+         </directions>
+         <comment>Serve on Basmati rice. Harissa is available at Middle Eastern food stores. See Home->Sauces->HarissD.</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="58" name="Red Wine Reduction Sauce" categ="sauce"  categ2="" tag="Wine Sauce">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+			<specs ctime="0:10" ptime="0:04" serves="3-5" />
+			<ingreds>
+				<ingred name="butter" amt="4" unit="Tbsp" note="(1/8 lb.)" />
+				<ingred name="shallots" amt="1/3" unit="cup" note="(chopped)" />
+				<ingred name="Dijon mustard" amt="1" unit="Tbsp" note="" />
+				<ingred name="balsamic vinegar" amt="1" unit="Tbsp" note="" />
+				<ingred name="chicken broth" amt="1" unit="cup" note="" />
+				<ingred name="red wine" amt="6" unit="oz." note="" />
+			</ingreds>
+			<directions>
+				<direction>Sauté the shallots in 2 Tbsp butter at medium heat until tender - perhaps 3 minutes.
+				</direction>
+				<direction>Add mustard and stir for 15 seconds.
+				</direction>
+				<direction>Add vinegar, broth and wine. Increase heat to high and stir occasionally until sauce is reduced to about 1/2 cup (4 oz.) - perhaps 6-8 minutes.
+				</direction>
+				<direction>Add remaining 2 Tbsp of butter. Stir and remove from heat.
+				</direction>
+				<direction>Salt and pepper to taste.
+				</direction>
+			</directions>
+			<comment>This sauce is uncommonly good on steak. Try it on Home->Entrees->Blue Cheese Burgers. Substitute yellow onion or scallions for shallots. The quality of the wine here has little importance, unless you plan to drink the rest. Substitute any vinegar you like.</comment>
+		</recipe>
+		<recipe  date="10/14/2011" id="59" name="Blue Cheese Burger" categ="entree"  categ2="" tag="BlueBurgers">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+			<specs ctime="0:09" ptime="0:05" serves="4" />
+			<ingreds>
+				<ingred name="ground chuck" amt="20-24 oz" unit="" note="(1 1/4-1 1/2 lb.)" />
+				<ingred name="worchestershire sauce" amt="1" unit="Tbsp" note="" />
+				<ingred name="salt and pepper" amt="to taste" unit="" note="" />
+				<ingred name="blue cheese" amt="4" unit="oz." note="(crumbled)" />
+			</ingreds>
+			<directions>
+				<direction>Preheat your grill to high heat.
+				</direction>
+				<direction>Place meat in a bowl. Mix in worcestershire sauce, salt and pepper.
+				</direction>
+				<direction>Divide meat into 8 equally sized pieces. Shape pieces into 1/2" thick patties.
+				</direction>
+				<direction>Use your fingers to form a small well in four of the patties. Fill each of these depressions with one ounce of crumbled blue cheese
+				</direction>
+				<direction>Place one of the patties without a well on top of the cheese and press firmly around the edge of the two patties to seal in the cheese.
+				</direction>
+				<direction>Repeat for each of the four burgers.
+				</direction>
+				<direction>Grill burgers 3 to 4 minutes per side. 
+				</direction>
+				<direction>Serve with Home->Sauces->Red Wine Reduction Sauce
+				</direction>
+			</directions>
+			<comment>Cooking time will vary from grill to grill.</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="60" name="Black Bean Cakes" categ="entree"  categ2="treat" tag="Bean Cakes">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+			<specs ctime="0:15" ptime="0:08" serves="6" />
+			<ingreds>
+				<ingred name="black beans" amt="2" unit="cups" note="(chopped)" />
+				<ingred name="garbanzo beans" amt="2" unit="cups" note="(puréed)" />
+				<ingred name="scallions" amt="4" unit="" note="(chopped)" />
+				<ingred name="fresh cilantro" amt="to taste" unit="" note="(chopped)" />
+				<ingred name="ground cumin" amt="1" unit="tsp" note="(roasted)" />
+				<ingred name="salt" amt="1" unit="tsp" note="(scant)" />
+				<ingred name="black pepper" amt="" unit="" note="(to taste)" />
+				<ingred name="garlic" amt="1-2" unit="cloves" note="(chopped)" />
+				<ingred name="egg" amt="1" unit="" note="(large)" />
+				<ingred name="cornmeal" amt="2" unit="Tbsp" note="(plus 1/2 cup)" />
+				<ingred name="fresh jalapeno" amt="1" unit="tsp" note="(thinly sliced)" />
+				<ingred name="vegetable oil" amt="4" unit="Tbsp" note="" />
+				<ingred name="fresh lemon" amt="1" unit="" note="(sliced)" />
+				<ingred name="sour cream" amt="" unit="" note="(optional topping)" />
+				<ingred name="tomato salsa" amt="" unit="" note="(optional topping)" />
+				<ingred name="cilantro" amt="3" unit="Tbsp" note="(garnish)" />			
+			</ingreds>
+			<directions>
+				<direction>Coarsely process or hand mash the drained canned black beans. You may instead soak and boil dried black beans for better results. Purée the canned garbanzo beans.
+				</direction>
+				<direction>Combine black beans and garbanzo beans. Stir in egg, 2 Tbsp cornmeal, scallions, cilantro, cumin, garlic, jalapeno, salt and pepper.
+				</direction>
+				<direction>Place 1/2 cup cornmeal in a bowl.
+				</direction>
+				<direction>Place a 1/3 cup scoop of bean mixture in bowl and coat lightly with cornmeal. 
+				</direction>
+				<direction>Place on a platter and flatten to 3/8 inch (10 mm.) Repeat until all batter used, about 12 cakes.
+				</direction>
+				<direction>Fry patties 3-4 minutes per side in oil in batches at medium heat. Oil should be hot but not smoke. Fry until browned on both sides.
+				</direction>
+				<direction>Serve hot with lemon slices, salsa and labna or sour cream. 
+				</direction>
+				<direction>Adjust for salt. Garnish with chopped fresh cilantro.
+				</direction>
+			</directions>
+			<comment>Salt adequately. Substitute yellow onion for scallions. Substitute 2 Tbsp chopped bell pepper for jalapeno. Substitute parsley for cilantro. The small additional time and effort to soak and cook black beans is well worth it. See Home->Soups->Barb's Sausage Chili for cooking beans). I find that canned chickpeas are fine. The coarseness of the hand mashed beans makes for a better cake, but makes the cake more crumbly. The puréed garbanzo beans (chickpeas) help the cakes hold together and produce a falafel flavor. Serve with a Mexican beer such a Negra Modelo or Tecate. See Home->Treats->Kathleen's Spicy Nuts->Comments for information on roasting cumin seed, which takes about 2 minutes. See Home->Treats->Mexican Tomato Salsa</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="61" name="Chinese Hot And Sour Soup" categ="soup"  categ2="" tag="HotSourSoup">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+			<specs ctime="0:06" ptime="0:08" serves="8" />
+			<ingreds>
+				<ingred name="shitake mushrooms" amt="1/2" unit="cup" note="(sliced)" />
+				<ingred name="soy sauce" amt="1" unit="Tbsp" note="" />
+				<ingred name="black pepper" amt="" unit="" note="(to taste)" />
+				<ingred name="chicken broth" amt="9-10" unit="cups" note="" />
+				<ingred name="tofu" amt="1/2" unit="cup" note="(chopped,optional)" />
+				<ingred name="lemon juice" amt="3" unit="Tbsp" note="" />
+				<ingred name="corn starch" amt="4" unit="Tbsp" note="" />
+				<ingred name="eggs" amt="1 or 2" unit="" note="(large)" />
+				<ingred name="oriental hot oil" amt="1 - 2" unit="Tbsp" note="" />
+				<ingred name="scallions" amt="3" unit="Tbsp" note="(chopped)" />
+			</ingreds>
+			<directions>
+				<direction>In a saucepan place mushrooms, soya sauce, black pepper and broth. Bring to a boil. Turn to a simmer.
+				</direction>
+				<direction>Add tofu and lemon juice. Simmer several minutes.
+				</direction>
+				<direction>Dissolve the corn starch in 1/2 cup water and stir into to the soup. Cook until it thickens.
+				</direction>
+				<direction>Beat egg(s) and add to the soup slowly - stirring constantly. 
+				</direction>
+				<direction>Add hot oil, stir and remove from heat. Check for salt.
+				</direction>
+				<direction>Ladle into bowls and garnish with scallions.
+				</direction>
+			</directions>
+			<comment>Optionally add thin pork shreds initially. The oriental pepper oil is very spicy. This soup is thinner than the average restaurant version. Substitute your favorite mushrooms. </comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="62" name="Beet Salad Mustard Vinaigrette, Roasted Pecans and Blue Cheese" categ="veggie"  categ2="vegan" tag="Beet Salad">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="62_BeetSalad.png" />
+			<specs ctime="1:00" ptime="0:08" serves="4" />
+			<ingreds>
+				<ingred name="beets" amt="1/2" unit="lb./225 mg" note="(sliced)" />
+				<ingred name="leaf lettuce" amt="1" unit="cup" note="" />
+				<ingred name="olive oil" amt="4" unit="tsp" note="(begin dressing)" />
+				<ingred name="cider vinegar" amt="1" unit="Tbsp" note="" />
+				<ingred name="salt" amt="1/4" unit="tsp" note="(scant)" />
+				<ingred name="scallions" amt="1" unit="Tbsp" note="chopped" />
+				<ingred name="Dijon mustard" amt="1/2" unit="tsp" note="(end dressing)" />
+				<ingred name="Blue Cheese" amt="1/4" unit="cup" note="(crumbled)" />
+				<ingred name="pecans" amt="1/4" unit="cup" note="(roasted, chopped)" />
+			</ingreds>
+			<directions>
+				<direction>Wash beets and remove root and stems. Wrap tightly in aluminum foil and bake at 400 F (204 C). Check for tenderness after 1 hour.
+				</direction>
+				<direction>Cool beets. The skin will slide off. Cut into 1/8 inch slices.
+				</direction>
+				<direction>Combine oil, vinegar, salt, scallions and mustard in a bowl to make the dressing
+				</direction>
+				<direction>Add the sliced beets to the bowl and stir.  
+				</direction>
+				<direction>Distribute the leaf lettuce on each of four plates. Spoon the beets on the lettuce. Top with blue cheese, pecans and serve.
+				</direction>
+			</directions>
+			<comment>The time it takes to bake beets is variable. It is really not a problem if they cook too long. This method is easy, flexible and produces beets intense in flavor and color. Beets can be cooked ahead and stored for days in the refrigerator. A pressure cooker is the quickest way to cook beets. For blue cheese, Roquefort, Cashel Blue and Italian Gorgonzola are best. It only take 15 minutes to roast nuts. They freeze very well. See Home->Treats->Roasted Nuts. </comment>
+		</recipe>
+      
+      <recipe  date="2/1/2011" id="63" name="Apple Pancake" categ="dessert" categ2="treat" tag="ApplePancake">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="63_ApplePancake.png" />
+         <specs ctime="0:20" ptime="0:10" serves="4" />
+         <ingreds>
+				<ingred name="tart apples" amt="2" unit="cups  (sliced)" note="" />
+				<ingred name="sugar" amt="1/4" unit="cup" note="" />
+				<ingred name="cinnamon" amt="1/8" unit="tsp" note="" />
+				<ingred name="lemon" amt="1" unit="" note="(juiced)" />
+				<ingred name="butter" amt="5" unit="Tbsp" note="(2 1/2 + 2 1/2)" />
+				<ingred name="eggs" amt="3" unit="" note="(large)" />
+				<ingred name="milk" amt="1/2" unit="cup" note="" />
+				<ingred name="salt" amt="1/2" unit="tsp" note="(scant)" />
+				<ingred name="flour" amt="1/2" unit="cup" note="" />
+				<ingred name="maple syrup" amt="(as needed)" unit="" note="" />
+			</ingreds> 
+			<directions>
+				<direction>Preheat oven to 425 F (218 C).
+				</direction>
+				<direction>Skin the apples only if you prefer. Put sliced apples, sugar, cinnamon and lemon in a bowl and stir briefly. 
+				</direction>
+				<direction>Melt half the butter in a 10" cast iron pan at medium low heat. Set aside 1/2 the butter.
+				</direction>
+				<direction>Add contents of bowl into the cast iron pan, stir and cook at medium heat for about 5 minutes. 
+				</direction>
+				<direction>Meanwhile, in a bowl quickly stir well the salt, flour, milk, eggs and the half of the butter you set aside to produce a smooth batter.
+				</direction>
+				<direction>Pour the batter over the apple mixture in the skillet.
+				</direction>
+				<direction>Put the skillet in the oven and bake for 18-20 minutes or until the edges of the cake are very dark brown. This pancake will puff and then collapse.
+				</direction>
+				<direction>Cool five minutes. Slice and serve with maple syrup mixed with a bit of butter.
+				</direction>
+			</directions>
+			<comment>The appearance of this dish is improved by dusting with confectionary sugar. A fine breakfast or dessert!
+			</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="64" name="Turkish Coffee" categ="treat" categ2="" tag="Turkish Coffee">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="64_TurkishCoffee2.png" />
+         <specs ctime="0:02" ptime="0:00" serves="1" />
+         <ingreds>
+            <ingred name="Najjar Cafe Classic" amt="1" unit="tsp" note="(heaping)" />
+				<ingred name="water" amt="9" unit="oz." note="(265 cc)" />
+				<ingred name="sugar" amt="1/2" unit="tsp" note="" />
+			</ingreds> 
+			<directions>
+				<direction>Bring water to a boil in a broad pot or pan.
+				</direction>
+				<direction>While waiting, place 1 heaping teaspoon of coffee and one half teaspoon of sugar in a mug.
+				</direction>
+				<direction>Pour boiling water into the mug and stir well.
+				</direction>
+			</directions>
+			<comment> With my discovery of Najjar coffee, I am now a coffee lover. The name of this recipe could just as well have been Instant Turkish Coffee. Lebanese Najjar Green Label Classic with Cardamon is well worth seeking out in Middle Eastern stores. Najjar Blue Label is without Cardamon. You can of course substitute any fine ground Greek coffee. The fine grounds will settle to form a bed at the bottom of the cup. This settling is aided by simmering and stirring. Some of you will prefer filtering this coffee. Paper towel serves. I put the sugar and ground coffee in a mug and simply pour boiling water into the mug. This results in more foam. I relish dipping and thereby coating biscotti with this delicious foam. Boiling time on my gas stove is 90 seconds. The boil time is made faster by using a broad base pot or skillet. Lemon peel only improves this truly great coffee!
+			</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="65" name="Eggplant with Pomegranate Sauce" categ="veggie" categ2="vegan" tag="EggplantPomegranate">
+         <photo iPhoneContentMode="12" iPadContentMode="0" name="65_EggplantPomegranate.png" />
+         <specs ctime="0:20" ptime="0:06" serves="4-6" />
+         <ingreds>
+            <ingred name="eggplant" amt="1" unit="" note="(large)" />
+				<ingred name="olive oil" amt="1" unit="Tbsp" note="" />
+				<ingred name="pomegranate molasses" amt="2" unit="Tbsp" note="(begin sauce)" />
+				<ingred name="olive oil" amt="2" unit="Tbsp" note="" />
+				<ingred name="lemon juice" amt="1" unit="Tbsp" note="" />
+				<ingred name="garlic" amt="1" unit="clove" note="(minced/pressed)" />
+				<ingred name="salt" amt="1/2" unit="tsp" note="" />
+				<ingred name="sugar" amt="1/4" unit="tsp" note="(end sauce)" />
+				<ingred name="pomegranate seeds" amt="3" unit="Tbsp" note="" />
+				<ingred name="cilantro" amt="3" unit="Tbsp" note="(chopped)" />
+			</ingreds> 
+			<directions>
+				<direction>Preheat oven to 425 F.
+				</direction>
+				<direction>Slice eggplant across its axis into 3/8 in.(1 cm.) slices. Place eggplant in a single layer on a lightly oil baking sheet.
+				</direction>
+				<direction>Salt. Brush with olive oil.
+				</direction>
+				<direction>Bake on a cookie sheet, turning once, until browned on both sides - perhaps 10 minutes per side.
+				</direction>
+				<direction>While baking, make the sauce in a bowl, mixing molasses, oil, lemon juice, garlic, salt and sugar.
+				</direction>
+				<direction> Arrange eggplant on a platter and drizzle with sauce.
+				</direction>
+				<direction> Garnish with pomegranate seeds and cilantro and serve.
+				</direction>
+			</directions>
+			<comment>Beautiful and delicious. Substitute fresh basil for cilantro. Pomegranate molasses is available at Middle Eastern food stores.</comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="66" name="Cobb Salad on Pita" categ="entree" categ2="" tag="Cobb Salad">
+         <photo iPhoneContentMode="12" iPadContentMode="0" name="" />
+         <specs ctime="0:10" ptime="0:08" serves="4" />
+         <ingreds>
+				<ingred name="bacon" amt="5" unit="slices" note="(chopped)" />
+				<ingred name="hard boiled egg" amt="1" unit="" note="" />
+				<ingred name="olive oil" amt="3" unit="Tbsp" note="" />
+				<ingred name="cider vinegar" amt="2" unit="Tbsp" note="" />
+				<ingred name="salt" amt="1/2" unit="tsp" note="(or more)" />
+				<ingred name="black pepper" amt="(to taste)" unit="" note="" />
+				<ingred name="Dijon mustard" amt="1/2" unit="tsp" note="" />
+				<ingred name="avocado" amt="1" unit="" note="" />
+				<ingred name="cooked chicken breasts" amt="2-3" unit="cups" note="" />
+				<ingred name="cherry tomatoes" amt="2/3" unit="cup" note="" />
+				<ingred name="blue cheese" amt="1/2" unit="cup" note="(crumbled)" />
+				<ingred name="pita bread" amt="4" unit="(7 in. 18 mm.)" note="" />
+				<ingred name="romaine lettuce" amt="2" unit="cups" note="(chopped)" />
+			</ingreds> 
+			<directions>
+				<direction>Hard boil the egg 10 minutes while you fry the bacon.
+				</direction>
+				<direction>Combine oil, vinegar, salt, pepper and mustard. Whisk well together.
+				</direction>
+				<direction>Chop the avocado and the chicken into 1/2 inch (13 mm) cubes.
+				</direction>
+				<direction>Quarter the cherry tomatoes. Chop the bacon. Chop the lettuce.
+				</direction>
+				<direction>Add avocado, chicken, tomatoes, bacon and cheese to the dressing and toss.
+				</direction>
+				<direction>Slice each pita into two semi-circles . Open each half and stuff it with an equal share of romaine lettuce.
+				</direction>
+				<direction> Divide the chicken salad among the pitas.
+				</direction>
+				<direction> Push the egg through a tea strainer. Garnish the pitas with the egg.
+				</direction>
+			</directions>
+			<comment>There is much debate over the origins of this great salad, but no debate over its popularity.</comment>
+		</recipe>
+      <recipe  date="2/1/2011" id="67" name="Jao Tze Dipping Sauce" categ="sauce"  categ2="" tag="ChineseHotOil">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:00" ptime="0:04" serves="6" />
+         <ingreds>
+            <ingred name="sesame hot oil" amt="2" unit="Tbsp" note="" />
+            <ingred name="ginger root" amt="1" unit="Tbsp" note="" />
+            <ingred name="sugar" amt="1/4" unit="tsp" note="" />
+            <ingred name="soy sauce" amt="1/4" unit="cup" note="" />
+            <ingred name="minced garlic" amt="2" unit="tsp" note="" />
+            <ingred name="vinegar" amt="1/4" unit="cup" note="" />
+            <ingred name="sherry" amt="1 1/2" unit="Tbsp" note="(optional)" />
+         </ingreds>
+         <directions>
+            
+            <direction>Make dipping sauce by combining all seven ingredients, namely, hot oil, ginger, sugar, soy sauce, minced garlic, vinegar and sherry(optional).
+            </direction>
+         </directions>		
+         <comment> This sauce is fabulous. Serve with Jao Tze dumplings (Home->Entrees->Potsticker Dumplings).</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="68" name="Chicken Wings Teriyaki" categ="entree"  categ2="" tag="WingsTeriyaki">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:30" ptime="0:06" serves="4-6" />
+         <ingreds>
+            <ingred name="chicken wings" amt="3" unit="lbs." note="(1.36 kg)" />
+            <ingred name="soy sauce" amt="1/4" unit="cup" note="" />
+            <ingred name="lemon juice" amt="3" unit="Tbsp" note="(4.4 cl.)" />
+            <ingred name="water" amt="3" unit="Tbsp" note="(4.4 cl.)" />
+            <ingred name="brown sugar" amt="1/4" unit="cup" note="(6 cl)" />
+            <ingred name="vegetable oil" amt="2" unit="Tbsp" note="(3 cl)" />
+            <ingred name="garlic cloves" amt="1 - 2" unit="pressed" note="" />
+         </ingreds>
+         <directions>
+            <direction>Cut the chicken wings at the joint and discard the tips.
+            </direction>
+            <direction>Place all ingredients in a ziplock bag. 
+            </direction>
+            <direction>Marinate 2 hours to overnight in the refrigerator. Turn twice.
+            </direction>
+            <direction>Drain chicken. Barbeque or broil until tender, about 20-30 minutes. When poked, juices run clear. Serve.
+            </direction>
+         </directions>		
+			<comment> Delicious too, served cold the next day.</comment>
+      </recipe>
+      <recipe  date="2/1/2011" id="69" name="Raised Waffles" categ="treat"  categ2="dessert" tag="Waffles">
+         <photo  name="69_BelgianWaffle.png" />
+         <specs ctime="0:30" ptime="0:08" serves="6-8" />
+         <ingreds>
+            <ingred name="warm water" amt="1/2" unit="cup" note="(12 cl)" />
+            <ingred name="dry yeast" amt="2" unit="tsp" note="(1 cl)" />
+            <ingred name="milk" amt="1" unit="cup" note="(24 cl)" />
+            <ingred name="melted butter" amt="1/4" unit="lb." note="(110 gm.)" />
+            <ingred name="salt" amt="1/4" unit="tsp" note="(1.2 ml)" />
+            <ingred name="sugar" amt="1" unit="tsp" note="(5 ml)" />
+            <ingred name="all-purpose flour" amt="2" unit="cups" note="(0.48 L)" />
+            <ingred name="eggs" amt="2" unit="" note="" />
+            <ingred name="baking soda" amt="1/4" unit="tsp" note="(1.2 ml)" />
+         </ingreds>
+         <directions>
+            <direction>Place water and yeast in a very large bowl. Let dissolve for 5 minutes. 
+            </direction>
+            <direction>Add milk, butter, salt, sugar, and flour to the yeast mixture and blend well until smooth. 
+            </direction>
+            <direction>Cover bowl with plastic wrap. Let stand overnight at room temperature.
+            </direction>
+            <direction>Just before cooking, beat in the eggs and add the baking sodD.
+            </direction>
+         </directions>		
+			<comment> Serve for breakfast with maple syrup using: 1 cup maple syrup, 1/2 cup water and 1 Tbsp butter. Serve as a dessert with whipped cream, sliced strawberries, grapes, kiwi fruit and chopped roasted pecan. See Home->Treats->Roasted Nuts. Batter keeps for two days refrigerated. This recipe is from an early Fanny Farmer cookbook. It is a great recipe. Whipped cream: 1 cup heavy cream, 1/4 cup sugar and 1 tsp vanilla extract with highest speed on beater.</comment>
+      </recipe>
+      <recipe  date="10/1/2011" id="70" name="Bechemel Sauce" categ="sauce"  categ2="" tag="Bechemel">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+			<specs ctime="0:10" ptime="0:04" serves="4" />
+			<ingreds>
+				<ingred name="butter" amt="4" unit="Tbsp" note="(1/8 lb.)" />
+				<ingred name="flour" amt="3" unit="Tbsp" note="(all-purpose)" />
+				<ingred name="milk" amt="2" unit="cups" note="" />
+				<ingred name="salt" amt="1/4" unit="tsp" note="" />
+				<ingred name="nutmeg" amt="1/4" unit="tsp" note="(optional)" />
+			</ingreds>
+			<directions>
+				<direction>You will need to warm the milk.
+				</direction>
+				<direction>At medium heat melt butter in a saucepan.
+				</direction>
+				<direction>Add the flour to the melted butter. Stir the bubbling butter constantly for 3-4 minutes. Do not brown.
+				</direction>
+				<direction>While stirring the butter and flour mixture, add the warm milk slowly. Add 2 Tbsp at a time until half of the milk is added. Then add 4 Tbsp at a time until all the milk is incorporated.
+				</direction>
+				<direction>Continue to cook until the sauce begins to thicken slightly, perhaps 5 minutes. The sauce will thicken further as it cools.
+				</direction>
+				<direction>Add salt and pepper to taste.
+				</direction>
+			</directions>
+			<comment>This recipe makes enough for a very large dish of lasagnD. Bechemel can be refrigerated. If the sauce is too thick to spread, simply warm and add a bit more milk. Sauté 1 lb. (0.4 kg) salted mushrooms in 50 - 50 butter - oil until browning appears. Then toss in a handful of chopped parsley and 2 chopped cloves of garlic. Stir while cooking one more minute. Fill a buttered lasagna dish with 4 repeating layers of cooked sheet pasta, Bechemel and mushroom  mixture. Cover well with grated Piave or Parmesan. Bake at 400F. Initially covered for 20 minutes or until bubbling, then cook uncovered for 10-15 minutes until cheese is browned. Add salt and pepper to taste.</comment>
+		</recipe>
+      <recipe  date="2/1/2011" id="72" name="Tomato and Onion Frittata" categ="entree"  categ2="treat" tag="Frittata">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="72_FrittatD.png" />
+			<specs ctime="0:24" ptime="0:10" serves="4-6" />
+			<ingreds>
+				<ingred name="yellow onions" amt="2" unit="medium" note="(sliced)" />
+				<ingred name="olive oil" amt="4" unit="Tbsp" note="" />
+				<ingred name="diced canned tomatoes" amt="1" unit="cup" note="(drained)" />
+				<ingred name="salt" amt="1" unit="tsp" note="" />
+				<ingred name="black pepper" amt="to taste" unit="" note="" />
+				<ingred name="eggs" amt="5" unit="" note="(large)" />
+				<ingred name="parmesan cheese" amt="3" unit="Tbsp" note="(grated)" />
+				<ingred name="fresh basil" amt="20" unit="leaves" note="(chopped)" />
+				<ingred name="butter" amt="2" unit="Tbsp" note="" />
+			</ingreds>
+			<directions>
+				<direction>Sauté the onions in the olive oil at medium low heat until they lightly brown.
+				</direction>
+				<direction>Add the tomatoes. Turn the heat to medium or medium high and cook 5-6 minutes while stirring.
+				</direction>
+				<direction>Drain the tomatoes and onions of all the oil. Transfer the tomatoes and onions to a bowl. Set aside to cool.
+				</direction>
+				<direction>Beat the eggs well in a second bowl.
+				</direction>
+				<direction>Combine the eggs with the tomatoes and onions. Then add the salt, black pepper, cheese and chopped basil. Stir well.  
+				</direction>
+				<direction>Heat the 2 Tbsp butter in a cast iron pan or ovenproof skillet. Add the mixture to the skillet. Turn heat to its lowest setting.
+				</direction>
+				<direction>Cook until the eggs have set and only the top of the eggs is still runny, perhaps 15-18 minutes. This time depends on your lowest burner temperature. 
+				</direction>
+				<direction>Transfer the skillet to the oven and broil for 1 minute or until the top just sets. Never let the frittata brown or loose its softness.
+				</direction>
+				<direction>Serve immediately. 
+				</direction>
+			</directions>
+			<comment>Frittata is one of those rare dishes that is a fine treat any time of day. If the cooking time required to set the eggs exceeds 20, you should slightly increase the temperature for next time. Substitute Piave, Grana Padano or any fine hard cooking cheese. Substitute parsley for basil. If asked, What is a frittata? One would use the word omelette to describe it. I find a frittata to be much, much more than just an ordinary omelette. The cooking time is a bit long, but once the ingredients are combined and cooking on low heat you are free to be about your other tasks such as making a green salad. See Veggies->Romaine Salad. </comment>
+		</recipe>
+		<recipe  date="2/1/2011" id="73" name="Mushroom and Garlic Lasagna" categ="entree"  categ2="" tag="Lasagna">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+			<specs ctime="0:35" ptime="0:15" serves="4-6" />
+			<ingreds>
+				<ingred name="sheet pasta" amt="6-8" unit="oz." note="(cooked)" />
+				<ingred name="fresh mushrooms" amt="16" unit="oz" note="(sliced)" />
+				<ingred name="butter" amt="3" unit="Tbsp" note="" />
+				<ingred name="salt" amt="1/4" unit="tsp" note="(heaping)" />
+				<ingred name="diced garlic" amt="2" unit="cloves" note="" />
+				<ingred name="parsley" amt="1/2" unit="cup" note="(chopped)" />
+				<ingred name="bechemel sauce" amt="1" unit="cup" note="Home->Sauces" />
+				<ingred name="parmesan cheese" amt="1/4" unit="cup" note="(grated)" />
+			</ingreds>
+			<directions>
+				<direction>Preheat oven to 375 F (190 C). You need enough pasta to create four layers the size of your cooking dish. Drain the cooked pasta well and lay it on top of tea towels. Then cover with tea towels.
+				</direction>
+				<direction>Brown the sliced mushrooms in the butter along with the salt. Add the garlic several minutes before the end of browning. After the garlic has cooked one or two minutes, add the chopped parsley and cook for one minute while stirring. 
+				</direction>
+				<direction>You now need to repeat the following four times. Using a knife or scissors create a single layer of cooked pasta to cover the bottom of a buttered baking dish. Top this with 1/4 of the warm bechemel sauce. (See Home->Sauces). Top this with 1/4 of the mushroom mixture. Repeat. When done, top with the grated cheese and dot with butter if you like.
+	 			</direction>
+				<direction>Bake for 30-35 minutes or until heated through and bubbling. If you like, finally broil for several minutes to brown the cheese.
+				</direction>
+				<direction>Salt and pepper to taste. Serve immediately. 
+				</direction>
+			</directions>
+			<comment>The size of your baking dish is relatively unimportant. I suggest 100 square inches or more. Enjoy! </comment>
+		</recipe>
+		<recipe  date="2/11/2011" id="74" name="Cinnamon Molasses Sugar Crisps" categ="treat"  categ2="" tag="Molasses Cookies">
+			<photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+			<specs ctime="0:12" ptime="0:12" serves="12-15" />
+			<ingreds>
+				<ingred name="butter" amt="1/2" unit="cup" note="" />
+				<ingred name="sugar" amt="3/4" unit="cup" note="" />
+				<ingred name="egg" amt="1" unit="large" note="" />
+				<ingred name="molasses" amt="2/3" unit="cup" note="" />
+				<ingred name="almond extract" amt="1/4" unit="tsp" note="" />
+				<ingred name="vanilla extract" amt="1/2" unit="tsp" note="" />
+				<ingred name="cake flour" amt="2 1/2" unit="cups" note="" />
+				<ingred name="baking powder" amt="1" unit="tsp" note="" />
+				<ingred name="cinnamon" amt="2 1/2" unit="tsp" note="" />
+				<ingred name="baking soda" amt="1/2" unit="tsp" note="" />
+				<ingred name="salt" amt="1/2" unit="tsp" note="(heaping)" />
+			</ingreds>
+			<directions>
+				<direction>Cream 1/2 cup butter and 3/4 cup sugar well. While creaming, add 1 well beaten egg and then add the 2/3 cup molasses, 1/2 teaspoon vanilla extract and 1/4 teaspoon almond extract.
+				</direction>
+				<direction>Sift together 2 1/2 cups cake flour, 1 teaspoon baking powder, 1/2 teaspoon baking soda, 2 1/2 teaspoons cinnamon, and a heaping 1/2 teaspoon salt.
+				</direction>
+				<direction>Gradually add the sifted mixture to the creamed butter and molasses. 
+	 			</direction>
+				<direction>When well mixed, on a floured surface form the dough into a log, perhaps with knife-point groves running lengthwise to create an interesting cookie boarder. Place in freezer at least 2 hours and preferably 4 hours to firm the dough.
+				</direction>
+				<direction>Preheat oven to 350 F. 
+				</direction>
+				<direction>Slice the firm dough into 1/8 inch cookies. Dip cookies in bowl of sugar to coat tops and distribute on parchment paper, Silpat or ungreased cookie sheet. 
+				</direction>
+				<direction>Bake 10 to 12 minutes, until crisp. Slide parchment paper with cookies onto cooling racks. 
+				</direction>
+			</directions>
+			<comment>These cookies are light, delicious and full of flavor. Serve with coffee. Parchment paper can be reused. Cookies and cookie dough freeze well.</comment>
+		</recipe>
+      <recipe  date="6/10/2011" id="75" name="Batata Harra" categ="veggie"  categ2="vegan" tag="Spicy Potatoes">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:16" ptime="0:10" serves="4" />
+         <ingreds>
+            <ingred name="potatoes" amt="1" unit="lb." note="(peeled,julienned)" />
+            <ingred name="vegetable oil" amt="1/3" unit="cup" note="" />
+            <ingred name="olive oil" amt="3" unit="Tbsp" note="" />
+            <ingred name="garlic" amt="1" unit="clove" note="(minced or pressed)" />
+            <ingred name="onion" amt="3" unit="Tbsp" note="diced" />
+            <ingred name="ground red pepper" amt="1/4" unit="tsp" note="" />
+            <ingred name="fresh ground coriander seed" amt="1/2" unit="tsp" note="" />
+            <ingred name="black pepper" amt="1/4" unit="tsp" note="" />
+            <ingred name="salt" amt="to taste" unit="" note="" />
+            <ingred name="cilantro" amt="1/3" unit="cup" note="(chopped)" />
+            <ingred name="lime juice" amt="1 or 2" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Peel the potatoes. To obtain diced potatoes do the following. Slice lengthwise into four equally wide slices. Rotate on axis 90 degrees and slice again into four equally wide slices. Then slice across the axis of the potato to produce diced pieces of approximately 3/4 inch (18 mm) on a side. 
+            </direction>
+            <direction>Heat vegetable oil in a skillet and then cook potatoes at medium heat for six minutes covered. Stir once.
+            </direction>
+            <direction>Uncover, increase heat to medium-high heat and cook until crisp and somewhat brown, perhaps eight more minutes. 
+            </direction>
+            <direction>Turn off heat, drain and place potatoes on paper towels. Set aside.
+            </direction>
+            <direction>Heat olive oil, garlic, onions, red pepper, ground coriander, black pepper, and salt. Cook until onions are translucent, or about 3 minutes. 
+            </direction>
+            <direction>Add the potatoes and rewarm for several minutes.  
+            </direction>
+            <direction>Turn of heat. Add lemon, mix well and garnish with the fresh cilantro. Taste for salt. Serve. 
+            </direction>
+         </directions>
+         <comment>I really like this Middle Eastern mezze or appetizer. I use russets. The ground coriander is the soul of this dish. Do try freshly ground seeds rather than using pre-ground coriander powder. (See Home->Sauces->Mexican Tomato Sauce->Comments.) The name translates as spiced potatoes.</comment>
+      </recipe>
+      <recipe  date="11/04/2011" id="76" name="Tzatziki" categ="veggie"  categ2="treat" tag="Tzatziki">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:00" ptime="0:15" serves="4" />
+         <ingreds>
+            <ingred name="cucumber" amt="1" unit="small" note="(peeled,seeded,diced)" />
+            <ingred name="greek yogurt" amt="1" unit="cup" note="" />
+            <ingred name="olive oil" amt="3" unit="Tbsp" note="" />
+            <ingred name="garlic" amt="1" unit="clove" note="(large)" />
+         </ingreds>
+         <directions>
+            <direction>Peel, seed and chop the cucumber.
+            </direction>
+            <direction>Toss cucumber with 1/2 tsp salt. Drain in a sieve for at least 10 minutes.
+            </direction>
+            <direction>Mash garlic in 1/4 tsp salt using a mortar and pestle or using the back of a spoon in a small bowl. Stir in olive oil and yogurt.
+            </direction>
+            <direction>Place cucumber in a tea towel. Twist tightly to squeeze out excess water. Add cucumber to the yogurt mixture. 
+            </direction>
+            <direction>Add salt and pepper to taste. 
+            </direction>
+         </directions>
+         <comment>This Greek delight is super as a dip, on bake potato, and as spread or condiment used with meat.</comment>
+      </recipe>
+      
+      <recipe  date="6/15/2011" id="78" name="Fattoush Salad With Purslane" categ="veggie"  categ2="vegan" tag="Fattoush">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:00" ptime="0:15" serves="4" />
+         <ingreds>
+            <ingred name="parsley" amt="1" unit="bunch" note="" />
+            <ingred name="fresh mint" amt="1" unit="bunch" note="" />
+            <ingred name="purslane" amt="1" unit="bunch (optional)" note="" />
+            <ingred name="cucumber" amt="1" unit="large" note="(sliced)" />
+            <ingred name="tomatoes" amt="1" unit="large" note="" />
+            <ingred name="scallions" amt="2" unit="" note="" />
+            <ingred name="garlic" amt="2" unit="cloves" note="" />
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="lemon juice" amt="5" unit="Tbsp" note="" />
+            <ingred name="olive oil" amt="4" unit="Tbsp" note="" />
+            <ingred name="broken pita chips" amt="3/4" unit="cup" note="" />
+            <ingred name="sumac" amt="1 to 2" unit="tsp" note="" />
+         </ingreds>
+         <directions>
+            <direction>Remove the leaves from the parsley, mint and purslane.
+            </direction>
+            <direction>Dice the tomatoes and slice the cucumber. Slice entire scallions.
+            </direction>
+            <direction>Grind the garlic into the salt perhaps with the back of a spoon and then add the oil and lemon juice. 
+            </direction>
+            <direction>Mix the vegetables and the pita chips and mix in the dressing.
+            </direction>
+         </directions>
+         <comment> This is a remarkable treat! Take the trouble of obtaining the pita chips or dried pita bread, sumac and purslane, and you will not be disappointed! Purslane is Portulaca Oleracea (Common Purslane, also known as Verdolaga, Pigweed, Little Hogweed or Pusley). I have always known it as pusley. I see it everywhere in Michigan, but never thought of eating it until recently. Now I am on the hunt each Summer. I am sure that many of you know it too. The reddish brown tubular stem and the paddle shaped leaves are the tell, as seen in the second picture here:  http://www.wildmanstevebrill.com/Plants.Folder/Purslane.html. Purslane was Gandhi's favorite food!
+         </comment>
+      </recipe>
+      <recipe  date="6/21/2011" id="79" name="Curried Lentil And Chickpea Soup" categ="soup"  categ2="vegan" tag="LentilSoup">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:30" ptime="0:10" serves="6" />
+         <ingreds>
+            <ingred name="yellow onion" amt="1" unit="medium" note="(coarse chop)" />
+            <ingred name="carrot" amt="2" unit="medium" note="" />
+            <ingred name="olive oil" amt="4" unit="Tbsp" note="(2 + 2)" />
+            <ingred name="garlic cloves" amt="2" unit="large" note="(chopped or pressed)" />
+            <ingred name="curry powder" amt="1" unit="Tbsp" note="" />
+            <ingred name="lentils" amt="1" unit="cup" note="" />
+            <ingred name="water" amt="4" unit="cups" note="" />
+            <ingred name="lemon juice" amt="3 to 4" unit="Tbsp" note="" />
+            <ingred name="chickpeas" amt="1" unit="can" note=" (garbanzo beans)" />
+            <ingred name="butter" amt="3" unit="Tbsp" note="" />
+            <ingred name="cilantro" amt="3" unit="Tbsp" note="(chopped)" />
+            <ingred name="lemon" amt="1" unit="" note="(wedges)" />
+         </ingreds>
+         <directions>
+            <direction>Put rough cut onion and carrots in processor and chop into small pieces.
+            </direction>
+            <direction>Heat two tablespoons olive oil in large pot over medium heat. Add onion and carrots. Season with salt and pepper. Cook until onion is translucent, stirring occasionally, about 5 minutes.
+            </direction>
+            <direction>Add the curry powder and half of chopped/pressed garlic and cook another two minutes. 
+            </direction>
+            <direction>Add the lentils, at least 1 tsp salt and 4 cups water. Bring to boil. And then reduce to a simmer. Check for doneness at 20 minutes. Lentils are tender in 20 to 35 minutes depending on the lentil type. Add up to 1 more cup of water if additional thining is desired.
+            </direction>
+            <direction>While the lentils are simmering, puree the chickpeas, lemon juice, 1/2 cup water, remaining 2 tablespoons olive oil, and 1 clove chopped or pressed garlic in processor.
+            </direction>
+            <direction>When the lentils are done, remove from heat. Now you can optionally puree the lentils in the pot using an immersion blender.
+            </direction>
+            <direction>Add the butter and chickpea puree to the soup and stir. Season to taste with additional curry, salt, pepper. 
+            </direction>
+            <direction>Garnish with fresh coriander and serve with lemon wedges.
+            </direction>
+         </directions>
+         <comment> This soup stands up better than most soups to under-salting, but why do it? Non-Vegan? Top with sour cream, labna or yoghurt. Though truly delicious, this is no beautiful soup. Garnishing is imperative!</comment>
+      </recipe>
+      <recipe  date="11/15/2011" id="80" name="Chinese Beef Shreds" categ="entree"  categ2="" tag="BeefShreds">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:08" ptime="0:08" serves="4-6" />
+         <ingreds>
+            <ingred name="flank steak" amt="1" unit="lb." note="(sliced thinly)" />
+            <ingred name="soy sauce" amt="3" unit="Tbsp" note="" />
+            <ingred name="dry sherry" amt="2" unit="Tbsp" note="" />
+            <ingred name="fresh ginger" amt="1" unit="tsp" note="(grated)" />
+            <ingred name="carrot" amt="3" unit="medium" note="(thin strips)" />
+            <ingred name="celery stalk" amt="5" unit="medium" note="(sliced thinly)" />
+            <ingred name="vegetable oil" amt="3" unit="Tbsp" note="(2 + 1)" />
+            <ingred name="garlic cloves" amt="1" unit="large" note="(chopped or pressed)" />
+            <ingred name="soy sauce" amt="additional" unit="" note="(to taste)" />
+            <ingred name="salt" amt="" unit="" note="(optional)" />
+            <ingred name="Chinese Chili and Garlic Sauce or Tabasco" amt="" unit="" note="(to taste)" />
+         </ingreds>
+         <directions>
+            <direction>Cut the flank steak, across the grain, into thin slices. Marinate in the soy sauce, dry sherry, and grated ginger for 15 minutes or more.
+            </direction>
+            <direction>Heat two tablespoons vegetable oil in a very hot pan or wok. Stir fry the drained beef several minutes.  
+            </direction>
+            <direction>Drain, and remove beef from the pan or wok.
+            </direction>
+            <direction>Saute the carrots, celery, and garlic in a little vegetable oil.
+            </direction>
+            <direction>Add additional soya sauce to taste, say 1 Tbsp. Tabasco or Chinese red chili and garlic paste. Add and rewarm the cooked beef shreds. Stir well. Taste for salt.
+            </direction>
+            <direction>Serve on rice.
+            </direction>
+         </directions>
+         <comment> I frequently make this, my favorite Chinese beef dish. A mandolin can greatly reduce your time thinly slicing vegetables. </comment>
+      </recipe>
+      <recipe  date="1/30/2012" id="81" name="Fried Rice" categ="entree"  categ2="vegan" tag="FriedRice">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:10" ptime="0:05" serves="4-6" />
+         <ingreds>
+            <ingred name="vegetable oil" amt="3" unit="Tbsp" note="" />
+            <ingred name="yellow onions" amt="1/2" unit="cup" note="(chopped)" />
+            <ingred name="celery stalk" amt="1" unit="medium" note="(cubed)" />
+            <ingred name="parsley" amt="1" unit="handful" note="(chopped)" />
+            <ingred name="cooked white rice" amt="3-4" unit="cups" note="" />
+            <ingred name="ginger root" amt="1 to 2" unit="tsp" note="(grated)" />
+            <ingred name="garlic" amt="2" unit="cloves" note="(chopped or pressed)" />
+            <ingred name="sambal oelek or harissa" amt="2" unit="tsp" note="(optional)" /> 
+            <ingred name="tabasco" amt="2" unit="tsp" note="" />
+            <ingred name="yellow banana pepper rings" amt="2" unit="Tbsp" note="(chopped)" />
+            <ingred name="japanese soya sauce" amt="2" unit="Tbsp" note="" />
+            <ingred name="lime juice" amt="1" unit="Tbsp" note="" />
+            <ingred name="salt and pepper" amt="" unit="" note="(to taste)" />
+         </ingreds>
+         <directions>
+            <direction>Sauté onions in oil until translucent at medium heat in a heavy pan.
+            </direction>
+            <direction>Turn heat to medium high. Add celery and saute for two or three minutes more.  
+            </direction>
+            <direction>Add two thirds of the parsley, cooked rice, ginger, garlic, optional sambal oelek or harissa, tabasco, peppers, soya sauce, lime juice, salt, and pepper. Heat through while stirring, say four minutes more.
+            </direction>
+            <direction>Garnish with remaining parsley before serving hot.
+            </direction>
+         </directions>
+         <comment> You may need to add a bit more oil when you add the rice. Heat a bit longer if you like your fried rice with some crunch. 
+         </comment>
+      </recipe>
+      <recipe  date="11/2/2011" id="82" name="Comice Pear, Roquefort and Red Wine" categ="treat"  categ2="dessert" tag="ComicePear">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:00" ptime="0:02" serves="1-2" />
+         <ingreds>
+            <ingred name="Comice Pear" amt="1" unit="" note="" />
+            <ingred name="Roquefort cheese" amt="1" unit="oz" note="" />
+            <ingred name="Favorite Dry Red Wine" amt="1" unit="glass" note="" />
+         </ingreds>
+         <directions>
+            <direction>Quarter and core the pear. Peel it if you like.
+            </direction>
+            <direction>Serve with crackers or best bread.  
+            </direction>
+         </directions>
+         <comment> Be prepared for a peak gastronomic experience. The season is all to short for these pears. The following is from Jane Grigson's Book of Fruit: 
+               A favorite book of mine is Bunyard's Anatomy of Dessert... Edward Bunyard reflected that two thousand years had been necessary to arrive at the supreme pear, to bring man to this state of skill and appreciation. He laments that he was not there to taste the first fruit of that tree, and that the world's great gourmets - by which he meant, I suppose, Brillat-Savarin, Talleyrand and so on - had died still unacquainted with the perfect Pear. I agree with Bunyard, and would like at least to have seen Millet de la Turtaudière handed a first Doyenné du Comice by his gardener Hilaire Dhommé, to have been there when he took the first bite, oblivious, in his pleasure, of the juice running stickily down his chin.
+         </comment>
+      </recipe>
+      <recipe  date="11/5/2011" id="83" name="Hummus 2" categ="veggie"  categ2="treat" tag="BrownBread">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:00" ptime="0:03" serves="4" />
+         <ingreds>
+            <ingred name="salt" amt="1" unit="tsp" note="" />
+            <ingred name="garlic" amt="1" unit="clove" note="(large)" />
+            <ingred name="olive oil" amt="2-3" unit="Tbsp" note="" />
+            <ingred name="chickpeas" amt="1" unit="15 oz. can" note="(drained,rinsed)" />
+            <ingred name="tahini" amt="2 to 3" unit="Tbsp" note="" />
+            <ingred name="ground cayenne" amt="1/8" unit="tsp" note="" />
+            <ingred name="lemon juice" amt="6" unit="Tbsp" note="" />
+            
+         </ingreds>
+         <directions>
+            <direction>Mash garlic in 1 tsp salt in a small bowl using the back of a spoon. Add two or three Tbsp. olive oil to the salt and garlic. Mix well.
+            </direction>
+            <direction>Place chickpeas, tahini, cayenne, lemon juice and garlic oil in a food processor and pulse until smooth.
+            </direction>
+            <direction>Check for salt.
+            </direction>
+         </directions>
+         <comment> Add additional olive oil to thin, perhaps 1 more tablespoon. Leave it a bit thicker for chip dip or for stuffing small sweet peppers. Use as a dip with pita chips. The name of this Levantine dip is variously transliterated as hamos, hommos, hommus, homos, houmous, hummos, hummous, or humus. For all users who previously downloaded the Hummus recipe, this version, Hummus 2, corrects the bad directions in the original recipe. Simply delete the original recipe.         </comment>
+      </recipe>
+      
+      <recipe  date="12/02/2011" id="84" name="Myrtle Allen's Brown Bread" categ="treat"  categ2="vegan" tag="Hummus">
+         <photo iPhoneContentMode="2" iPadContentMode="0" name="" />
+         <specs ctime="0:40" ptime="0:05" serves="1 loaf" />
+         <ingreds>
+            <ingred name="whole wheat flour" amt="3 3/4" unit="cup" note="" />
+            <ingred name="warm water" amt="2" unit="cups" note="(1/2 + 1/2 + 1)" />
+            <ingred name="yeast" amt="1 1/2" unit="package" note="(4 tsp)" />
+            <ingred name="molasses" amt="2" unit="Tbsp" note="(unsulphured)" />
+             <ingred name="salt" amt="1" unit="Tbsp" note="" />
+            
+         </ingreds>
+         <directions>
+            <direction>Place the flour in a large bowl and place in a warm oven for 10 minutes. Both bowl and flour should be warm but not hot.
+            </direction>
+            <direction>Dissolve the yeast in 1/2 cup (11.8 cl) warm water (110 F/43 C) and blend in the molasses. Let this proof about five minutes.
+            </direction>
+            <direction>Add another 1/2 cup of warm water to the yeast mixture.
+            </direction>
+            <direction>Combine the flour, yeast mixture and salt.
+            </direction>
+            <direction>Add enough warm water to make a wet, sticky dough. 1 cup or more according to flour.
+            </direction>
+            <direction>Preheat the oven to 450 F / 230 C.
+            </direction>
+            <direction>Place dough directly into a 9 x 5 x 3-inch metal bread pan greased with shortening. Cover and allow to rise by one third of its original size in a warm spot, 20 to 60 minutes.
+            </direction>
+            <direction>Bake for 40 minutes or until the crust is nicely browned and the loaf sounds hollow when tapped.
+            </direction>
+            <direction>Remove bread and place on a wire rack for cooling.
+            </direction>
+            <direction>If you prefer a more crusty bread, instead leave the pan in the turned off oven and leave for twenty minutes more.
+            </direction>
+         </directions>
+         <comment> This extremely reliable, quick, easy and tasty recipe is from James Beard's "Beard on Bread". I warm the flour in the bowl using my microwave for 30-40 seconds. The rise time is 20 minutes when I place the bread pan on a board on a warm radiator. There is no kneading and one rising. 
+            
+            It is better to make the dough a bit too wet than too dry. You may have to play with baking times and temperatures a bit to accommodate your altitude and your oven. 
+            
+            If the loaf is too dark, bake it at a slightly lower temperature next time. If the loaf is too light, bake it at a slightly higher temperature next time. If the inside of the loaf is too dry, bake for a shorter period next time. If the inside of the loaf is too wet, bake for a little longer next time.
+            
+            Yeast cells die at 130°F–140°F (55°C–60°C)
+            
+            For more info see: http://www.sourdoughhome.com/bakingintro1.html
+         </comment>
+      </recipe>
+         <recipe  date="2/1/2012" id="85" name="Caramelized Berry Cake 2" categ="dessert"  categ2="" tag="Berry Cake">
+            <photo iPhoneContentMode="2" iPadContentMode="0" name="25_CranberryCake.png" />
+            <specs ctime="0:40" ptime="0:08" serves="6" />
+            <ingreds>
+               <ingred name="fresh red currants or cranberries" amt="1 1/2" unit="cups" note="" />
+               <ingred name="butter" amt="3/4" unit="cup" note="(1/4 + 1/2)" />
+               <ingred name="sugar" amt="1" unit="cup" note="(1/2 + 1/2)" />
+               <ingred name="eggs" amt="2" unit="" note="(large)" />
+               <ingred name="salt" amt="1/4" unit="tsp" note="" />
+               <ingred name="self rising flour" amt="1" unit="cup" note="" />
+               <ingred name="cinnamon" amt="1/2" unit="tsp" note="" />
+               <ingred name="milk" amt="1 to 2" unit="Tbsp" note="" />
+            </ingreds>
+            <directions>
+               <direction>Preheat oven to 350 F (177 C). Melt 1/4 cup (4 Tbsp) butter in a 9 or 10 inch (22-25 cm.) cast iron skillet at medium heat.  
+               </direction>
+               <direction>Add 1 1/2 cup sugar and berries to melted butter and stir to partially dissolve sugar - 2 minutes. Remove from heat. 
+               </direction>
+               <direction>Mix remaining 1/2 cup (8 Tbsp) butter, remaining 1/2 cup sugar, the 2 eggs, salt, 1 cup self rising flour, cinnamon and water in food processor to produce a dough with the consistency a bit thinner than cake frosting. The dough should not maintain a peak when prodded.
+               </direction>
+               <direction>Use a rubber spatula to move cake dough, say 10% at a time, to roughly cover the berries. Do not worry if some berries show. It will work.
+               </direction>
+               <direction>Bake 35-40 minutes or until good browning appears. Remove from oven.
+               </direction>
+               <direction>Cover pan with cookie sheet or pizza tin and invert. Cool 5 minutes. Serve.
+               </direction>
+            </directions>
+            <comment>How does something so easy, taste so good? Substitute any fresh, tart, acidic berry such as gooseberry or cranberry. Substituting thin slices of orange or lime would make for a beautiful cake. You don't need to use cast iron, but pan/dish will go onto burner, into the oven and you need to flip it. It you don't have a cast iron pan, you can melt butter in a pot and then pour into your baking dish. You can flip a dish by sandwiching it between two pizza or cookie sheets. See comments on cast iron in [Home->Veggies->Swiss Potato Cake]</comment>
+         </recipe>
+            
+            <recipe  date="08/08/2012" id="89" name="Spätzle 2" categ="entree"  categ2="" tag="GermanNoodles">
+               <photo iPhoneContentMode="2" iPadContentMode="0" name="71_SpaetzleHobel.png" />
+               <specs ctime="0:10" ptime="0:04" serves="4-6" />
+               <ingreds>
+                  <ingred name="flour" amt="2" unit="cups" note="(all-purpose)" />
+                  <ingred name="eggs" amt="3" unit="" note="" />Pudding
+                  <ingred name="salt" amt="1 1/2" unit="tsp" note="" />
+                  <ingred name="nutmeg" amt="1/4" unit="tsp" note="(optional)" />
+                  <ingred name="water" amt="1 1/8" unit="cup" note="(see comments)" />
+                  <ingred name="onions" amt="2" unit="cup" note="(chopped)" />
+                  <ingred name="vegetable oil" amt="2" unit="Tbsp" note="" />
+                  <ingred name="extra sharp cheddar cheese" amt="2" unit="cups" note="(grated)" />
+                  <ingred name="ham" amt="1 1/2" unit="cups" note="(cubed, optional)" />
+               </ingreds>
+               <directions>
+                  <direction>Bring 2 quarts of water and 1 teaspoon of salt to a boil in a large pot.
+                  </direction>
+                  <direction>Combine flour, eggs, salt and nutmeg in a medium size bowl. Mix well.
+                  </direction>
+                  <direction>Add between 1 1/8 and 1 1/4 cup water and whisk until batter is quite smooth. See Comments.
+                  </direction>
+                  <direction>Position the spätzle maker on top of the boiling water. Be sure to position it so that it is held on the far edge of the pot.
+                  </direction>
+                  <direction>Using a measuring cup or ladle transfer 1 1/2 cup of batter to the hopper of the spätzle maker. 
+                  </direction>
+                  <direction>Move the hopper back and forth until the spätzles all drop into the boiling water. The spätzles will fall to the bottom and then rise to the top.
+                  </direction>
+                  <direction>After the spätzles rise to the top allow them to boil another 15-30 seconds. Remove the spaetzle maker from the pot and place it on a plate to protect the cooktop. Then scoop the spaetzles from the pot using a 5-7 inch (125-175 mm.) sieve. Tap the sieve on the edge of the pot to remove most of the water and deposit the spatzles in medium size bowl.  Repeat until all spatzles are cooked.
+                  </direction>
+                  <direction>Saute the onions in the vegetable oil until translucent. 
+                  </direction>
+                  <direction>Grate the cheese. Chop the ham into 1/4 to 1/2 inch cubes. 
+                  </direction>
+                  <direction>In a 2 quart dish that is at least 2 1/2 inches high, add repeats of the following layering, 1/8 of spaetzles, 1/4 of onions (and optional ham), 1/8 of spaetzles, 1/4 of cheese ... repeat four times. Keep warm in oven until served.   
+                  </direction>
+               </directions>
+               <comment>Since we don't use the umlaut in English, we spell it Spaetzle, pronounced close to: schpets-luh. Some refer to this dish as Spatzen, the German word for sparrow. I have seen a "spaetzle maker" on Ebay for $8 USD. This recipe is delicious, quick, easy and economical. It is difficult to find anyone who does not enjoy it. Presentation is improved by topping with some grated cheese and they broiling briefly until browned. Serve with red hot sauce. I use about 1 1/8 cup water with white all purpose flour.  The amount you need will depend on the flour you use. Too much water in the dough will produce a slurry in the pot, so start start testing with 1 cup of water. You can always add a bit more. Aim for a spaetzle that is irregular but basically globular, and not longer than twice the width. Shape is however unrelated to taste. Substitute 1/2 to 3/4 cup crumbled fried bacon for the ham. I think of spaetzle as macaroni and cheese for adults.  </comment>
+            </recipe>
+   <recipe  date="9/18/2012" id="88" name="Swiss Chard With Indian Lime Pickle" categ="veggie" categ2="treat" tag="Swiss Chard">
+		<photo iPhoneContentMode="12" iPadContentMode="0" name="" />
+		<specs ctime="0:10" ptime="0:05" serves="4" />
+		<ingreds>
+         <ingred name="Indian lime pickle" amt="2" unit="Tbsp" note="" />
+         <ingred name="lemon juice" amt="3" unit="Tbsp" note="" />
+			<ingred name="olive oil" amt="2" unit="Tbsp" note="" />
+         <ingred name="salt" amt="1" unit="Tbsp" note="" />
+			<ingred name="Swiss chard" amt="2" unit="bunches" note="" />
+         <ingred name="butter" amt="1" unit="Tbsp" note="" />
+         <ingred name="yellow onion" amt="1" unit="Tbsp" note="" />
+         <ingred name="lemon zest" amt="1" unit="tsp" note="" />
+		</ingreds> 
+		<directions>
+			<direction>In a blender, combine lime pickle, lemon juice, and oil. Puree until smooth.
+			</direction>
+			<direction>Bring a medium pot of water to a boil and add 1 Tbsp salt. Add chard to the pot and boil until bright green and very tender (8 to 10 minutes).
+			</direction>
+			<direction>Rinse chard well and drain chard in a colander.
+			</direction>
+			<direction>Heat butter in a large saute pan on medium heat. When butter is melted, add onion, sprinkle with a pinch of salt and pepper, cover, reduce heat to low and saute until shallot is translucent. Remove from heat. 
+			</direction>
+			<direction>Add chard, lime-pickle puree, lemon zest, and salt and pepper to taste. Mix well. Serve warm.
+			</direction>
+		</directions>
+		<comment>Indian Lime Pickle is most definitely not for everyone. I disliked it the first time I tried it. I now consider it one of the great culinary discoveries of my life. It is perfect condiment for Lamb.
+		</comment>
+   </recipe>
+	 <recipe  date="02/05/2013" id="90" name="Lake Whitefish with Paprika and Aioli" categ="entree" categ2="" tag="Whitefish">
+		 <photo iPhoneContentMode="12" iPadContentMode="0" name="" />
+		 <specs ctime="0:09" ptime="0:05" serves="2" />
+		 <ingreds>
+			 <ingred name="whitefish filet" amt="8-10" unit="oz." note="(freshest)" />
+			<ingred name="butter" amt="1" unit="Tbsp" note="" />
+			 <ingred name="salt and pepper to taste" amt="" unit="" note="" />
+			 <ingred name="paprika" amt="1" unit="tsp" note="" />
+		 </ingreds>
+		 <directions>
+			 <direction>Preheat to High Broil.
+			 </direction>
+			 <direction>Briefly wash the filet. Pat very dry with paper towel.
+			 </direction>
+			 <direction>Center the filet on a broiling tray that is covered with aluminum foil.
+			 </direction>
+			 <direction>Dot the entire filet with butter.
+			 </direction>
+			 <direction>Very heavily dust the fish with paprikD.
+			 </direction>
+			 <direction>Center the tray under the broiler flame.
+			 </direction>
+			 <direction>Broil time for me is 8-9 minutes with door closed. Check at six minutes. Fish will flake with a fork when done. Don't overcook.
+			 </direction>
+		 </directions>
+		 <comment>Substitute mayonnaise for aioli. If you have neither be sure to serve with slices of lemon. Paprika adds greatly to both flavor and appearance. I prefer Spanish pimenton. Butter application is greatly eased if butter is soft and fish is dry. Place the butter to be used in a ramekin and transfer it to the fish using a kitchen knife. If foil is ungreased, the whitefish skin adheres to the foil and will be left behind when you remove the fish with a spatulD. If you have no access to this finely flavored, light fleshed fish, you can try talapia, but it won't be as good. Look for whitefish in New England and in the Great Lakes region. See: http://en.wikipediD.org/wiki/Lake_whitefish . Amongst commercial fish, only dover sole can compete, based on my experience.
+		 </comment>
+	 </recipe>	
+	 
+	<recipe  date="08/12/2014" id="91" name="Frisian Sugar Bread" categ="dessert" categ2="treat" tag="SugarBread">
+             <photo iPhoneContentMode="12" iPadContentMode="0" name="" />
+             <specs ctime="0:40" ptime="0:15" serves="8" />
+             <ingreds>
+                <ingred name="yeast" amt="1" unit="tsp" note="" />
+                <ingred name="milk" amt="6.7" unit="oz" note="warm (200 ml)" />
+                <ingred name="flour" amt="2 1/2" unit="cup" note="plus 2 Tbsp." />
+                <ingred name="white sugar" amt="1" unit="cup" note="" />
+                <ingred name="salt" amt="1" unit="tsp" note="(scant)" />
+					<ingred name="butter" amt="3 1/2" unit="Tbsp" note="" />
+					<ingred name="crystalized ginger" amt="1" unit="Tbsp" note="(optional)" />
+					<ingred name="pearl sugar" amt="1" unit="cup" note="" />
+					<ingred name="cinnamon" amt="1" unit="Tbsp" note="" />
+             </ingreds>
+             <directions>
+                <direction>Dissolve the yeast in the warm milk . Sift the flour with the white sugar and the salt, and use the milk and yeast to start a soft dough.
+                </direction>
+                <direction>Knead in the butter, and the ginger, if used. Cover and rest the dough for twenty minutes in a warm spot.
+                </direction>
+                <direction>Quickly  knead in the pearl sugar and the cinnamon, and let it rest another five minutes.
+                </direction>
+                <direction>Punch the dough down, shape it to a loaf (or make several mini loaves).
+                </direction>
+                <direction>Generously butter a loaf pan, put the bread in it seam down and cover to rise, until double its size.
+                </direction>
+                <direction>Preheat the oven to 170C (350F).
+                </direction>
+                <direction>Bake the bread golden in approximately 30 minutes.
+                </direction>
+                <direction>Remove from the oven and rest for five minutes before removing the bread. Let it cool on a rack.
+                </direction>
+             </directions>
+             <comment>Crushed up sugar cubes are a good substitute for pearl sugar. Add half a cup of cubes to a towel, fold it and give it a couple of good whacks with a rolling pin. Handfold these lumps into the dough after the first rise.
+             </comment>
+   </recipe>
+   
+	<recipe  date="08/25/2014" id="92" name="Russian Mennonite Tweebak Dough" categ="treat" categ2="dessert" tag="Dough">
+		 <photo iPhoneContentMode="12" iPadContentMode="0" name="" />
+		 <specs ctime="N/A" ptime="0:15" serves="N/A" />
+		 <ingreds>
+			 <ingred name="milk" amt="10" unit="oz." note="(warm 130 F)" />
+			<ingred name="yeast" amt="1" unit="Tbsp" note="" />
+			 <ingred name="sugar" amt="2" unit="tsp" note="" />
+			 <ingred name="flour" amt="4" unit="cups" note="(all purpose white)" />
+			 <ingred name="salt" amt="2" unit="tsp" note="" />
+			 <ingred name="oil" amt="4" unit="Tbsp" note="" />
+			 <ingred name="butter" amt="4" unit="Tbsp" note="(melted)" />
+			 <ingred name="egg" amt="1" unit="" note="" />
+		 </ingreds>
+		 <directions>
+			 <direction>Warm 10 oz milk in the microwave. A drop on the inside of wrist should feel very warm but not hot. To the milk add 1 Tbsp yeast and 1 1/2 tsp. sugar. Stir. Cover. Set aside for proofing - at least 10 minutes.
+			 </direction>
+			 <direction>Add flour and salt to a large bowl and mix well. Add the oil and the butter and stir well.
+			 </direction>
+			 <direction>When the yeast is ready add the egg to the yeast and milk. Stir to disperse the egg into the milk. 
+			 </direction>
+			 <direction>Then stir the liquid into the flour. Knead the dough well. It should be soft but not terribly tacky. It is better to err on the side of too much liquid.
+			 </direction>
+			 <direction>Place the dough bowl, covered with a cloth, into an over at 50°C (122 F) for 30 minutes to rise.
+			 </direction>
+			 <direction>Knead again, but lightly and for a short time. Once again return the dough covered to a warm spot for another 30 minutes.
+			 </direction>
+		 </directions>
+		 <comment>This tweebak dough can also be used for Russian Mennonite Sugar Cookies and Plum Tart. This is a very large batch, enough for Plum Tart and Tweebak. This delicious dough should be added to your repertoire.  source:  http://the23cookwiki.wordpress.com/2010/12/17/tweebak/
+		</comment>
+	</recipe>
+	
+	<recipe  date="08/25/2014" id="93" name="Russian Mennonite Tweebak" categ="treat" categ2="dessert" tag="Tweebak">
+		 <photo iPhoneContentMode="12" iPadContentMode="0" name="" />
+		 <specs ctime="0:09" ptime="0:05" serves="8" />
+		 <ingreds>
+			 <ingred name="Russian Mennonite Tweebak Dough" amt="1" unit="batch" note="" />
+		 </ingreds>
+		 <directions>
+			 <direction>With oiled hands make two balls of dough, one smaller than the other. The lower and larger ball is about 2 inches plus in diameter. Flatten it slightly. Then make a depression in it with your thumb. In this depression place a smaller dough ball approximately 1 inch smaller in diameter.
+			 </direction>
+			 <direction>Arrange the Tweebaks on a sheet, about 20 of them. Allow the tweebaks to rise for 15 minutes. You may need to adjust the upper dough balls, to keep them from falling. 
+			 </direction>
+			 <direction>Place the sheet in an over preheated to 250°C (482 F) and bake for about 10 - 15 minutes. Check at 6 Minutes.
+			 </direction>
+		 </directions>
+		 <comment></comment>
+	 </recipe>
+	 
+	 <recipe  date="08/25/2014" id="94" name="Russian Mennonite Plum Tart" categ="treat" categ2="dessert" tag="Tart">
+		 <photo iPhoneContentMode="12" iPadContentMode="0" name="94_PlaumenPlatz.png" />
+		 <specs ctime="0:09" ptime="0:05" serves="8" />
+		 <ingreds>
+			 <ingred name="Russian Mennonite Dough for Tweebak" amt="1" unit="batch" note="" />
+			<ingred name="prune plums" amt="3+" unit="cups" note="(pitted and quartered)" />
+			 <ingred name="sugar" amt="5" unit="Tbsp" note="(3 + 2)" />
+		 </ingreds>
+		 <directions>
+			 <direction>Use prune plums (Prunus domestica) only, enough to densely cover the tart, perhaps 2 heaping cups. Cut into quarters. Place in a bowl and stir in 3 Tbsp sugar.
+			 </direction>
+			 <direction>Using cookie sheet or backing dish, arrange plums densely on dough which can be 1/4 to 1/2 inch (1 cm) thick to start. 
+			 </direction>
+			 <direction>Place the sheet(s) in an over preheated to 230°C (450 F) 
+			 </direction>
+			 <direction>Cook 18-22 minutes at 450 F / 230 C. Check at 15 minutes. Should be lightly browned with plenty of juice running from the plums.
+			 </direction>
+			 <direction>Remove from oven and scatter an additional 2 Tbsp sugar. Serve warm.
+			 </direction>
+		 </directions>
+		 <comment>Best while still warm. Highly recommended! See photo.
+		 </comment>
+	 </recipe>
+	 
+	 <recipe  date="08/25/2014" id="95" name="Russian Mennonite Sugar Cookies" categ="treat" categ2="dessert" tag="Kuchen">
+		 <photo iPhoneContentMode="12" iPadContentMode="0" name="" />
+		 <specs ctime="0:09" ptime="0:05" serves="8" />
+		 <ingreds>
+			 <ingred name="Russian Mennonite Dough for Tweebak" amt="1" unit="batch" note="" />
+			 <ingred name="butter" amt="4" unit="Tbsp" note="(melted)" />
+			 <ingred name="cinnamon" amt="1" unit="tsp" note="" />
+			 <ingred name="sugar" amt="2" unit="Tbsp" note="" />
+		 </ingreds>
+		 <directions>
+			 <direction>The dough needs to be soft/slack.
+			 </direction>
+			 <direction>Using a brush butter the cookies with melted butter. Then scatter on them plenty of cinnamon sugar.
+			 </direction>
+			 <direction>Return the cookie sheet to a warm place and let them rise 10 minutes.
+			 </direction>
+			 <direction>Bake cookies in a preheated 475 F/245 C oven for 5 to 6 minutes. Check at 5 minutes. Burning starts quickly at 475 F.
+			 </direction>
+		 </directions>
+		 <comment>Best while still warm. Highly recommended.</comment>
+	 </recipe>
+	 <recipe  date="02/09/2015" id="96" name="Tomato Ginger Chutney" categ="vegan" categ2="sauce" tag="Kuchen">
+		 <photo iPhoneContentMode="12" iPadContentMode="0" name="" />
+		 <specs ctime="0:30" ptime="0:05" serves="16" />
+		 <ingreds>
+			 <ingred name="diced tomatoes drained" amt="1" unit="60 oz can" note="" />
+			 <ingred name="fresh ginger grated" amt="3" unit="Tbsp" note="" />
+			 <ingred name="garlic" amt="1 1/2" unit="Tbsp" note="" />
+			 <ingred name="chili flakes" amt="1 1/2" unit="tsp" note="" />
+			 <ingred name="ground cumin" amt="1 1/2" unit="tsp" note="" />
+			 <ingred name="sugar" amt="1 1/4" unit="cup" note="" />
+			 <ingred name="salt" amt="2" unit="tsp" note="" />
+			 <ingred name="apple cider vinegar" amt="2" unit="cups" note="" />
+			 <ingred name="fresh chopped cilantro" amt="2" unit="cups" note="" />
+		 </ingreds>
+		 <directions>
+			 <direction>Simmer tomatoes, ginger, garlic, chile flakes and cumin for 10 minutes uncovered.
+			 </direction>
+			 <direction>Add sugar, salt and vinegar.
+			 </direction>
+			 <direction>Simmer slowly until mixture thickens, stirring regularly.
+			 </direction>
+			 <direction>Add cilantro and simmer for five more minutes. Cool.
+			 </direction>
+		 </directions>
+		 <comment>Best while still warm. Highly recommended. This recipe is transformative - the sum being much greater than the parts. It is a wonderful accompaniment for many thing including both pork and a sharp cheddar cheese sandwich. Use roasted ground cumin. See 'Mexican Tomato Sauce' -> Comments for quick seed roasting directions.</comment>
+	 </recipe>
+  </recipes>
+</xml> 

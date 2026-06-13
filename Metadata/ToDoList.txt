@@ -1,0 +1,157 @@
+9/20/15 Lost work since yesterday afternoon when tried to add folder of ptrs to photos.
+Apple Pancake Ingreds -- missing
+Using Details Mode - checking Ingreds
+   Aioli,                          missing  - inserting 'XYZ ' -> doneButton fails to save
+   Annie's Fajitas,                          missing
+   Apple Pancake                          missing
+   Apricot Flan with Nuts                    present
+'
+9/19/15 Prob with RVC . Nothing shows except Photo.
+
+9/17/15 ERVC Window will not resize horizontally. Font size does not make to this view.
+WHAT'S New:
+1. PDF Printing.' DONE
+
+1. Remove TempfileFolder
+
+2. Still have bad LARGE printing for Deskjet 842C
+
+12/11/14: When Editing a Category Name, need to use a Case Sensitive compare not Case Insensitive.
+
+Determine if DataVersion:1.0 has WhiteFish RecipeId = 90
+Answer: No greatest RxId==89 Spaetzle
+
+NOTE: V:1.0 has fullPathSqlite=/Users/mbarron/Library/Containers/com.DrummingGrouse.HungryMe/Data/Library/Application Support/HungryMe/HM_Mac_Recipes.sqlite
+Make Category Table nonEdit for AddRecipe
+Place TextField in NewCategoryBox
+Explore hiding Box
+Clear all categoryTable Checkboxes then set one corresponding
+to the selection in CategoryArrayController
+1. Check on elimination possible import of "Browse All"
+2. Make MainWindow come forward on start after hiding.
+3. Printing multiple - cancel once only - perhaps add HotKey
+x 4. store Pref for vertical divider of MainWindow
+5. The recipes imported w/ recipe are not displayed in details until after a reload. 
+6. Menu Import still permits uppercase extension, 'Dgx'
+iHungryMac now supports
+Font Manager
+Printing:{Cmd+P} PDF, printing.
+
+If the main window is the key window (has focus) then the
+Font Manager Cmd+T can be used to directly alter the font.
+Thereafter the selected Recipes will share the same font.
+Once a recipe has been diplayed, the only way to alter
+the font, is to select text and then use the Font Manager.
+
+// 12/12/12
+check IRTableView use of EnterKey
+
+/// above commented 12/22/11 //IMPORTANT
+        if(((self.currentRecipeXMLObject != nil) && isThisRecipeIdMissing && (nRidXml > [[theAppDelegate maxRecipeId] intValue]) )  ){  
+        
+- (int)numberOfRowsInTableView:(NSTableView *)tableView
+{
+    return [iPodVolumes count];
+}
+
+- (id)tableView:(NSTableView *)tableView
+      objectValueForTableColumn:(NSTableColumn *)tableColumn
+      row:(int)row
+
+
+Listing 13. Calculating a new row height.
+
+
+- (float)tableView:(NSTableView *)aTable heightOfRow:(int)aRow
+{
+     NSDictionary *row_dat;
+     float         row_hgt;
+     
+     // retrieve the current row height
+     row_hgt = [aTable rowHeight];
+     
+     // query the data-source for the row data
+     row_dat = [aDatSrc getDataForRow:aRow];
+     
+     // determine the new row height
+     //...
+     
+     // return the new row height
+     return (aHgt);
+}
+
+in appDel::changeFont:
+[catTableView reloadData];
+
+--
+mutate MyTableView -> NSTableView
+
+    - (void)handleFontChangedNotification:(NSNotification *)notification{
+        NSFont *font = [NSFont fontWithName:fontNameFromPrefs size:fontSizeFromPrefs];
+        
+        // adjust the height of the rows: (sometimes this isn't quite right.)
+        [tableView setRowHeight:[font defaultLineHeightForFont]+2];
+        [tableView setFont:font];
+        [tableView reloadData];
+    }
+
+NSTableView -setFont is not in AppKit, it's from the OmniFrameworks, and looks like this:
+
+    - (void)setFont:(NSFont *)font;
+    {
+        NSArray *tableColumns;
+        unsigned int columnIndex;
+        
+        tableColumns = [self tableColumns];
+        columnIndex = [tableColumns count];
+        while (columnIndex--)
+            [[(NSTableColumn *)[tableColumns objectAtIndex:columnIndex] dataCell] setFont:font];
+            
+- (void)awakeFromNib
+{
+   NSEnumerator *theEnum
+      = [[oTable tableColumns] objectEnumerator];
+   NSTableColumn *theCol;
+   while (nil != (theCol = [theEnum nextObject]) )
+   {
+      [[theCol dataCell] setWraps:YES];
+   }
+   // now change the "description" column's cell
+   theCol
+      = [oTable tableColumnWithIdentifier:@"description"];
+   [[theCol dataCell] setFont:
+      [NSFont systemFontOfSize:
+         [NSFont smallSystemFontSize]]];
+         
+                     
+- (void)setSelectionIndexes:(NSIndexSet *)newIndexes
+{
+	if ((_selectionIndexes != newIndexes) &amp;&amp; (![_selectionIndexes isEqualToIndexSet:newIndexes]))
+	{
+		[self willChangeValueForKey:@"selectionIndexes"];
+		[_selectionIndexes release];
+		_selectionIndexes = [newIndexes copy];
+		[self didChangeValueForKey:@"selectionIndexes"];
+ 
+		[self generateDrawingInformation];
+		[self setNeedsDisplayInRect:[self visibleRect]];
+	}
+}   
+
+[textfield bind:@"stringValue"
+                   toObject:personController
+                   withKeyPath:@"selection.firstName"
+                   options:nil];                                          
+
+Check out Apple's documentation on Receiving Drag Operations [1]. You
+want -draggingEntered: to return NSDragOperationCopy whenever you'd
+like to see a + sign.
+
+if(( [[[ NSApplication sharedApplication ] currentEvent ]
+modifierFlags ] & NSAlternateKeyMask ) != 0 ) {
+  return NSDragOperationCopy;
+} else {
+  return NSDragOperationMove;
+}
+
+// 2/14/12  Need to ensure that New Category added to New Recipe is Unique
