@@ -71,3 +71,14 @@ jobs:
           test -f "$APP_BINARY"
           file "$APP_BINARY"
           file "$APP_BINARY" | grep -q "arm64"
+
+      - name: Package HungryMe app
+        run: |
+          cd build/Products/Debug
+          ditto -c -k --keepParent HungryMe.app HungryMe-Apple-Silicon.zip
+
+      - name: Upload HungryMe app artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: HungryMe-Apple-Silicon
+          path: build/Products/Debug/HungryMe-Apple-Silicon.zip
