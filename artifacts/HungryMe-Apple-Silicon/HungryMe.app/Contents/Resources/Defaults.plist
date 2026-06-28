@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainCategoryColumnWidth</key>
+	<integer>201</integer>
+	<key>mainWindowWidth</key>
+	<integer>601</integer>
+	<key>mainWindowHeight</key>
+	<integer>401</integer>
+	<key>mainCategoryColumnMinWidth</key>
+	<integer>50</integer>
+	<key>TableFontAttributes</key>
+	<dict>
+		<key>NSFontSizeAttribute</key>
+		<integer>14</integer>
+		<key>NSFontNameAttribute</key>
+		<string>Helvetica</string>
+	</dict>
+</dict>
+</plist>

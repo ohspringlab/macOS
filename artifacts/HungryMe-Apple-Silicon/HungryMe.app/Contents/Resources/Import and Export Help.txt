@@ -1,0 +1,9 @@
+Import and Export Help
+
+Export all user-defined recipe with menu choice File -> Export User Recipes
+
+Import user-defined recipes by dragging and dropping a correctly formatted DGX file to the DGX Drop Spot at the bottom of the main window of HungryMe. See the DGX File FAQ tab for more.
+
+For more help on how to edit a downloaded recipe visit: 
+
+   http://ihungryapp.wordpress.com/2011/12/11/how-to-edit-a-downloaded-recipe-for-import/

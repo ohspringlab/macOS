@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en_US</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.DrummingGrouse.HungryMeHelp</string>
+	<key>CFBundleName</key>
+	<string>HungryMe</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1</string>
+	<key>CFBundleSignature</key>
+	<string>hbwr</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>HPDBookAccessPath</key>
+	<string>HungryMe.html</string>
+	<key>HPDBookIconPath</key>
+	<string>shrd/EyeOnly.png</string>
+	<key>HPDBookIndexPath</key>
+	<string>HungryMeHelp2.helpindex</string>
+	<key>HPDBookRemoteURL</key>
+	<string></string>
+	<key>HPDBookKBProduct</key>
+	<string>hungryme1</string>
+	<key>HPDBookKBURL</key>
+	<string></string>
+	<key>HPDBookTitle</key>
+	<string>HungryMe Help</string>
+	<key>HPDBookType</key>
+	<string>3</string>
+</dict>
+</plist>

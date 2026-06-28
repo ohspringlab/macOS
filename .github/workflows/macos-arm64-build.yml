@@ -72,6 +72,11 @@ jobs:
           file "$APP_BINARY"
           file "$APP_BINARY" | grep -q "arm64"
 
+      - name: Ad-hoc sign HungryMe app
+        run: |
+          codesign --force --deep --sign - build/Products/Debug/HungryMe.app
+          codesign --verify --deep --strict --verbose=2 build/Products/Debug/HungryMe.app
+
       - name: Package HungryMe app
         run: |
           cd build/Products/Debug
