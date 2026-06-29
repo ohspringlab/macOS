@@ -227,8 +227,11 @@
    NSArray *allCategoryArrayMinusBA = [[myAppControllerParent.myCatArrayController arrangedObjects] filteredArrayUsingPredicate:predicateSortAndRemoveBrowseAll];
    DLog(@"allCategoryArrayMinusBA=%@",[allCategoryArrayMinusBA valueForKey:@"name"] );
    DLog(@"self.selectedCategoryIndexInMain=%lu",self.selectedCategoryIndexInMain );
-  
-   [[allCategoryArrayMinusBA objectAtIndex:(self.selectedCategoryIndexInMain -1)] setSelected:YES];
+
+   NSUInteger categoryIndex = self.selectedCategoryIndexInMain - 1;
+   if (categoryIndex < [allCategoryArrayMinusBA count]) {
+      [[allCategoryArrayMinusBA objectAtIndex:categoryIndex] setSelected:YES];
+   }
    /*
    NSEnumerator *enumerator;
    enumerator = [allCategoryArrayMinusBA objectEnumerator];

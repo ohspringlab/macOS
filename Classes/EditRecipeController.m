@@ -257,9 +257,11 @@
    NSUInteger i = 0;
    while (aCategory = [enumerator nextObject]) { //each of theRecipe's categories
       NSUInteger i = [[self.myAppController.myCatArrayController arrangedObjects] indexOfObject:aCategory];
-      CategoryRx *selectedCat = [[self.myAppController.myCatArrayController arrangedObjects] objectAtIndex:i];
-          //DLog(@"\n\n[aCategory name]=%@ index=%d selectedCat.name=%@\naCategory=%@\nselectedCat=%@",[aCategory name],i,selectedCat.name,aCategory, selectedCat);
-      [selectedCat setSelected : YES];
+      if (i != NSNotFound && i < [[self.myAppController.myCatArrayController arrangedObjects] count]) {
+         CategoryRx *selectedCat = [[self.myAppController.myCatArrayController arrangedObjects] objectAtIndex:i];
+             //DLog(@"\n\n[aCategory name]=%@ index=%d selectedCat.name=%@\naCategory=%@\nselectedCat=%@",[aCategory name],i,selectedCat.name,aCategory, selectedCat);
+         [selectedCat setSelected : YES];
+      }
    }
 
    return i;

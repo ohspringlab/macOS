@@ -327,9 +327,11 @@
    [allCategoryArrayMinusBA setValue:[NSNumber numberWithBool:NO] forKey:@"selected"];
    while (aCategory = [enumerator nextObject]) {
       NSUInteger i = [allCategoryArrayMinusBA indexOfObject:aCategory];
-      CategoryRx *selectedCat = [allCategoryArrayMinusBA objectAtIndex:i];
-         //DLog(@"\n\n[aCategory name]=%@ index=%d \naCategory=%@\nselectedCat=%@",[aCategory name],i,aCategory, selectedCat);
-      [selectedCat setSelected : YES];
+      if (i != NSNotFound && i < [allCategoryArrayMinusBA count]) {
+         CategoryRx *selectedCat = [allCategoryArrayMinusBA objectAtIndex:i];
+            //DLog(@"\n\n[aCategory name]=%@ index=%d \naCategory=%@\nselectedCat=%@",[aCategory name],i,aCategory, selectedCat);
+         [selectedCat setSelected : YES];
+      }
    }
 
 }
