@@ -185,12 +185,13 @@
          if (theImage) { //may not find the image file
             [theImage setName:[thePhoto photoName]];
             [mutImageArray insertObject:theImage atIndex:i++];
+            [theImage release];
          }else{
             DLog(@"File not found for:%@",thePhoto.photoName);
          }
       }
    }
-   _imageArray = mutImageArray;// may have zero objects
+   self.imageArray = mutImageArray;// may have zero objects
    /* Set delegate for NSPageControl */
    [_pageController setDelegate:self];
    /* Set arranged objects for NSPageControl */
@@ -333,7 +334,6 @@
 - (void) windowDidLoad {
    [super windowDidLoad];
    
-   [[self tabViewRecipe] selectLastTabViewItem:self];
    [[self tabViewRecipe] selectFirstTabViewItem:self];
    
           //set Category TableView according to the Recipe NSSet

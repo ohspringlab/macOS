@@ -100,27 +100,32 @@
    
    int i= 0;
    NSArray *photosArray = selectedRecipe.photos.allObjects;
+   NSMutableArray *mutImageArray = [NSMutableArray arrayWithCapacity:[photosArray count]];
    if (photosArray.count ) {
-      
-      NSMutableArray *mutImageArray = [NSMutableArray arrayWithCapacity:[photosArray count]];
       NSImage * theImage;
       Photo *thePhoto;
       NSEnumerator *enumerator = [photosArray objectEnumerator];
       while ((thePhoto  = (Photo  *) [ enumerator nextObject])) {
+         theImage = nil;
          if([[thePhoto filename] length]){
             theImage = [NSImage imageNamed:[thePhoto filename]];
-         }else{
+            if (theImage) {
+               theImage = [theImage copy];
+            }
+         }
+         if (!theImage && [thePhoto image] != nil) {
             theImage = [[NSImage alloc ]initWithData:[thePhoto image]];
          }
          if (theImage) { //may not find the image file
             [theImage setName:[thePhoto photoName]];
             [mutImageArray insertObject:theImage atIndex:i++];
+            [theImage release];
          }else{
             DLog(@"File not found for:%@",thePhoto.photoName);
          }
       }
-      _imageArray = mutImageArray;
    }
+   self.imageArray = mutImageArray;
    /* Set delegate for NSPageControl */
    [_pageController setDelegate:self];
    /* Set arranged objects for NSPageControl */
@@ -600,13 +605,30 @@
 }
 
 - (void)updatePhotoInfoString {
-   NSString *info;
-   if ([_imageArray count] == 0) {
-      info = @"No Photos Found";
+   if ([_imageArray count] == 0 || _pageController == nil) {
+      [_infoNameTextField setStringValue:@"No Photos Found"];
       return;
    }
-   NSImage  *image = [_imageArray objectAtIndex:[_pageController selectedIndex]];
-   info = [NSString stringWithFormat:@"%ld/%ld %@", ([_pageController selectedIndex]+1), [_imageArray count],image.name ];
+
+   NSUInteger selectedIndex = (NSUInteger)[_pageController selectedIndex];
+   if (selectedIndex >= [_imageArray count]) {
+      selectedIndex = 0;
+   }
+
+   NSImage *image = [_imageArray objectAtIndex:selectedIndex];
+   if (image == nil) {
+      [_infoNameTextField setStringValue:@"No Photos Found"];
+      return;
+   }
+
+   NSString *imageName = [image name];
+   if (imageName == nil) {
+      imageName = @"";
+   }
+   NSString *info = [NSString stringWithFormat:@"%lu/%lu %@",
+                     (unsigned long)(selectedIndex + 1),
+                     (unsigned long)[_imageArray count],
+                     imageName];
    [_infoNameTextField setStringValue:info];
 }
 
