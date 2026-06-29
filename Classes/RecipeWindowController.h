@@ -65,7 +65,7 @@
 @property (strong) IBOutlet NSTextField *infoNameTextField;
 @property (strong) IBOutlet NSButton *prevPhotoButton;
 @property (strong) IBOutlet NSButton *nextPhotoButton;
-@property (unsafe_unretained) IBOutlet NSPageController *pageController;
+@property (strong) IBOutlet NSPageController *pageController;
 @property (strong,nonatomic) IBOutlet MyImageView *imageView;
 //@property (strong,nonatomic) IBOutlet NSTextField *infoLabel;
 @property (strong, nonatomic) NSArray *imageArray;
