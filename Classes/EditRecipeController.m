@@ -323,6 +323,55 @@
    
 }
 
+- (void)saveCurrentPhotoForRecipe:(Recipe *)aRecipe {
+   if (aRecipe == nil || self.imageView == nil) {
+      return;
+   }
+
+   NSImage *currentImage = [self.imageView image];
+   if (currentImage == nil) {
+      return;
+   }
+
+   NSData *imageData = [currentImage TIFFRepresentation];
+   if (imageData == nil) {
+      return;
+   }
+
+   NSManagedObjectContext *context = [aRecipe managedObjectContext];
+   if (context == nil) {
+      context = self.managedObjectContext;
+   }
+   if (context == nil) {
+      context = [(AppDelegate*)[[NSApplication sharedApplication] delegate] managedObjectContext];
+   }
+   if (context == nil) {
+      return;
+   }
+
+   NSArray *oldPhotos = [[aRecipe photos] allObjects];
+   for (Photo *oldPhoto in oldPhotos) {
+      [aRecipe removePhotosObject:oldPhoto];
+      [context deleteObject:oldPhoto];
+   }
+
+   Photo *newPhoto = (Photo *)[NSEntityDescription insertNewObjectForEntityForName:@"Photo"
+                                                            inManagedObjectContext:context];
+   newPhoto.image = imageData;
+   newPhoto.filename = nil;
+   newPhoto.photoID = [NSNumber numberWithInt:1];
+   newPhoto.sortIndex = [NSNumber numberWithInt:0];
+   NSString *photoName = ([aRecipe.name length] > 0) ? aRecipe.name : @"Recipe Photo";
+   if ([photoName length] > MAX_PHOTO_NAME_LENGTH) {
+      photoName = [photoName substringWithRange:NSMakeRange(0, MAX_PHOTO_NAME_LENGTH)];
+   }
+   newPhoto.photoName = photoName;
+   newPhoto.iPhoneContentMode = [NSNumber numberWithInt:0];
+   newPhoto.iPadContentMode = [NSNumber numberWithInt:0];
+
+   [aRecipe addPhotosObject:newPhoto];
+}
+
 #pragma mark ACTIONS
 // -------------------------------------------------------------------------------
 //	done:sender
@@ -387,6 +436,7 @@
    selectedRecipe.ingredients = self.textViewIngredients.string;
    selectedRecipe.directions = self.textViewDirections.string;
    selectedRecipe.comments = self.textViewComments.string;
+   [self saveCurrentPhotoForRecipe:selectedRecipe];
    
    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF.selected == YES"];
    NSArray *categoryRayChecked = [self.categoryArrayCntlr.arrangedObjects filteredArrayUsingPredicate:predicate];
