@@ -119,6 +119,7 @@
    self.appDelegate = (AppDelegate*)[NSApp delegate];
    DLog(@"self.myAppController.appDelegate.managedObjectContext=%@",self.myAppController.appDelegate.managedObjectContext );
    DLog(@"[self.myAppController.myCatArrayController.arrangedObjects valueForKey:@'name']=%@",[self.myAppController.myCatArrayController.arrangedObjects valueForKey:@"name"]);
+   [self clearAllCategorySelections];
 
    [[self tabView] selectLastTabViewItem:self];
    [[self tabView] selectFirstTabViewItem:self];
@@ -132,8 +133,9 @@
 
    [self checkSelectedCategoryForTable];//(self.selectedCategoryIndexInMain -1)
    
-   if ((self.selectedCategoryIndexInMain > 0)) {
-      [self.rxCatTableView scrollRowToVisible:(self.selectedCategoryIndexInMain - 1)];
+   NSUInteger selectedCategoryRow = [[self.categoryArrayController arrangedObjects] indexOfObject:self.selectedCategoryInMain];
+   if (selectedCategoryRow != NSNotFound && selectedCategoryRow < [[self.categoryArrayController arrangedObjects] count]) {
+      [self.rxCatTableView scrollRowToVisible:selectedCategoryRow];
    }
 
    [self.tabView setNextKeyView:textFieldRecipeName];
@@ -218,18 +220,23 @@
       // THE RX'S CATEGORIES COME FROM  categoryArrryController
       ////
       //
-   if (self.selectedCategoryIndexInMain == 0) {
+   [self clearAllCategorySelections];
+   if (self.selectedCategoryInMain == nil || self.selectedCategoryIndexInMain == 0) {
       return;
    }
    
-   NSPredicate *predicateSortAndRemoveBrowseAll =
-   [NSPredicate predicateWithFormat:@"sortIndex > -1"];
-   NSArray *allCategoryArrayMinusBA = [[myAppControllerParent.myCatArrayController arrangedObjects] filteredArrayUsingPredicate:predicateSortAndRemoveBrowseAll];
+   NSArray *allCategoryArrayMinusBA = [self.categoryArrayController arrangedObjects];
    DLog(@"allCategoryArrayMinusBA=%@",[allCategoryArrayMinusBA valueForKey:@"name"] );
    DLog(@"self.selectedCategoryIndexInMain=%lu",self.selectedCategoryIndexInMain );
 
-   NSUInteger categoryIndex = self.selectedCategoryIndexInMain - 1;
-   if (categoryIndex < [allCategoryArrayMinusBA count]) {
+   NSUInteger categoryIndex = [allCategoryArrayMinusBA indexOfObject:self.selectedCategoryInMain];
+   if (categoryIndex == NSNotFound) {
+      NSPredicate *namePredicate = [NSPredicate predicateWithFormat:@"name == %@", self.selectedCategoryInMain.name];
+      NSArray *matchingCategories = [allCategoryArrayMinusBA filteredArrayUsingPredicate:namePredicate];
+      if ([matchingCategories count] > 0) {
+         [[matchingCategories objectAtIndex:0] setSelected:YES];
+      }
+   } else if (categoryIndex < [allCategoryArrayMinusBA count]) {
       [[allCategoryArrayMinusBA objectAtIndex:categoryIndex] setSelected:YES];
    }
    /*

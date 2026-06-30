@@ -22,6 +22,7 @@
 #import "MyTextView.h"
 #import "CategoryRx.h"
 #import "MyAppController.h"
+#import "RecipeDefines.h"
 //extern NSString *RecipeDeactivateNotification;
 //extern NSString *RecipeActivateNotification;
 
@@ -326,6 +327,50 @@
    return YES;
 }
 
+- (void)saveDroppedPhotoIfNeeded {
+   if (self.recipe == nil || self.imageView == nil || [[self.recipe photos] count] > 0) {
+      return;
+   }
+
+   NSImage *currentImage = [self.imageView image];
+   if (currentImage == nil) {
+      return;
+   }
+
+   NSData *imageData = [currentImage TIFFRepresentation];
+   if (imageData == nil) {
+      return;
+   }
+
+   NSManagedObjectContext *context = [self.recipe managedObjectContext];
+   if (context == nil) {
+      context = [(AppDelegate*)[[NSApplication sharedApplication] delegate] managedObjectContext];
+   }
+   if (context == nil) {
+      return;
+   }
+
+   Photo *newPhoto = (Photo *)[NSEntityDescription insertNewObjectForEntityForName:@"Photo"
+                                                            inManagedObjectContext:context];
+   newPhoto.image = imageData;
+   newPhoto.filename = nil;
+   newPhoto.photoID = [NSNumber numberWithInt:1];
+   newPhoto.sortIndex = [NSNumber numberWithInt:0];
+   NSString *photoName = ([self.recipe.name length] > 0) ? self.recipe.name : @"Recipe Photo";
+   if ([photoName length] > MAX_PHOTO_NAME_LENGTH) {
+      photoName = [photoName substringWithRange:NSMakeRange(0, MAX_PHOTO_NAME_LENGTH)];
+   }
+   newPhoto.photoName = photoName;
+   newPhoto.iPhoneContentMode = [NSNumber numberWithInt:0];
+   newPhoto.iPadContentMode = [NSNumber numberWithInt:0];
+
+   [self.recipe addPhotosObject:newPhoto];
+   NSError *error = nil;
+   if (![context save:&error]) {
+      DLog(@"Error saving dropped Recipe photo:error=%@ error.info=%@", error, [error userInfo]);
+   }
+}
+
 - (void) windowWillLoad {
    [super windowWillLoad];
    [self setAppDel:(AppDelegate*)[[NSApplication sharedApplication] delegate] ];
@@ -392,6 +437,7 @@
 {
    //[self postNotification:  RecipeDeactivateNotification];
    DLog(@"windowWillClose:%@",[[self recipe] name ]);
+   [self saveDroppedPhotoIfNeeded];
    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
    
    [center removeObserver:self];
