@@ -30,6 +30,7 @@
 @interface RecipeWindowController ()
 //@property (nonatomic, assign) NSPageControllerTransitionStyle transitionStyle;
 //@property (strong,nonatomic) NSArray *imageArray;
+@property (nonatomic, assign) BOOL photoWasChangedByUser;
 @end
 
 @implementation RecipeWindowController
@@ -215,6 +216,7 @@
    
    [center addObserver:self selector:@selector(handleSpeechBeginNotification:) name:DG_SpeechBeginNotification object:nil];
    [center addObserver:self selector:@selector(handleSpeechEndNotification:) name:DG_SpeechEndNotification object:nil];
+   [center addObserver:self selector:@selector(handleImageViewImageDidChangeNotification:) name:DG_MyImageViewImageDidChangeNotification object:self.imageView];
       ///[self.rxCatTableView deselectAll:self];
       /// [self.window disableKeyEquivalentForDefaultButtonCell];
       ///   [speechButton setKeyEquivalent:@"\r"];
@@ -328,7 +330,7 @@
 }
 
 - (void)saveDroppedPhotoIfNeeded {
-   if (self.recipe == nil || self.imageView == nil || [[self.recipe photos] count] > 0) {
+   if (self.recipe == nil || self.imageView == nil) {
       return;
    }
 
@@ -350,6 +352,12 @@
       return;
    }
 
+   NSArray *oldPhotos = [[self.recipe photos] allObjects];
+   for (Photo *oldPhoto in oldPhotos) {
+      [self.recipe removePhotosObject:oldPhoto];
+      [context deleteObject:oldPhoto];
+   }
+
    Photo *newPhoto = (Photo *)[NSEntityDescription insertNewObjectForEntityForName:@"Photo"
                                                             inManagedObjectContext:context];
    newPhoto.image = imageData;
@@ -368,7 +376,30 @@
    NSError *error = nil;
    if (![context save:&error]) {
       DLog(@"Error saving dropped Recipe photo:error=%@ error.info=%@", error, [error userInfo]);
+      return;
    }
+
+   [currentImage setName:newPhoto.photoName];
+   self.imageArray = [NSArray arrayWithObject:currentImage];
+   [self.pageController setArrangedObjects:self.imageArray];
+   [self.pageController setSelectedIndex:0];
+   [self updatePhotoButtonsEnabled];
+   [self updatePhotoInfoString];
+   self.photoWasChangedByUser = NO;
+}
+
+- (void)handleImageViewImageDidChangeNotification:(NSNotification *)note {
+   if ([note object] != self.imageView) {
+      return;
+   }
+
+   NSImage *currentImage = [self.imageView image];
+   if (currentImage == nil || [self.imageArray containsObject:currentImage]) {
+      return;
+   }
+
+   self.photoWasChangedByUser = YES;
+   [self saveDroppedPhotoIfNeeded];
 }
 
 - (void) windowWillLoad {
@@ -437,7 +468,9 @@
 {
    //[self postNotification:  RecipeDeactivateNotification];
    DLog(@"windowWillClose:%@",[[self recipe] name ]);
-   [self saveDroppedPhotoIfNeeded];
+   if (self.photoWasChangedByUser) {
+      [self saveDroppedPhotoIfNeeded];
+   }
    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
    
    [center removeObserver:self];

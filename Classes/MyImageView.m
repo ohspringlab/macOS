@@ -9,6 +9,8 @@
 #import "MyImageView.h"
 #import "AppDelegate.h"
 
+NSString * const DG_MyImageViewImageDidChangeNotification = @"DG_MyImageViewImageDidChangeNotification";
+
 @implementation MyImageView
 
 /*
@@ -56,6 +58,14 @@
  }
  */
 
+
+- (void)setImage:(NSImage *)newImage {
+    [super setImage:newImage];
+    if (newImage != nil) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:DG_MyImageViewImageDidChangeNotification
+                                                            object:self];
+    }
+}
 
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
